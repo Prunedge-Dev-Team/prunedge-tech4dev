@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog | Article</title>
+    <link rel="stylesheet" href="../assets/css/blog-post.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+</head>
+<body>
+    @@include('./includes/nav.html',{"active": "blog"})
+    <div class="top-image">
+        <div class="shadow">
+            BLOG
+        </div>
+    </div>
+    <a href="../blog/blogCategories/spotlight.html" class="back">
+        <img src="../assets/images/back.svg">
+        Back
+    </a>
+    <section class="article">
+        <p class="article__title">
+            VOLUNTEER SPOTLIGHT: MEET CHRIS ADIE
+        </p>
+        <p class="article__details">
+            <span class="article__author">
+                Oluwatosin Omowaire
+            </span>
+            |
+            <span>
+                June 30, 2019
+            </span>
+        </p>
+        <div class="social-media">
+            <span>Share Post</span>
+            <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+            <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+            <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+        </div>
+        <img src="../assets/images/chris.jpg" class="article__img article__img--left">
+        <div class="article__text">
+            <p>
+                Our volunteer of the month is Chris Adie, a tutor for Nigerian Women Techsters in Delta state and Women Techsters in Lagos state.
+                In a short interview below, Chris answers vital questions on volunteering:
+            </p>
+            <p class="sub-heading">
+                What is your background?
+            </p>
+            <p>
+                I am a Web developer. I do freelance training from ALC, Cousera, EDX and other MOOCs.
+            </p>
+            <p class="sub-heading">
+                What inspired you to become a Tech4Dev volunteer?
+            </p>
+            <p>
+                My love for teaching and I see it as part of my contribution to the tech community.
+            </p>
+            <p class="sub-heading">
+                What do you do as a Volunteer at Tech4Dev?
+            </p>
+            <p>
+                I facilitate training on web development. I teach and train the beneficiaries on the curriculum provided by the Tech4Dev team. I have trained in Lagos and Delta states.
+            </p>
+            <p class="sub-heading">
+                Share one of your favorite Tech4Dev sessions or moments
+            </p>
+            <p>
+                This was when a participant gave a testimony of how impactful the tech training had been and how it transformed her life. When I see how happy the participants get when they build beautiful web apps, I am so glad to be a part of it.
+            </p>
+            <p class="sub-heading">
+                What is your motivation for volunteering?
+            </p>
+            <p>
+                To impact lives with skills and knowledge, and to gain experience that makes me a better person too. 
+            </p>
+            <p class="sub-heading">
+                What do you gain from volunteering?
+            </p>
+            <p>
+                Experience, connections, self-improvement.
+            </p>
+            <p class="sub-heading">
+                Why is it essential for one to volunteer?
+            </p>
+            <p>
+                To impart knowledge, gain experience, build connections, contribute to humanity using technology
+            </p>
+            <p class="sub-heading">
+                What tips do you have for new volunteers?
+            </p>
+            <p>
+                Love the participants as yourself and your siblings, understand them: their needs and limitations, see the need to help people rather than your benefits, gain more information as you can to give thorough explanations of confusing terms, be willing to give your best at all cost.
+            </p>
+        </div>
+    </section>
+    @@include('./includes/footer.html')
+    <script src="../assets/js/share.js"></script>
+    <script src="../assets/js/nav.js"></script>
+</body>
+</html>

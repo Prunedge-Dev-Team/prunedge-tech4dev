@@ -1,0 +1,99 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../../assets/css/blog-newsletter.css">
+    <link rel="stylesheet" href="../../assets/css/nav.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/icon.png">
+</head>
+<body>
+    <header>
+        @@include('./includes/nav.html',{"active": "blog"})
+        <img src="../../assets/images/Blog-hero.jpg" class="background-img">
+        <div class="header-text">
+            <p>
+                BLOG
+            </p>
+        </div>
+    </header>
+    <div class="program-nav" style="">
+        <button class="program-nav-scroll-btn left">
+            <img src="../../assets/images/arrow-left-9b9b90.svg" alt="">
+        </button>
+        <div class="program-nav-links">
+            <a href="../blogCategories/index.html" class="">
+                <span>
+                    Press Release
+                </span>
+            </a>
+            <a href="../blogCategories/spotlight.html" class="">
+                <span>
+                    Spotlight
+                </span>
+            </a>
+            <a href="../blogCategories/articles.html" class="">
+                <span>
+                    Articles
+                </span>
+            </a>
+            <a href="../blogCategories/events.html" class="">
+                <span>
+                    Events
+                </span>
+            </a>
+            <a href="op-ed.html" class="active">
+                <span>
+                    Op-ed
+                </span>
+            </a>
+             <!--
+            <a href="../../newsletter/index.html">
+                <span>
+                    News-letter
+                </span>
+            </a>
+            -->
+        </div>
+        <button class="program-nav-scroll-btn right active">
+            <img src="../../assets/images/arrow-right-9b9b90.svg" alt="">
+        </button>
+    </div>
+    <main>
+        <section class="filter">
+            <button class="open-filter">
+                <img src="../../assets/images/filter.svg">
+                <img src="../../assets/images/cancel-d8.svg" class="cancel">
+            </button>
+            <p class="filter__text">
+                Filter
+            </p>
+            <form class="filter__form">
+                <div class="form-group">
+                    <label for="topic">Topic</label>
+                    <input type="text" id="topic" name="topic">
+                </div>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <button class="filter__btn">
+                    Filter
+                </button>
+            </form>
+        </section>
+        <section class="articles">
+            @@loop("includes/article.html","includes/data/op-ed.json")
+        </section>
+    </main>
+    @@include('./includes/footer.html')
+    <script src="../../assets/js/nav.js"></script>
+    <script src="../../assets/js/blog-newsletter.js"></script>
+</body>
+</html>

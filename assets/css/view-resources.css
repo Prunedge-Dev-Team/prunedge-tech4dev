@@ -1,0 +1,373 @@
+@font-face{
+    font-family: 'Avenir Next Medium';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Medium.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Bold';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Bold.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Regular';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Regular.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Italic';
+    src: url('../fonts/avenir-next/AvenirNext-Italic.ttf');
+    font-display: auto;
+}
+
+html{
+    scroll-behavior: smooth
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth
+}
+
+nav{
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+}
+.background-img{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    height: 420px;
+    object-fit: cover;
+}
+
+.header-text{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-family: 'Avenir Next Bold';
+    color: white;
+    height: 420px;    
+    background: rgba(0,0,0,0.4);
+}
+
+.header-text p{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.program-nav{
+    height: 60px;
+    width: 100%;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    transition: 300ms;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 20%;
+}
+
+.program-nav-links{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow: hidden;
+}  
+
+.program-nav a{
+    display: inline-flex;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Avenir Next Medium';
+    font-size: 14px;
+    color: #596869;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    /* margin: 0 25px; */
+}
+
+.program-nav span.line{
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF576B;
+    width: 104px;
+    transition: 100ms;
+}
+
+.program-nav a.active{
+    border-bottom: 3px solid #FF576B;
+    box-sizing: border-box;
+    color: #213642;
+}
+
+.program-nav a.active span{
+    color: #213642;
+}
+
+.program-nav a:hover{
+    border-bottom: 3px solid #FF576B;
+}
+
+.program-nav a:hover span{
+    color: #213642;
+}
+
+.program-nav a:hover span{
+    color: #213642;
+}
+
+.program-nav-scroll-btn{
+    position: absolute;
+    top: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+
+main{
+    padding: 73px 10% 66px;
+    box-sizing: border-box;
+}
+
+
+.top-row{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 36px;
+    position: relative;
+}
+
+.media-page-links{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* margin-right: auto; */
+    position: absolute;
+    bottom: 0px;
+}
+
+.media-page-links__link{
+    font-size: 18px;
+    letter-spacing: 0.02px;
+    font-family: 'Avenir Next Regular';
+    color: #707070;
+}
+
+.media-page-links__link a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.media-page-links__link--active{
+    font-family: 'Avenir Next Medium';    
+    color: #213642;
+}
+
+.separate-links{
+    font-size: 17px;
+    color: #213642;
+    margin: 0 5px;
+    font-family: 'Avenir Next Regular';    
+}
+
+.cohort-header{
+    font-size: 24px;
+    font-family: 'Avenir Next Medium';
+    color: #213642;
+    margin: 0 auto;
+}
+
+.image-box{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    height: 582px;
+}
+
+.image-box__scroll-btn{
+    height: 24px;
+    width: 15px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    cursor: pointer;
+    outline: none;
+    z-index: 3;
+}
+
+.image-box__scroll-btn.left{
+    left: 22px;
+}
+
+.image-box__scroll-btn.right{
+    right: 22px;
+}
+
+.image-box__scroll-btn img{
+    height: 100%;
+    width: 100%;
+}
+
+.image-box__image{
+    object-fit: cover;
+    width: 100%;
+    height: 582px;
+    flex-shrink: 0;
+    transition: 300ms;
+    position: absolute;
+    opacity: 0;
+}
+
+.image-box__image.active{
+    left: 0;
+    z-index: 2;
+    opacity: 1;
+}
+
+.image-box__slider-wrapper{
+    width: 100%;
+    overflow: hidden;
+    height: 133px;
+    position: absolute;
+    /* bottom: -133px; */
+    bottom: 0;
+    opacity: 0;
+    z-index: 5;
+    padding: 17px 46px 13px;
+    box-sizing: border-box;
+    background-color: #4A4A4A;
+    transition: 200ms;
+}
+
+.image-box:hover .image-box__slider-wrapper{
+    /* bottom: 0; */
+    opacity: 1;
+}
+
+.image-box__slider{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.image-box__slider-scroll-btn{
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    border: none;
+    height: 20px;
+    width: 7px;
+    margin-top: -10px;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    /* display: none; */
+}
+
+.image-box__slider-scroll-btn.active{
+    display: block;
+}
+
+.image-box__slider-scroll-btn img{
+    height: 100%;
+    width: 100%;
+}
+
+.image-box__slider-scroll-btn.left{
+    left: 17px;
+}
+
+.image-box__slider-scroll-btn.right{
+    right: 17px;
+}
+
+.slider__image-btn{
+    background: transparent;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 15px;
+}
+
+.slider__image{
+    height: 100%;
+    width: 130px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+@media(max-width: 1000px){
+    .program-nav{
+        padding: 0 10%;
+    }
+}
+
+@media(max-width: 800px){
+    .program-nav{
+        padding: 0 5%;
+    }
+}
+
+@media(max-width: 760px){
+    .image-box,.image-box__image{
+        height: 300px
+    }
+    .image-box__slider-wrapper{
+        height: 80px;
+        padding: 10px;
+    }
+    .slider__image{
+        width: 70px;
+    }
+    .top-row{
+        align-items: unset;
+        flex-direction: column;
+    }
+    .media-page-links{
+        position: relative;
+    }
+    main{
+        padding: 73px 5% 66px;
+    }
+}
+
+@media(max-width: 580px){
+    .program-nav-scroll-btn.active{
+        display: block;
+    }
+    .program-nav-scroll-btn.left{
+        left: 5px;
+    }
+    .program-nav-scroll-btn.right{
+        right: 5px;
+    } 
+    .program-nav-links a{
+        margin: 0 25px;
+        flex-shrink: 0;
+    }
+}

@@ -1,0 +1,7 @@
+Tech4dev.xd
+.idea/
+T4D Assets/
+.vscode/
+build/
+node_modules/
+.DS_store

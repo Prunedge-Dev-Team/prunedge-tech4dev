@@ -1,0 +1,466 @@
+@font-face{
+    font-family: 'Avenir Next Medium';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Medium.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Bold';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Bold.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Regular';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Regular.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Italic';
+    src: url('../fonts/avenir-next/AvenirNext-Italic.ttf');
+    font-display: auto;
+}
+
+html{
+    scroll-behavior: smooth
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background: url(../images/donate-bg.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+button{
+    cursor: pointer;
+}
+
+nav{
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    background: rgba(0,0,0,0.4);
+    padding-bottom: 100px;
+}
+
+.header-text{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 342px;
+}
+
+.header-text .header{
+    margin: 132px 0 32px;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Avenir Next Bold',sans-serif;
+}
+
+.header-text .subtext{
+    font-family: 'Avenir Next Medium',sans-serif;
+    font-size: 20px;
+    width: 520px;
+    margin: 0;
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0 34px;
+    padding: 0 25%;
+    margin-top: 22px;
+    position: relative;
+    z-index: 2;
+}
+
+.form-group{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.donate-form,.donate-details{
+    width: 100%;
+}
+
+.donate-form{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 14px;
+    padding: 70px 90px;
+    margin-bottom: 50px;
+    border: 1px solid #979797;
+}
+
+.donate-form__header{
+    font-size: 18px;
+    font-family: 'Avenir Next Medium', sans-serif;
+    margin: 0 0 26px;
+}
+
+.donate-form__header--big{
+    margin-bottom: 40px;
+}
+
+.donate-form input{
+    border: none;
+    border-bottom: 2px solid #e8e8e8;
+    font-family: 'Avenir Next Regular',sans-serif;
+    font-size: 16px;
+    outline: none;
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 6px;
+}
+
+.donate-form input::placeholder{
+    color: #9b9b9b;
+}
+
+.donate-form__input--donate-amount{
+    padding-left: 36px;
+}
+
+.naira-img{
+    position: absolute;
+    top: -3px;
+    height: 35px;
+    left: -5px;
+}
+
+.input-group input:not(:last-of-type){
+    margin-bottom: 40px;
+}
+
+.select{
+    position: relative;
+}
+
+.select input{
+    background-color: white;
+	cursor: pointer;
+}
+
+.select__options-toggle-btn{
+    height: 16px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+.select .select-options{
+    padding: 0;
+    position: absolute;
+    list-style-type: none;
+    right: 0;
+    margin: 0;
+    height: 0;
+    overflow: hidden;
+    transition: top 100ms;
+    background-color: white;
+    z-index: 4;
+    opacity: 0;
+    border: 1px solid transparent;
+    top: 150px;
+    border-radius: 4px;
+}
+
+.select-options.active{
+    height: 200px;
+    border-color: #d8d8d8;
+    top: 34px;
+    opacity: 1;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);*/
+}
+
+.select-option{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    transition: 300ms;
+    padding: 0 5px;
+    cursor: pointer;
+    color: rgb(70, 70, 70);
+    min-width: 100px;
+}
+
+.select-option button{
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    text-align: left;
+    color: rgb(70, 70, 70);
+    font-family: 'Avenir Next Regular',sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+
+.select .select-options li:hover{
+    background-color: #213642;
+}
+
+.select .select-options li:hover button{
+    color: white;
+}
+
+.select__options-toggle-btn img{
+    height: 100%;
+}
+
+.select.title{
+    width: 30%;
+}
+
+.submit{
+    height: 44px;
+    width: 115px;
+    background-color: #FF576B;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: 'Avenir Next Medium',sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin: auto;
+    transition: 300ms;
+}
+
+.submit.is-loading{
+    background-color: rgba(255, 87, 107, 0.8)
+}
+
+.submit > span,.submit.is-loading > span,.submit.submitted > span{
+    display: none;
+}
+
+.submit .submit-text{
+    display: block;
+}
+
+.submit.is-loading .loading{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.49);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 0.5s linear infinite;
+}
+
+.submit.submitted .success-text{
+    display: block;
+}
+
+.donate-details{
+    padding: 70px 90px 36px;
+    height: fit-content;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 18px;
+    border: 1px solid #979797;
+}
+
+.donate-header {
+    font-size: 18px;
+    font-family: 'Avenir Next Medium',sans-serif;
+    color: #213642;
+    margin: 0 0 26px
+}
+
+.donate-text{
+    font-size: 16px;
+    font-family: 'Avenir Next Regular',sans-serif;
+    color: #3b3b3b;
+    margin: 0 0 20px;
+    display: flex;
+}
+
+.donate-text span{
+    margin-right: 5px;
+    width: fit-content;
+    flex-shrink: 0;
+    max-width: 80%;
+}
+
+.donate-form span:first-of-type{
+    flex-shrink: 0;
+}
+
+.blue{
+    color: #213642;
+}
+
+.donate-section{
+    margin-bottom: 40px;
+}
+
+.questions{
+    font-family: 'Avenir Next Regular',sans-serif;
+    font-size: 18px;
+    color: #3b3b3b;
+}
+
+.questions .blue{
+    font-family: 'Avenir Next Medium',sans-serif
+}
+
+.success-modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    display: none;
+}
+
+.success-modal-container.show{
+    display: flex;
+}
+
+.success-modal{
+    width: 80%;
+    height: 500px;
+    max-width: 700px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.success-modal__close-button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    position: absolute;
+    top: 25px;
+    box-sizing: border-box;
+    right: 25px;
+    cursor: pointer;
+}
+
+.success-modal__close-button-img{
+    width: 80%;
+}
+
+.success-modal__header{
+    margin: 15px 0 15px;
+    font-family: "Avenir Next Bold",sans-serif;
+    font-size: 22px;
+    color: #083a55;
+}
+
+.success-modal__subtext{
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    line-height: 1.4;
+    font-family: "Avenir Next Regular",sans-serif;
+    color: #083a55;
+    margin: 0 0 30px;
+}
+
+.success-modal__link{
+    width: 150px;
+    height: 38px;
+    background-color: #ff576b;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Avenir Next Regular", sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+footer{
+    margin-top: 0;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media(max-width: 1075px){
+    .grid-wrapper{
+        padding: 0 100px;
+    }
+}
+
+@media(max-width: 850px){
+    body{
+        background-size: cover;
+    }
+}
+
+@media(max-width: 800px){
+    .form-group.half,.form-group.third{
+        width: 100%;
+    }
+    .grid-wrapper{
+        padding: 0 10%
+    }
+    .form-group.inline.last{
+        margin-bottom: 48px;
+    }
+}
+
+@media(max-width: 660px){
+    .donate-details{
+        padding: 70px 10% 36px;
+    }
+    .donate-form__section{
+        padding: 45px 10%;
+    }
+    .header-text{
+        height: unset;
+    }
+    .header-text .subtext{
+        width: 80%;
+        text-align: center;
+    }
+    .header-text .header{
+        margin: 50px 0 32px
+    }
+}

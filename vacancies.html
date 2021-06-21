@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tech4Dev | Home</title>
+    <link rel="stylesheet" href="assets/css/vacancies-new.css">
+    <link rel="stylesheet" href="assets/css/status.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+</head>
+<body>
+<header>
+    @@include('./includes/nav.html',{"active": "home"})
+    <img src="./assets/images/about/about-us.jpg" class="background-img" style="object-position: 0 -20px">
+    <div class="header-text">
+        <p>
+            CAREERS
+        </p>
+    </div>
+</header>
+<main class="main">
+    <section class="jobs-list">
+        <h3 class="page-header">
+            Open Positions
+        </h3>
+        <p class="page-subtext">
+            Join our team and help build the world using technology to advance sustainable human capital development in
+            Africa.
+        </p>
+        <div class="jobs">
+
+        </div>
+    </section>
+    <section class="job-preview-section hide">
+        <button class="job-preview__back-link">
+            Back to Open Positions
+        </button>
+        <div class="job-previews">
+
+        </div>
+        <form>
+            <h3 class="form__header">
+                Apply for this Job
+            </h3>
+            <div class="form__row">
+                <div class="form__section">
+                    <label for="first-name" class="form__input-label">
+                        First name
+                    </label>
+                    <input
+                        type="text"
+                        class="form__input"
+                        id="first-name"
+                        name="firstName"
+                    >
+                </div>
+                <div class="form__section">
+                    <label for="first-name" class="form__input-label">
+                        Last name
+                    </label>
+                    <input
+                        type="text"
+                        class="form__input"
+                        id="last-name"
+                        name="lastName"
+                    >
+                </div>
+            </div>
+            <div class="form__row">
+                <div class="form__section">
+                    <label for="email" class="form__input-label">
+                            Email address
+                        </label>
+                    <input
+                        type="text"
+                        class="form__input"
+                        id="email"
+                        name="email"
+                    >
+                </div>
+                <div class="form__section">
+                    <label for="number" class="form__input-label">
+                            Phone number
+                        </label>
+                    <input
+                        type="text"
+                        class="form__input"
+                        id="number"
+                        name="phone"
+                    >
+                </div>
+            </div>
+            <div class="form__row">
+                <div>
+                    <span class="resume__label">
+                        Resume/CV
+                    </span>
+                    <label class="resume__button" for="resume">
+                        Attach
+                    </label>
+                    <div class="resume__file-wrapper">
+                        <p class="resume__file">
+
+                        </p>
+                        <button type="button" class="resume__file-reset">
+                            Reset
+                        </button>
+                    </div>
+                    <input type="file" class="resume__input" id="resume">
+                </div>
+            </div>
+            <textarea
+                    class="form__textarea"
+                    placeholder="Why do you want to work with us?"
+                    name="why"
+            ></textarea>
+            <button class="form__submit-btn" type="button">
+                Submit
+            </button>
+        </form>
+    </section>
+</main>
+@@include('./includes/footer.html')
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="./assets/js/nav.js"></script>
+<script src="./assets/js/status.js"></script>
+<script src="./assets/js/vacancies-new.js"></script>
+</body>
+</html>

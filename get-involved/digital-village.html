@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tech4Dev | Digital Village </title>
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="../assets/css/status.css">
+    <link rel="stylesheet" href="../assets/css/get-involved.css">
+    <link rel="shortcut icon" href="../assets/images/icon.png" type="image/x-icon">
+</head>
+<body>
+<header>
+    @@include('./includes/nav.html',{"active": "get-involved"})
+    <img src="../assets/images/digital-village-header.jpg" class="background-img">
+    <div class="header-text">
+        <p>
+            BECOME A DIGITAL VILLAGE <br> FACILITATOR
+        </p>
+    </div>
+</header>
+<div class="program-nav">
+    <a href="digital-village.html" class="active">
+        <span>
+            DIGITAL VILLAGE
+        </span>
+    </a>
+    <a href="volunteer.html">
+        <span>
+            VOLUNTEER TO HELP
+        </span>
+    </a>
+    <a href="become-a-partner.html">
+        <span>
+            BECOME A PARTNER
+        </span>
+    </a>
+</div>
+<main class="digital-village">
+    <div>
+        <div class="text">
+            <p class="heading">
+                We care about our facilitators
+            </p>
+            <p class="sub-text">
+                We are looking for computer literate individuals who are passionate about providing and promoting digital skills education with the aim of empowering people in accessing opportunities and decent work in the technology space
+            </p>
+        </div>
+        <img src="../assets/images/digital-village.jpg" alt="" class="digital-village__img">
+    </div>
+    <form class="partner-form">
+        <input type="hidden" name="sheetname" value="digital village">
+        <div class="main-content">
+            <p class="blue">
+                <b>
+                    Register below to become a Digital Village facilitator
+                </b>
+            </p>
+        </div>
+        <div class="form-group">
+            <input type="text" name="name" required>
+            <span>Full Name*</span>
+        </div>
+        <div class="form-group">
+            <input type="text" name="email" required>
+            <span>Email*</span>
+        </div>
+        <div class="form-group">
+            <input type="tel" name="phone" required>
+            <span>Phone Number*</span>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <input type="date" class="not-empty" name="date of birth" required>
+                <span class="not-empty">Date of Birth*</span>
+            </div>
+            <div class="form-group">
+                <input type="text" name="gender" required>
+                <span>Gender*</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="text" name="occupation" required>
+            <span>Current Occupation*</span>
+        </div>
+        <div class="form-row">
+            <div class="select form-group">
+                <div class="input-div">
+                    <input type="text" name="state" id="state" placeholder="State" disabled>
+                    <button type="button" class="select__options-toggle-btn">
+                        <img src="../assets/images/arrow-down-grey.svg">
+                    </button>
+                </div>
+                <ul class="select-options state" data-target="state">
+                    <!-- <li class="select-option">
+                        <button type="button">Abuja</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Akwa Ibom</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Bauchi</button>
+                    </li> -->
+                    <li class="select-option">
+                        <button type="button">Bayelsa</button>
+                    </li>
+                    <!-- <li class="select-option">
+                        <button type="button">Benue</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Borno</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Delta</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Ekiti</button>
+                    </li> -->
+                    <li class="select-option">
+                        <button type="button">Enugu</button>
+                    </li>
+                    <!-- <li class="select-option">
+                        <button type="button">Gombe</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Imo</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Kano</button>
+                    </li> -->
+                    <li class="select-option">
+                        <button type="button">Katsina</button>
+                    </li>
+                    <!-- <li class="select-option">
+                        <button type="button">Kaduna</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Kebbi</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Kogi</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Kwara</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Lagos</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Nassarawa</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Niger</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Ogun</button>
+                    </li> -->
+                    <li class="select-option">
+                        <button type="button">Ondo</button>
+                    </li>
+                    <!-- <li class="select-option">
+                        <button type="button">Osun</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Oyo</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Rivers</button>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="select form-group">
+                <div class="input-div">
+                    <input type="text" name="town" id="town" placeholder="Town" disabled>
+                    <button type="button" class="select__options-toggle-btn">
+                        <img src="../assets/images/arrow-down-grey.svg">
+                    </button>
+                </div>
+                <ul class="select-options town" data-target="town">
+                    <!-- <li class="select-option">
+                        <button type="button">Adekunle</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Ado Ekiti</button>
+                    </li> -->
+                    <li class="select-option">
+                        <button type="button">Akpide Ayama</button>
+                    </li>
+                    <!-- <li class="select-option">
+                        <button type="button">Alimosho</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Argungu</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Barnawa</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Bukan Sidi</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Bulkachuwa</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Chanchaga</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Damboa road</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Diko Guarara</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Dukku</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Ebute metta</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Etche</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Gbagada</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Gwagwalada</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Ibadan</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Ifewara</button>
+                    </li> -->
+                    <li class="select-option">
+                        <button type="button">Igbokoda</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Iju</button>
+                    <!-- </li>
+                    <li class="select-option">
+                        <button type="button">Iwo</button>
+                    </li> -->
+                    <li class="select-option">
+                        <button type="button">Kofar Durbi</button>
+                    </li>
+                    <!-- <li class="select-option">
+                        <button type="button">Laminga</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Lokoja</button>
+                    </li> -->
+                    <li class="select-option">
+                        <button type="button">Mai Mani</button>
+                    </li>
+                    <!-- <li class="select-option">
+                        <button type="button">Maitumbi</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Naze</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Ndukpoise</button>
+                    </li> -->
+                    <li class="select-option">
+                        <button type="button">Ngwo</button>
+                    </li>
+                    <!-- <li class="select-option">
+                        <button type="button">Ode Ekiti</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Odo Ona</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Ogbia</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Ogobia</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Okoita</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Orieagu</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Ota</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Oyewole ajiboro street</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Patani</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Rimin gata</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Sagbama</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Tudun Fulani Bosso</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Warri</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Yewa North</button>
+                    </li>
+                    <li class="select-option">
+                        <button type="button">Zaria</button>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="text" name="lga">
+            <span>LGA</span>
+        </div>
+        <div class="form-group">
+            <input type="text" name="what is your proficiency in computer skills" required>
+            <span>What is your proficiency in computer skills?*</span>
+        </div>
+        <div class="form-group form-group--checkbox">
+            <p class="checkbox-label">Do you own a computer/device?*</p>
+            <div class="checkbox-wrapper">
+                <div class="checkbox">
+                    <input type="radio" class="checkbox__input" id="own__yes" name="Do you own a computer" value="yes">
+                    <label for="own__yes" class="checkbox__label"></label>
+                    <p class="checkbox__text">
+                        Yes
+                    </p>
+                </div>
+                <div class="checkbox">
+                    <input type="radio" class="checkbox__input" id="own__no" name="Do you own a computer" value="no">
+                    <label for="own__no" class="checkbox__label"></label>
+                    <p class="checkbox__text">
+                        No
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="text" name="Type of device" required>
+            <span>If Yes, what type of device do you own (Laptop/Tablet)?</span>
+        </div>
+        <div class="form-group form-group--checkbox">
+            <p class="checkbox-label">Do have access to the internet within your community and location?*</p>
+            <div class="checkbox-wrapper">
+                <div class="checkbox">
+                    <input type="radio" class="checkbox__input" id="internet__yes" name="Do have access to the internet within your community and location" value="yes">
+                    <label for="internet__yes" class="checkbox__label"></label>
+                    <p class="checkbox__text">
+                        Yes
+                    </p>
+                </div>
+                <div class="checkbox">
+                    <input type="radio" class="checkbox__input" id="internet__no" name="Do have access to the internet within your community and location" value="no">
+                    <label for="internet__no" class="checkbox__label"></label>
+                    <p class="checkbox__text">
+                        No
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="text" name="why should we hire you" required>
+            <span>Why should we hire you?*</span>
+        </div>
+        <div class="form-group">
+            <input type="text" name="how have you helped create positive change in your community or organization" required>
+            <span>How have you helped create positive change in* <br> your community or organization</span>
+        </div>
+        <div>
+            <p class="checkbox-label">
+                As a <span class="checkbox-label__bold">facilitator</span>, you will be required to commit 3 months to this training, would you love to continue the process?*
+            </p>
+            <div class="checkbox-wrapper">
+                <div class="checkbox">
+                    <input type="radio" class="checkbox__input" id="yes" name="committed">
+                    <label for="yes" class="checkbox__label"></label>
+                    <span class="checkbox__text">
+                        Yes
+                    </span>
+                </div>
+                <div class="checkbox">
+                    <input type="radio" class="checkbox__input" id="no" name="committed">
+                    <label for="no" class="checkbox__label"></label>
+                    <span class="checkbox__text">
+                        No
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="visit-text">
+                Please visit Tech4dev's Instagram account (<a class="visit-text__link" href="https://www.instagram.com/tech4dev/">@Tech4dev</a>) and follow the page
+            </p>
+            <p class="quiz-text">
+                <b>QUIZ</b>
+            </p>
+            <div class="form-group">
+                <input type="text" name="followers" required>
+                <span>How many instagram followers do we currently have?</span>
+            </div>
+        </div>
+        <button class="submit" disabled>
+            <span class="submit-text">Send</span>
+            <span class="loading"></span>
+            <span class="success-text">Submitted!</span>
+            <span class="error-text">Something went wrong. Please try again</span>
+        </button>
+    </form>
+</main>
+@@include('./includes/footer.html')
+<script>
+    document.querySelectorAll('input[name=committed]').forEach(input => {
+        input.addEventListener('change',() => {
+            document.querySelector('.submit').disabled = !(input.id === 'yes');
+        })
+    })
+</script>
+<script src="../assets/js/status.js"></script>
+<script src="../assets/js/nav.js"></script>
+<script src="../assets/js/volunteer.js"></script>
+</body>
+</html>

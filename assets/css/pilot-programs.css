@@ -1,0 +1,471 @@
+@font-face{
+    font-family: 'Avenir Next Medium';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Medium.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Bold';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Bold.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Regular';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Regular.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Italic';
+    src: url('../fonts/avenir-next/AvenirNext-Italic.ttf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'DroidSerif-Bold';
+    src: url('../fonts/droid-serif/DroidSerif-Bold.ttf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Nunito Sans Regular';
+    src: url('../fonts/NunitoSans-Regular.ttf');
+    font-display: auto;
+}
+
+:root{
+    --nakise-bg: #ffe0a8;
+    --nakise-bg-faded: rgba(251, 167, 23, 0.1);
+    --nakise-color: #fba917;
+    --bdei-bg: #FFE3E2;
+    --bdei-bg-faded: rgba(255, 227, 226, 0.1);
+    --bdei-color: #B70807;
+
+}
+
+html{
+    scroll-behavior: smooth
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth
+}
+
+nav{
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+.background-img{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    height: 460px;
+    object-fit: cover;
+}
+
+.header-text{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-family: 'Avenir Next Bold',sans-serif;
+    color: white;
+    height: 420px;
+    background: rgba(0,0,0,0.4);
+}
+
+.header-text p{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.program-nav{
+    height: 60px;
+    width: 100%;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    transition: 300ms;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.program-nav button,.program-nav a{
+    display: inline-flex;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Avenir Next Medium',sans-serif;
+    font-size: 14px;
+    color: #596869;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    margin: 0 75px; 
+}
+
+.program-nav button.active{
+    color: #213642;
+    border-bottom: 3px solid #FF576B;
+}
+
+.program-nav span.line{
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF576B;
+    width: 104px;
+    transition: 100ms;
+}
+
+.program-nav a.active{
+    border-bottom: 3px solid #FF576B;
+    box-sizing: border-box;
+}
+
+.program-nav a.active span{
+    color: #213642;
+}
+
+.program-nav a:hover{
+    border-bottom: 3px solid #FF576B;
+}
+
+.program-nav a:hover span{
+    color: #213642;
+}
+
+.program-nav a:hover span{
+    color: #213642;
+}
+
+main{
+    padding: 0 122px 0 172px;
+}
+
+.outcome-header{
+    margin: 0px 0 10px;
+    font-family: 'Avenir Next Regular',sans-serif;
+    color: #083a55;
+}
+
+.line{
+    width: 298px;
+    height: 2px;
+    display: block;
+    border-radius: 2px;
+    margin-bottom: 12px;
+    background-color: #083a55;
+}
+
+.bold{
+    font-family: 'Avenir Next Bold',sans-serif
+}
+
+.outcome-text{
+    font-family: 'Avenir Next Regular',sans-serif;
+    font-size: 14px;
+    color: #3b3b3b;
+}
+
+.description-text{
+    font-family: 'Avenir Next Regular',sans-serif;
+    font-size: 16px;
+    color: #3b3b3b;
+    width: 100%;
+}
+
+.description-text p,.description-list{
+    margin-bottom: 28px;
+    margin-top: 0;
+    line-height: 1.8;
+}
+
+.objectives-header{
+    color: #083a55;
+    font-family: 'Avenir Next Medium',sans-serif
+}
+
+.objectives,.description-list{
+    list-style-type: square;
+    list-style-position: outside;
+    padding-left: 20px;
+}
+
+.objectives li{
+    margin-bottom: 14px;
+}
+
+section{
+    margin-top: 60px;
+}
+
+section .header{
+    font-family: 'Avenir Next Bold',sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #C6C6C6;
+    margin: 0 0 40px;
+}
+
+.program-description{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    width: 100%;
+    grid-gap: 46px;
+    margin-top: 96px;
+}
+
+.gallery-images{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.gallery-images img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.button-wrapper{
+    position: relative;
+}
+
+.testimonials-wrapper{
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+.testimonial-scroll-btn{
+    position: absolute;
+    top: 50%;
+    height: 20px;
+    margin-top: -10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: none;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.partner-scroll-btn{
+    top: 110px;
+}
+
+.testimonials{
+    position: relative;
+}
+
+
+.testimonials__content{
+    display: flex;
+    width: 100%;
+    scroll-behavior: smooth;
+    padding-bottom: 30px;
+    padding-top: 62px;
+}
+
+.testimonial{
+    width: 47%;
+    font-family: 'Avenir Next Regular',sans-serif, sans-serif;
+    font-size: 14px;
+    display: flex;
+    padding: 60px 30px 10px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    min-height: 328px;
+    flex-shrink: 0;
+    position: relative;
+    text-align: center;
+    transition: 200ms;
+}
+
+.testimonial{
+    margin-right: 5.5%;
+}
+
+.testimonial:hover{
+    box-shadow: 7px 7px 40px 0 rgba(0, 0, 0, 0.1);
+    border-color: transparent;
+}
+
+.testimonial .testimonial__img{
+    width: 90px;
+    height: 90px;
+    top: -45px;
+    position: absolute;
+}
+
+.testimonial p{
+    line-height: 1.8;
+}
+
+.testimonial .details{
+    margin: auto 0 10px;
+}
+
+.testimonial .details p{
+    margin: 5px 0;
+}
+
+.testimonial .author{
+    font-family: 'Avenir Next Medium',sans-serif;
+    color: #083A55;
+}
+
+.testimonial .about{
+    font-size: 12px;
+    text-align: center;
+    color: #898989;
+}
+
+.testimonial-scroll-btn.left{
+    left: -40px;
+}
+
+.testimonial-scroll-btn.right{
+    right: -40px;
+}
+
+.view-full-gallery{
+    margin-top: 30px;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.view-full-gallery a{
+    color: #ff576b;
+    font-family: 'Avenir Next Medium',sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+@media(max-width: 1200px){
+    main{
+        padding: 0 56px;
+    }
+}
+
+@media(max-width: 1075px){
+    .testimonials-wrapper{
+        width: calc(100% - 120px)
+    }
+    .testimonial-scroll-btn.left{
+        left: 20px;
+    }
+    .testimonial-scroll-btn.right{
+        right: 20px;
+    }
+}
+
+@media(max-width: 760px){
+    main{
+        padding: 0 40px;
+    }
+    .program-description{
+        grid-template-columns: 1fr;
+        margin-top: 55px;
+    }
+    .description-text{
+        grid-row: 1;
+    }
+    .designs{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .outcome-header{
+        margin-top: 0;
+    }
+    .subtext{
+        width: 100%;
+    }
+    .line{
+        width: 100%;
+    }
+}
+
+@media(max-width: 700px){
+    .testimonials-wrapper{
+        width: calc(100% - 40px)
+    }
+    .testimonial-scroll-btn.left{
+        left: -5%;
+    }
+    .testimonial-scroll-btn.right{
+        right: -5%;
+    }
+    .testimonial{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .testimonial-scroll-btn.active{
+        display: block;
+    }
+}
+
+@media(max-width: 650px){
+    header .header{
+        width: 95%;
+    }
+    header .subtext{
+        width: 85%;
+    }
+    main{
+        padding: 0 5%;
+    }
+    .designs{
+        grid-template-columns: 1fr;
+    }
+    .gallery-images{
+        grid-template-columns: repeat(4,1fr)
+    }
+    .gallery-images img:nth-of-type(2){
+        display: none;
+    }
+    .goal,.goal-header,.goal-text{
+        width: 100%;
+    }
+    section .header,
+    .header-text p{
+        font-size: 50px;
+    }
+    .header-text p{
+        margin-top: 70px;
+    }
+}
+
+
+@media(max-width: 580px){
+    .gallery-images{
+        grid-template-columns: repeat(2,1fr)
+    }
+    .program-nav button, .program-nav a{
+        margin: 0 10%;
+    }
+    .description-text{
+        font-size: 14px;
+    }
+}

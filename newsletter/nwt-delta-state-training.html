@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Newsletter | Article</title>
+    <link rel="stylesheet" href="../assets/css/newsletter-post.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <style>
+        .img-grid .full{
+            background-image: url('../assets/images/Newsletter 4 pictures\2.jpg');
+        }
+    </style>
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+</head>
+<body>
+    @@include('./includes/nav.html',{"active": "resources"})
+    <div class="top-image">
+        <div class="shadow">
+            NEWSLETTER
+        </div>
+    </div>
+    <a href="./" class="back">
+        <img src="../assets/images/back.svg">
+        Back
+    </a>
+    <section class="article">
+        <p class="article__title yellow">
+            NWT DELTA STATE TRAINING
+        </p>
+        <p class="article__details">
+            <span class="article__author">
+                Oluwatosin Omowaire
+            </span>
+            |
+            <span>
+                May 31, 2019
+            </span>
+        </p>
+        <div class="social-media">
+            <span>Share Post</span>
+            <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+            <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+            <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+        </div>
+        <img src="../assets/images/Newsletter 4 pictures/1.jpg" class="article__img">
+        <div class="article__text">
+            <p>
+                The Nigerian Women Techsters started its 3rd cohort in Warri, Delta state. On 20th March 2019, The training is divided into three primary tracks: web and mobile development, games development, and embedded systems.
+            </p>
+            <p>
+                On the first day, we had an attendance of over 65 women who were screened rigorously and had shown commitment to learning and giving their time to schooling themselves in the choice programming tracks. The beneficiaries were eager to learn as they were able to create webpages on the first day of training.
+            </p>
+            <p>
+                Participants were given learning materials to aid their pace of learning. The Warri training is designed in a two weeks boot camp style, where the women will be trained intensively and after that present their projects on the DEMO DAY.
+            </p>
+            <p>
+                The delta state-NWT training is in partnership with Terchub.
+            </p>
+            <div class="img-grid">
+                <div class="full">
+                </div>
+                <div class="img-grid-inner">
+                    <img src="../assets/images/Newsletter 4 pictures/4.jpg">
+                    <img src="../assets/images/Newsletter 4 pictures/3.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('./includes/footer.html')
+    <script src="../assets/js/share.js"></script>
+    <script src="../assets/js/nav.js"></script>
+</body>
+</html>

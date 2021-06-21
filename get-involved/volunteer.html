@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tech4Dev | Volunteer </title>
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="../assets/css/status.css">
+    <link rel="stylesheet" href="../assets/css/get-involved.css">
+    <link rel="shortcut icon" href="../assets/images/icon.png" type="image/x-icon">
+</head>
+<body>
+<header>
+    @@include('./includes/nav.html',{"active": "get-involved"})
+    <img src="../assets/images/home/index-1.png" class="background-img">
+    <div class="header-text">
+        <p>
+            VOLUNTEER TO HELP
+        </p>
+    </div>
+</header>
+<div class="program-nav">
+    <a href="volunteer.html" class="active">
+        <span>
+            VOLUNTEER TO HELP
+        </span>
+    </a>
+    <a href="become-a-partner.html">
+        <span>
+            BECOME A PARTNER
+        </span>
+    </a>
+</div>
+<main class="volunteer">
+    <div class="main-content">
+        <p>
+            Volunteers are critical to the actualization of our goals at Tech4Dev. A big part of our success is ascribed
+            to the selfless service of our volunteers.
+        </p>
+        <p>
+            Anyone who is interested in the values and purpose of Tech4Dev may join no matter their views on religion or
+            politics.
+        </p>
+        <p class="blue">
+            Register here, and someone will get in touch with you shortly.
+        </p>
+        <form class="volunteer-form" action="">
+            <input type="hidden" name="sheetname" value="volunteer to help">
+            <div class="form-group">
+                <input type="text" name="name" required>
+                <span>Name*</span>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" required>
+                <span>Email*</span>
+            </div>
+            <div class="form-group">
+                <input type="tel" name="phone" required>
+                <span>Phone*</span>
+            </div>
+            <div class="form-group">
+                <input type="text" name="country" required>
+                <span>Country*</span>
+            </div>
+            <div class="form-group">
+                <input type="text" name="state" required>
+                <span>State*</span>
+            </div>
+            <div class="form-group">
+                <input type="text" name="why do you want to join us" required>
+                <span>Why do you want to join us?*</span>
+            </div>
+            <div class="form-group">
+                <input type="text" name="what can you offer" required>
+                <span>What can you offer?*</span>
+            </div>
+            <button class="submit" type="submit">
+                <span class="submit-text">Submit</span>
+                <span class="loading"></span>
+                <span class="success-text">Submitted!</span>
+                <span class="error-text">Something went wrong. Please try again</span>
+            </button>
+        </form>
+    </div>
+    <img src="../assets/images/get-involved-2.png" alt="">
+</main>
+@@include('./includes/footer.html')
+<script src="../assets/js/nav.js"></script>
+<script src="../assets/js/volunteer.js"></script>
+<script src="../assets/js/status.js"></script>
+</body>
+</html>

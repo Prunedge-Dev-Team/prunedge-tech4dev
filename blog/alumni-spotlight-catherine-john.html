@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog | Article</title>
+    <link rel="stylesheet" href="../assets/css/blog-post.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+</head>
+<body>
+    @@include('./includes/nav.html',{"active": "blog"})
+    <div class="top-image">
+        <div class="shadow">
+            BLOG
+        </div>
+    </div>
+    <a href="../blog/blogCategories/spotlight.html" class="back">
+        <img src="../assets/images/back.svg">
+        Back
+    </a>
+    <section class="article">
+        <p class="article__title">
+            ALUMNI SPOTLIGHT: CATHERINE JOHN
+        </p>
+        <p class="article__details">
+            <span class="article__author">
+                Oluwatosin Omowaire
+            </span>
+            |
+            <span>
+                June 27, 2019
+            </span>
+        </p>
+        <div class="social-media">
+            <span>Share Post</span>
+            <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+            <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+            <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+        </div>
+        <img src="../assets/images/catherine-circle.png" class="article__img  article__img--left circle">
+        <div class="article__text">
+            <p>
+                Meet Catherine John, a beneficiary of the Women Techsters Cohort 2. Catherine recently got into the Microsoft Leap Hackathon, and her team won the grand prize.
+                In a short interview below, Catherine shares her story with us and how the Women Techsters(WT) program has moved her closer to achieving her dreams.
+            </p>
+            <p class="sub-heading">
+                Tell us your story (background, how and when you got involved with Women Techsters)?
+            </p>
+            <p>
+                I was born and brought up in Otukpo Benue State, growing up was fun-filled. I was always eager to know "why" and "how" of everything. I have away been a curious child. I did my secondary school in Livingstone Model Lagos, and I studied Social-Studies from Benue State University. After my NYSC in 2016, I was a brand ambassador for Diamond bank and Google (fuel your hustle campaign). I got into the WT training because of the drive to learn more, I did the interview and commenced the two weeks’ web development training.
+            </p>
+            <p class="sub-heading">
+                What were the highlights of training program?
+            </p>
+            <p>
+                I had an amazing and inspiring experience. Classes resumed from 9 am to 5 pm, and we had top-notch teachers, Mr. Chris, and Miss Lydia. They took us HTML, CSS, Bootstrap, and JavaScript. I came every day, eager to learn. We were taught how to design a responsive website; each day ended with an assignment. I usually leave the training ground at 10 pm; I ensure I understand everything been taught each day. At the end of the first week, we were grouped into teams and given a real-life problem to hack. My team and I came up with a solution, and we developed a responsive website that provides society with affordable and clean energy. I equally designed a restaurant website as my project. Indeed, it was a fun and challenging experience. I learned so much.Thanks to NWT, Tech4Dev and GIZ.
+            </p>
+            <p class="sub-heading">
+                How has the WT experience helped you in other areas of life?
+            </p>
+            <p>
+                The WT program was very helpful in getting me into Leap Hackathon and into other similar opportunities that I wouldn’t have gotten without my training in Women Techsters. I was already taught by WT the basic and fundamentals of programming such as HTML, CSS, Bootstrap and JavaScript and also soft skills such as problem-solving, critical thinking, teamwork, and communication skills, etc. I got all I needed to succeed.
+            </p>
+            <p class="sub-heading">
+                What are you doing now and what are your next steps?
+            </p>
+            <p>
+                Currently, I'm taking a course with Andela in partnership with Google and PluIarlsight. I'm working toward my masters, looking out to get an employment while also trying to keep up the latest skills in my career path.
+            </p>
+            <p class="sub-heading">
+                What advice would you give to other young females like yourself?
+            </p>
+            <p>
+                Believe in yourself, position yourself rightly for opportunities and keep learning.
+            </p>
+        </div>
+    </section>
+    @@include('./includes/footer.html')
+    <script src="../assets/js/share.js"></script>
+    <script src="../assets/js/nav.js"></script>
+</body>
+</html>

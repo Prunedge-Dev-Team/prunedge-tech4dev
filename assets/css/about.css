@@ -1,0 +1,856 @@
+@font-face{
+    font-family: 'Avenir Next Medium';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Medium.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Bold';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Bold.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Regular';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Regular.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Italic';
+    src: url('../fonts/avenir-next/AvenirNext-Italic.ttf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'DroidSerif-Bold';
+    src: url('../fonts/droid-serif/DroidSerif-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'Nunito Sans Regular';
+    src: url('../fonts/NunitoSans-Regular.ttf');
+    font-display: auto;
+}
+
+html{
+    scroll-behavior: smooth
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth
+}
+
+.back-to-top{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #FF576B;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: white;
+    outline: none;
+    z-index: 5;
+    opacity: 0;
+    transition: 300ms;
+    display: block;
+}
+
+.back-to-top.active{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.back-to-top.active:hover{
+    opacity: 1;
+}
+
+.back-to-top img{
+    width: 60%;
+}
+
+.background-img{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    height: 420px;
+    object-fit: cover;
+}
+
+.background-img--about{
+    object-position: 0 -20px;
+}
+
+.header-text{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 44px;
+    font-family: 'Avenir Next Bold', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 420px;
+}
+
+.header-text p{
+    margin-top: 100px;
+}
+
+.scrollspy-nav{
+    height: 60px;
+    width: 100%;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    transition: 300ms;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.scrollspy-nav.fixed{
+    position: fixed;
+    top: 0;
+}
+
+.scrollspy-scroll-btn{
+    position: absolute;
+    top: 22px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+
+.scrollspy-scroll-btn.left{
+    left: 5px;
+}
+
+.scrollspy-scroll-btn.right{
+    right: 5px;
+}
+
+.toggle-buttons{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.toggle-buttons button,.toggle-buttons a{
+    display: inline-flex;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Avenir Next Medium', sans-serif;
+    font-size: 14px;
+    color: #596869;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.toggle-buttons button:not(:last-of-type){
+    margin-right: 60px;
+}
+
+.toggle-buttons button.active{
+    color: #213642;
+}
+
+.toggle-buttons span.line{
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF576B;
+    width: 104px;
+    transition: 100ms;
+}
+
+.toggle-buttons a.active span,
+.toggle-buttons button.active span{
+    color: #213642;
+
+}
+
+.toggle-buttons button:hover,
+.toggle-buttons a:hover{
+    border-bottom: 3px solid #FF576B;
+}
+
+.toggle-buttons button:hover span{
+    transform: translateY(2px);
+    color: #213642;
+}
+
+.toggle-buttons a:hover span{
+    color: #213642
+}
+
+section{
+    margin-top: 80px;
+    position: relative;
+}
+
+section .header{
+    font-family: 'Avenir Next Bold', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #C6C6C6;
+    margin: 0 0 40px;
+}
+
+main{
+    padding: 0 140px;
+}
+
+.who-we-are-text{
+    display: flex;
+    align-items: flex-start
+}
+
+.who-we-are-text span{
+    margin: 20px 40px 0 24px;
+    width: 100px;
+    height: 2px;
+    background-color: #FF576B;
+    flex-shrink: 0;
+}
+
+.who-we-are-text p{
+    margin: 0;
+    font-family: 'Avenir Next Regular', sans-serif, sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    width: 800px;
+    color: #3B3B3B
+}
+
+.team{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.teammate{
+    border: 1px solid #E8E8E8;
+    text-align: center;
+    position: relative;
+    transition: 300ms;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 10px;
+    flex: 0 0 30%;
+    margin: 1.3%;
+}
+
+.team-role img{
+    width: 100px;
+    height: 100px;
+    margin: 20px 0 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.teammate:not(.active) .big{
+    display: none;
+}
+
+.teammate.active{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    background-color: #083A55;
+    top: 0;
+    left: 0;
+    border: none;
+    padding: 0 5%;
+    box-sizing: border-box;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: unset;
+    margin: 0;
+}
+
+.teammate .close-team{
+    display: none
+}
+
+.teammate.active .close-team{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    height: 30px;
+    width: 30px;
+    background-image: url('../images/cancel.svg');
+    outline: none;
+}
+
+.teammate.active .line{
+    display: none;
+}
+
+.teammate.active .team-role{
+    display: flex;
+    color: white;
+    font-family: 'Avenir Next Medium', sans-serif;
+    align-items: center;
+    width: 100%;
+    max-width: 550px;
+}
+
+.teammate.active .team-role div{
+    position: relative;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.teammate.active .team-role .name{
+    font-size: 24px;
+    margin: 0;
+}
+
+.teammate.active .team-role .role{
+    font-size: 18px;
+    margin: 0;
+    color: #898989;
+}
+
+.teammate.active .teammate-description{
+    color: white;
+    text-align: left;
+    font-family: 'Avenir Next Regular', sans-serif;
+    font-size: 18px;
+    padding-left: 0;
+    max-width: 550px;
+    height: 50vh;
+    width: 100%;
+}
+
+.teammate.active .teammate-details{
+    display: none;
+}
+
+.teammate:hover{
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+.teammate .line{
+    height: 8px;
+    background-color: #FF576B;
+    width: 100%;
+    display: block
+}
+
+.teammate-description{
+    padding: 0 20px;
+    font-family: 'Avenir Next Regular', sans-serif;
+    font-size: 12px;
+    color: #3B3B3B;
+    position: relative;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 0 30px;
+    overflow: auto;
+}
+
+.teammate.active .teammate-description::-webkit-scrollbar{
+    width: 5px;
+}
+
+.teammate.active .teammate-description::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+.teammate.active .teammate-description::-webkit-scrollbar-thumb{
+    background: rgb(114, 113, 113);
+    border-radius: 4px;
+}
+
+.teammate.active .teammate-description::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
+.teammate.active p.big:last-of-type{
+    margin-bottom: 0;
+}
+
+.teammate-details{
+    margin: auto 0 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.teammate-name{
+    font-size: 14px;
+    font-family: 'Avenir Next Medium', sans-serif;
+    color: #213642;
+    margin: 0 0 7px;
+}
+
+.teammate-position{
+    font-size: 12px;
+    font-family: 'Avenir Next Regular', sans-serif;
+    color: #898989;
+    margin: 0 0 7px;
+}
+.linkedin-icon{
+    margin: 0px auto;
+    height: 28px;
+    width: 48px;
+}
+.linkedin-icon:hover{
+    color: green;
+    background-color: #213642;
+}
+
+.team .teammate:last-child{
+    grid-column: 2;
+}
+
+.hide{
+    display: none!important;
+}
+
+.partners-wrapper{
+    position: relative;
+}
+
+.partners-row-wrapper{
+    position: relative;
+    /* padding: 0 30px; */
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+
+.partners-flex{
+    display: flex;
+    position: relative;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.partner{
+    display: inline-flex;
+    flex: 2 1 auto;
+    width: 200px;
+    flex-shrink: 0;
+    margin-right: calc((100% - 800px)/3);
+}
+
+.partners{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    grid-gap: 60px 0;
+    width: 100%;
+    padding: 0;
+}
+
+.partner .header{
+    margin-bottom: 50px;
+}
+
+.partner img{
+    transition: 100ms ease-in;
+    height: 40px;
+}
+
+.partner img:not(:hover){
+    filter: grayscale(100%);
+}
+
+.partner span{
+    display: none;
+    position: absolute;
+    top: -45px;
+}
+
+.partner.small span{
+    left: -10px;
+}
+
+.partner:hover span{
+    display: inline-block;
+}
+
+.partner-scroll-btn{
+    position: absolute;
+    top: calc(50% - 11px);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.partner-scroll-btn.left{
+    left: -60px;
+}
+
+.partner-scroll-btn.right{
+    right: 0px;
+}
+
+.become-a-partner,
+.apply-today,
+.apply-form button{
+    height: 44px;
+    width: 205px;
+    background-color: #FF576B;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    font-size: 14px;
+    font-family: 'Avenir Next Medium', sans-serif;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.become-a-partner{
+    margin-top: 50px;
+}
+
+.careers{
+    overflow: hidden;
+    position: relative;
+}
+
+.careers .header{
+    margin-bottom: 0;
+}
+
+.careers-flex-wrapper{
+    position: relative;
+    display: flex;
+}
+
+.subtext{
+    width: 50%;
+    transition: 300ms;
+    flex-shrink: 0;
+    left: 50%;
+    position: relative;
+    margin-left: -25%;
+}
+
+.careers-flex-wrapper.show-form .subtext{
+    left: 0;
+    margin-left: 0;
+}
+
+.subtext.active{
+    margin: 0 20px 0 0;
+    width: 400px;
+}
+
+.subtext-intro{
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Avenir Next Regular', sans-serif;
+    color: #221133
+}
+
+.subtext-intro span{
+    font-family: 'Avenir Next Italic', sans-serif;
+    color: #FF1515;
+}
+
+.subtext-intro .slant{
+    font-size: 40px;
+}
+
+.subtext-content{
+    font-family: 'Avenir Next Regular', sans-serif;
+    font-size: 16px;
+    color: #898989;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.subtext p{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.subtext .blue{
+    color: #221133
+}
+
+.vacancies__link{
+    text-decoration: none;
+    color: black;
+}
+
+.vacancies__link:hover{
+    text-decoration: underline;
+}
+
+.apply-today{
+    margin: 50px auto 30px;
+}
+
+.apply-today.hide{
+    opacity: 0;
+}
+
+.subtext.active + form{
+    position: relative;
+    opacity: 1;
+    margin: 0;
+}
+
+.apply-form{
+    box-sizing: border-box;
+    font-family: 'Avenir Next Regular', sans-serif;
+    margin: 0 auto;
+    right: 0;
+    width: 40%;
+    opacity: 0;
+    top: 0;
+    height: 0;
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.apply-form.active{
+    position: relative;
+    height: 510px;
+    opacity: 1;
+}
+
+.apply-form .apply-form-close{
+    background-color: transparent;
+    color: #FF576B;
+}
+
+.apply-form .apply-form-close:hover{
+    text-decoration: underline;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+form label{
+    color: #838383;
+    display: block;
+    font-size: 12px;
+    position: relative;
+    padding-top: 10px;
+}
+
+form label span{
+    display: block;
+    bottom: 5px;
+    position: absolute;
+    z-index: 1;
+    transition: 400ms
+}
+
+.apply-form input,
+.apply-form textarea{
+    border: none;
+    border-bottom: 1px solid #d8d6d6;
+    width: 100%;
+    max-width: 550px;
+    height: 30px;
+    z-index: 2;
+    position: relative;
+    background-color: transparent;
+    font-family: 'Avenir Next Regular', sans-serif;
+    font-size: 14px;
+}
+
+form textarea{
+    height: 150px;
+    border: 1px solid #d8d6d6;
+    margin-top: 20px;
+
+}
+
+form input:focus,
+form textarea:focus{
+    outline: none;
+}
+
+@media(max-width: 1200px){
+    main{
+        padding: 0 76px;
+    }
+}
+
+@media(max-width: 960px){
+    .partner{
+        width: 34%;
+        margin: 0;
+    }
+}
+
+@media(max-width: 900px){
+    .who-we-are-text img,.who-we-are-text span{
+        display: none;
+    }
+    .who-we-are-text p{
+        width: 100%;
+    }
+    .careers-flex-wrapper{
+        flex-direction: column;
+    }
+    .careers-flex-wrapper .subtext,.careers-flex-wrapper .apply-form.active{
+        margin: auto;
+        width: 80%;
+        left: unset;
+    }
+    .careers-flex-wrapper.show-form .subtext{
+        margin: auto;
+        left: unset;
+    }
+}
+
+@media (max-width: 860px) {
+    .teammate{
+        flex: 0 0 45%;
+    }
+}
+
+@media(max-width: 800px){
+    .partners{
+        grid-template-columns: 1fr 1fr auto;
+    }
+}
+
+@media(max-width: 760px){
+    .subtext-content{
+        width: 100%;
+    }
+    .background-img--about{
+        object-position: 0 0;
+    }
+}
+
+
+@media(max-width: 650px){
+    header .header{
+        width: 95%;
+    }
+    header .subtext{
+        width: 85%;
+    }
+    .partners{
+        grid-template-columns: 1fr auto;
+    }
+    main{
+        padding: 0 5%;
+    }
+    .teammate.active .team-role{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .teammate.active .team-role div{
+        text-align: center;
+    }
+    .teammate.active .teammate-description{
+        top: 0;
+        width: 90%;
+    }
+    .teammate.active .close-team{
+        height: 20px;
+        width: 20px;
+        background-size: contain;
+    }
+}
+
+@media(max-width: 620px){
+    section .header{
+        font-size: 40px;
+    }
+    .toggle-buttons button{
+        flex-shrink: 0;
+    }
+    .toggle-buttons{
+        width: 85%;
+        overflow: hidden;
+    }
+    .scrollspy-scroll-btn.active{
+        display: block;
+    }
+    .partners{
+        display: flex;
+        width: 85%;
+        overflow: hidden;
+        margin: auto;
+        scroll-behavior: smooth;
+    }
+    .partner{
+        width: 50%;
+        min-width: 180px;
+    }
+    .partner-scroll-btn{
+        display: block;
+    }
+    .teammate{
+        flex-basis: 90%;
+        margin: 20px auto;
+        max-width: 400px;
+    }
+    .partners-row-wrapper{
+        padding-left: 30px;
+    }
+    .partner-scroll-btn.left{
+        left: 0px;
+    }
+    .partner-scroll-btn.right{
+        right: 0;
+    }
+    .partners-row-wrapper{
+        width: 90%;
+    }
+}
+
+@media(max-width: 580px){
+    .teammate{
+        height: auto;
+    }
+    .teammate-details{
+        position: relative;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 420px){
+    .partners{
+        grid-template-columns: 1fr;
+    }
+    .partner {
+        width: 80%;
+    }
+}

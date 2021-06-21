@@ -1,0 +1,18 @@
+[
+   {
+        "imageUrl": "assets/images/blog/Gratitude-jar.jpg",
+        "title": "Tech4Dev’s Mental Health Awareness Event.",
+        "author": "Chigozie Paul",
+        "date": "June 15, 2021",
+        "synopsis": "Every year, the month of May is set aside to create awareness around Mental health. In general terms, mental health is the emotional well-being of an individual. For a very long while, mental health has been viewed as less important than the state of the body, especially in this part of the world. But statistics have shown that the state of one's mental health is, in fact, just as important as the state of the person's body.",
+        "href": "/blog/mental-health.html"
+      },
+    {
+        "imageUrl": "assets/images/blog/thankyou.jpeg",
+        "title": "Tech4Dev Launches the First Edition of the Women Techsters Fellowship Program Under the Women Techsters Initiative in Partnership with Microsoft",
+        "author": "Oluwatoyin Akande",
+        "date": "May 17, 2021",
+        "synopsis": "Men in tech usually exceed women in tech by at least a 3:1 ratio or even higher in some sectors. As part of the commitment to bridge the digital divide between men and women in the Tech sector, Tech4Dev launched the first edition of The Women Techsters Fellowship on Monday, the 26th of April 2021.",
+        "href": "/blog/tech4dev-lunches-women-techsters.html"
+      }
+]

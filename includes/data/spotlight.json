@@ -1,0 +1,97 @@
+[
+    {
+        "imageUrl": "assets/images/blog/msspotlight.png",
+        "title": "Partner Spotlight: Microsoft.",
+        "author": "Chigozie Paul",Chigozie Paul
+        "date": "April 7, 2021",
+        "synopsis": "Asides from being a multinational organisation, Microsoft is also an enterprise deeply invested in corporate philanthropy. Since its existence, Microsoft has partnered with many organisations to achieve technological advancements in different parts of the world, especially in Africa. As of April 1, 2021, Microsoft Corporation disclosed that through its Global Skilling Initiative (GSI), it has helped over 30 million people in 249 countries and territories gain access to digital skills, topping its initial goal of 25 million last June.",
+        "href": "/blog/microsoft-spotlight.html"
+      },
+      {
+        "imageUrl": "assets/images/Blossom-Ozurumba-1.jpg",
+        "title": "Advisory Board Member Spotlight: Blossom Ozurumba",
+        "author": "Yemisi Arowosafe",
+        "date": "July 20, 2020",
+        "synopsis": "I currently work as the Innovation Advisor to the Chief Innovation Officer of the Nigerian National Petroleum Corporation.",
+        "href": "/blog/advisory-board-member-spotlight-blossom.html",
+        "imageStyle": "style='object-position: 0 -40px;height: 300px;'"
+      },
+      {
+        "imageUrl": "assets/images/ifeyinwa-Egwaoje.jpg",
+        "title": "Advisory Board Member Spotlight: Ifeyinwa Egwaoje",
+        "author": "Yemisi Arowosafe",
+        "date": "July 20, 2020",
+        "synopsis": "When women are excluded from the digital technology transformation, it magnifies existing inequalities and forestalls development.",
+        "href": "/blog/advisory-board-member-spotlight-ifeyinwa.html",
+        "imageStyle": "style='object-position: 0 -40px;height: 300px;'"
+      },
+      {
+        "imageUrl": "assets/images/Temi-2.jpg",
+        "title": "ALUMNI SPOTLIGHT: Temilade Adelakun",
+        "author": "Yemisi Arowosafe",
+        "date": "June 24, 2020",
+        "synopsis": "Tell us your Tech4Dev Story: I saw a graphic design about the Nigerian Women Techsters Initiative on one of the many WhatsApp groups I was in...",
+        "href": "/blog/alumni-spotlight-temi.html",
+        "imageStyle": "style='object-position: 0 -40px;height: 300px;'"
+      },
+      {
+        "imageUrl": "assets/images/gift.jpg",
+        "title": "ALUMNI SPOTLIGHT: Gift O. Maduabuchi",
+        "author": "Yemisi Arowosafe",
+        "date": "May 20, 2020",
+        "synopsis": "Your background? I grew up in a Godly family. I am the only girl, surrounded by two lovely boys. I engage in male-dominated activities, such as playing football...",
+        "href": "/blog/alumni-spotlight-gift.html"
+      },
+      {
+        "imageUrl": "assets/images/Olatomiwa-1.jpg",
+        "title": "Advisory Board Member Spotlight: Olatomiwa Williams",
+        "author": "Yemisi Arowosafe",
+        "date": "June 24, 2020",
+        "synopsis": "My passion for diversity in the technology industry drives my involvement in different initiatives focused on encouraging and developing diverse talents within the Information Technology Industry.",
+        "href": "/blog/advisory-board-member-spotlight-olatomiwa.html",
+        "imageStyle": "style='object-position: 0 -40px;height: 300px;'"
+      },
+      {
+        "imageUrl": "assets/images/emeka-ofe.jpg",
+        "title": "Volunteer Spotlight: Emeka Ofe",
+        "author": "Oluwatosin Omowaire ",
+        "date": "December 2, 2019",
+        "synopsis": "My name is Emeka Ofe, a software engineer. I studied Chemical Engineering at the Federal University of Technology Owerri, Imo State, I switched my career from Chemical Engineering to Software Engineering due to my burning passion for software engineering. The journey has been thrilling so far.",
+        "href": "/blog/volunteer-spotlight-emeka-ofe.html",
+        "imageStyle": "style='object-position: 0 -40px;height: 300px;'"
+      },
+      {
+        "imageUrl": "assets/images/arinze-odika-small.jpg",
+        "title": "Volunteer of the Month – Arinze Odika",
+        "author": "Oluwatosin Omowaire ",
+        "date": "August 30, 2019",
+        "synopsis": "Arinze Odika is a 300 level student of Accountancy at the Imo State University Owerri. He volunteers as a local programs manager for the NWTImo program.",
+        "href": "/blog/volunteer-spotlight-arinze-odika.html",
+        "imageStyle": "style='object-position: 0 -40px;height: 300px;'"
+      },
+      {
+        "imageUrl": "assets/images/farouk/1.jpg",
+        "title": "Volunteer of the month – Umar Farouk",
+        "author": "Oluwatosin Omowaire ",
+        "date": "August 3, 2019",
+        "synopsis": "Farouq Umar is a writer, content developer, system analyst, program, and project manager. He also works as the Programs Manager at Startup Kano Hub.",
+        "href": "/blog/volunteer-spotlight-farouk.html",
+        "imageStyle": "style='object-position: 0 -50px;height: 250px'"
+      },
+      {
+        "imageUrl": "assets/images/chris-adie.jpg",
+        "title": "Volunteer Spotlight: Meet Chris Adie",
+        "author": "Oluwatosin Omowaire ",
+        "date": "June 30, 2019",
+        "synopsis": "Our volunteer of the month is Chris Adie, a tutor for Nigerian Women Techsters in Delta state and Women Techsters in Lagos state. In a short interview Chris answers vital questions on volunteering",
+        "href": "/blog/volunteer-spotlight-chris-ade.html"
+      },
+      {
+        "imageUrl": "assets/images/catherine-spotlight.jpg",
+        "title": "Alumni Spotlight: Catherine John",
+        "author": "Oluwatosin Omowaire ",
+        "date": "June 27, 2019",
+        "synopsis": "Meet Catherine John, a beneficiary of the Women Techsters Cohort 2. Catherine recently got into the Microsoft Leap Hackathon, and her team won the grand prize.",
+        "href": "/blog/alumni-spotlight-catherine-john.html"
+      }
+]

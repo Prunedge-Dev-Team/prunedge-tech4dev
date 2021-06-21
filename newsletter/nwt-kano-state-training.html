@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Newsletter | Article</title>
+    <style>
+        .img-grid .full{
+            background-image: url('../assets/images/Newsletter 2 pictures/IMG_8695.JPG.jpeg');
+        }
+    </style>
+    <link rel="stylesheet" href="../assets/css/newsletter-post.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+</head>
+<body>
+    @@include('./includes/nav.html',{"active": "resources"})
+    <div class="top-image">
+        <div class="shadow">
+            NEWSLETTER
+        </div>
+    </div>
+    <a href="./" class="back">
+        <img src="../assets/images/back.svg">
+        Back
+    </a>
+    <section class="article">
+        <p class="article__title">
+            NWT Kano State Training
+        </p>
+        <p class="article__details">
+            <span class="article__author">
+                Oluwatosin Omowaire
+            </span>
+            |
+            <span>
+                May 31, 2019
+            </span>
+        </p>
+        <div class="social-media">
+            <span>Share Post</span>
+            <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+            <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+            <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+        </div>
+        <img src="../assets/images/Newsletter 2 pictures/IMG_8691.jpeg" class="article__img">
+        <div class="article__text">
+            <p>
+                On 4th May 2019, the NWT training started in Kano state with 96 women in attendance on the first day of training. The women were introduced to the relevance of acquiring tech skills and opportunities within the tech space in the 21st century. They were also introduced to the 17 sustainable development goals and a clear connection to the relevance of the program.
+            </p>
+            <p>
+                Present at the opening were facilitators from startup Kano, volunteers’ trainers from NWT, and experienced leaders in tech. 
+            </p>
+            <p>
+                Kano training is divided into three tracks: web and mobile development, games development, and embedded systems.
+            </p>
+            <p>
+                The training will go on for 12 weeks during which participants will be trained intensively on any of the tracks chosen after which there will be a demo day for them to present their projects according to the SDGs goal.
+            </p>
+            <p>
+                The Kano State-Nigerian women Techsters is in partnership with DI Hub and StartupKano.
+            </p>
+            <div class="img-grid">
+                <div class = "full"></div>
+                <div class="img-grid-inner">
+                    <img src="../assets/images/Newsletter 2 pictures/IMG_8760.JPG.jpeg">
+                    <img src="../assets/images/Newsletter 2 pictures/IMG-20190511-WA0005.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('./includes/footer.html')
+    <script src="../assets/js/share.js"></script>
+    <script src="../assets/js/nav.js"></script>
+</body>
+</html>

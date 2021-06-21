@@ -1,0 +1,27 @@
+{
+  "name": "tech4dev-website",
+  "version": "1.0.0",
+  "description": "Website for non profit company.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "SET NODE_ENV=development && gulp",
+    "build-prod": "SET NODE_ENV=production && gulp",
+    "start-dev": "gulp && cd build && live-server",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oluwa-nifemi/Tech4Dev-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oluwa-nifemi/Tech4Dev-Website/issues"
+  },
+  "homepage": "https://github.com/Oluwa-nifemi/Tech4Dev-Website#readme",
+  "dependencies": {
+    "gulp-file-include": "^2.1.1",
+    "gulp": "^4.0.2"
+  }
+}

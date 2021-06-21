@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog | Article</title>
+    <link rel="stylesheet" href="../assets/css/blog-post.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+</head>
+<body>
+    @@include('./includes/nav.html',{"active": "blog"})
+    <div class="top-image">
+        <div class="shadow">
+            BLOG
+        </div>
+    </div>
+    <a href="../blog/blogCategories/articles.html" class="back">
+        <img src="../assets/images/back.svg">
+        Back
+    </a>
+    <section class="article">
+        <p class="article__title">
+            Tech4Dev’s Mental Health Awareness Event.
+        </p>
+        <p class="article__details">
+            <span class="article__author">
+                Chigozie Paul
+            </span>
+            |
+            <span>
+                June 15, 2021
+            </span>
+        </p>
+        <div class="social-media">
+            <span>Share Post</span>
+            <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+            <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+            <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+        </div>
+        <img src="../assets/images/Gratitude-jar.jpg" class="article__img">
+        <div class="article__text">
+            <p>
+               <i>"Mental health is just as important as physical health and deserves the same quality of support."</i> – Kate Middleton.
+            </p>
+            <p>
+               Every year, the month of May is set aside to create awareness around Mental health. In general terms, mental health is the emotional well-being of an individual. For a very long while, mental health has been viewed as less important than the state of the body, especially in this part of the world. But statistics have shown that the state of one's mental health is, in fact, just as important as the state of the person's body.
+            </p>
+            <p>
+               In 2002, a paper based on a survey carried out in five of Nigeria's six geopolitical zones by WHO was released. This paper stated that in a sample of 6,667 people aged over 18, one in eight Nigerians had had a mental illness in their lifetime. The most common were depression and anxiety disorders.
+            </p>
+            <p>
+               To this effect, we ensured that we took deliberate measures to mark Mental health awareness month in May at Tech4Dev. First, the organization embarked on a 21 Days gratitude challenge. A gratitude jar was given to every staff of the organization at the beginning of the month. Everyone was required to write something they are grateful for and place it in the jar every day during the challenge.
+            </p>
+            <p>
+                This idea came to mind because we realized that being thankful is important. The simple act of reminding yourself of the positive things in your life, even the most mundane things, can invoke optimism, making managing stress, depression, or anxiety easier.
+            </p>
+            <p>
+                A Mental Health Session was also organized. This session was facilitated by Nifemi Osanyin, a psychologist from the Asido Foundation with years of experience in relationship therapy and stress management. In this session, Nifemi gave a lecture on what Mental illness entailed. She talked about the types, causes, and how our mental health can be cared for.
+            </p>
+            <img src="../assets/images/Nifemi.png" alt="">
+            <p>
+                After her lecture, the gratitude jars were opened, and people were called upon randomly to state three things they were most grateful for. It was an emotional moment as team members were thankful for each other. Some people were grateful for family, some for food, and some for life.
+            </p>
+            <p>
+                It did not end there; Tech4Dev also arranged a consultation session for members of the organization that would love to have a short one-on-one discussion with the facilitator. It is safe to say that at the end of the day, everybody left the session feeling more enlightened on issues pertaining to Mental Health.
+            </p>
+        </div>
+    </section>
+    @@include('./includes/footer.html')
+    <script src="../assets/js/share.js"></script>
+    <script src="../assets/js/nav.js"></script>
+</body>
+</html>

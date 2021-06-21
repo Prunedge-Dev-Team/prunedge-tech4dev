@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tech4Dev | Become a Partner </title>
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="../assets/css/get-involved.css">
+    <link rel="shortcut icon" href="../assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/status.css">
+</head>
+<body>
+<header>
+    @@include('./includes/nav.html',{"active": "get-involved"})
+    <img src="../assets/images/dsc3.jpg" class="background-img">
+    <div class="header-text">
+        <p>
+            BECOME A PARTNER
+        </p>
+    </div>
+</header>
+<div class="program-nav">
+    <a href="volunteer.html">
+        <span>
+            VOLUNTEER TO HELP
+        </span>
+    </a>
+    <a href="become-a-partner.html" class="active">
+        <span>
+            BECOME A PARTNER
+        </span>
+    </a>
+</div>
+<main class="partner">
+    <div class="text">
+        <p class="heading">
+            At Tech4Dev, strong partnerships are crucial to us.
+        </p>
+        <p class="sub-text">
+            We partner with individuals, local communities, governments, foundations, peer organizations and
+            institutional donors to bring development programs that equip people for the future of work. With the
+            support of our partners, we can harness complementary expertise, resources and networks to ensure that each
+            community we work with receives the best solutions available.
+        </p>
+        <p class="footer">
+            Would you like to partner with us on to enable Africans lead the future of work? Kindly fill the form <span
+                class="right">on the right.</span> <span>below.</span>
+        </p>
+    </div>
+    <form class="partner-form">
+        <input type="hidden" name="sheetname" value="become a partner">
+        <p class="form-heading">
+            Kindly fill our partnership form.
+        </p>
+        <div class="form-group">
+            <input type="text" name="name" required>
+            <span>Name*</span>
+        </div>
+        <div class="form-group">
+            <input type="text" name="email" required>
+            <span>Email*</span>
+        </div>
+        <div class="form-group">
+            <input type="tel" name="phone" required>
+            <span>Phone*</span>
+        </div>
+        <div class="form-group">
+            <input type="text" name="state" required>
+            <span>State*</span>
+        </div>
+        <div class="form-group">
+            <input type="text" name="country" required>
+            <span>Country*</span>
+        </div>
+        <div class="form-group">
+            <textarea name="message" required></textarea>
+            <span>Message</span>
+        </div>
+        <button class="submit">
+            <span class="submit-text">Send</span>
+            <span class="loading"></span>
+            <span class="success-text">Submitted!</span>
+            <span class="error-text">Something went wrong. Please try again</span>
+        </button>
+    </form>
+</main>
+@@include('./includes/footer.html')
+<script src="../assets/js/nav.js"></script>
+<script src="../assets/js/volunteer.js"></script>
+<script src="../assets/js/status.js"></script>
+</body>
+</html>

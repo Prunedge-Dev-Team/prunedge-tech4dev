@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Newsletter | Article</title>
+    <link rel="stylesheet" href="../assets/css/newsletter-post.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <style>
+        .img-grid .full{
+            background-image: url('../assets/images/un/2.jpg');
+        }
+    </style>
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+</head>
+<body>
+@@include('./includes/nav.html',{"active": "resources"})
+<div class="top-image">
+    <div class="shadow">
+        NEWSLETTER
+    </div>
+</div>
+<a href="./" class="back">
+    <img src="../assets/images/back.svg">
+    Back
+</a>
+<section class="article">
+    <p class="article__title yellow">
+        Women Techsters selected as the only Nigerian Solution at the UN Solutions Summit
+    </p>
+    <p class="article__details">
+            <span class="article__author">
+                Oluwatosin Omowaire
+            </span>
+        |
+        <span>
+            October 8, 2019
+        </span>
+    </p>
+    <div class="social-media">
+        <span>Share Post</span>
+        <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+        <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+        <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+    </div>
+    <img src="../assets/images/un/1.jpg" class="article__img">
+    <div class="article__text">
+        <p>
+            We were at the UN Solution Summit, a catalytic gathering at the United Nations Headquarters during UN General Assembly Week. It was an exciting experience; we were selected for the Summit to present our solution ‘Women Techsters” in New York.
+        </p>
+        <p>
+            Our solution - Women Techsters is aimed at bridging the digital and technology knowledge divide between men and women. Women Techsters is empowering girls and women across Africa with varying degrees of digital, deep tech, and soft skills required within the technology ecosystem. Our goal is to train 5 million Africa women on digital and deep tech skills by 2030.
+        </p>
+        <p>
+            After going through a rigorous selection process, we were selected among nine other solutions from 1,400 applications in over 140+ countries, and the Women Techsters as the only solution in Nigeria.
+        </p>
+        <p>
+            The event was a week-long one with several amazing activities, which included acceleration sessions with stakeholders from Google, Shift7, Lead 2030Global Innovation Exchange, and the UN Foundation. We presented our solution on Wednesday, 25th September 2019, which received several accolades and show of support from the listeners.
+        </p>
+        <p>
+            Diwura Oladepo, our Executive Director, was selected as a Solutions Maker and she expressed her excitement at the win reiterating the impact the program will have on the Africa continent as the women beneficiaries across Africa will be trained for free on digital and tech skills and empowered with resources to access decent jobs.
+        </p>
+        <p>
+            We are delighted to have been given this global opportunity, and we keep our commitment to equip people for the future of work.
+        </p>
+    </div>
+    <div class="img-grid">
+        <div class="full"></div>
+        <div class="img-grid-inner">
+            <img src="../assets/images/un/3.jpg">
+            <img src="../assets/images/un/4.jpg">
+        </div>
+    </div>
+</section>
+@@include('./includes/footer.html')
+<script src="../assets/js/lazy.js"></script>
+<script>
+    lazy([...document.querySelectorAll('.img-grid img')].map(el => transformElement(el,'')))
+</script>
+<script src="../assets/js/share.js"></script>
+<script src="../assets/js/nav.js"></script>
+</body>
+</html>

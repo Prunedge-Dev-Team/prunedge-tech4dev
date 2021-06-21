@@ -1,0 +1,364 @@
+@font-face{
+    font-family: 'Avenir Next Medium';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Medium.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Bold';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Bold.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Regular';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Regular.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'DroidSerif-Bold';
+    src: url('../fonts/droid-serif/DroidSerif-Bold.ttf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Nunito Sans Regular';
+    src: url('../fonts/NunitoSans-Regular.ttf');
+    font-display: auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.background-img{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    height: 420px;
+    object-fit: cover;
+}
+
+.header-text{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 44px;
+    font-family: 'Avenir Next Bold', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 420px;
+}
+
+.header-text p{
+    margin-top: 100px;
+}
+
+.vacancies__header{
+    font-size: 24px;
+    font-family: 'Avenir Next Medium', sans-serif;
+    color: #083a55;
+    margin: 80px 0 34px;
+    text-align: center;
+}
+
+.vacancies__subtext{
+    font-size: 16px;
+    font-family: 'Avenir Next Regular', sans-serif;
+    color: #3b3b3b;
+    max-width: 510px;
+    text-align: center;
+    margin: 0 auto 60px;
+}
+
+.volunteer__link{
+    height: 40px;
+    width: 180px;
+    background-color: #FF576B;
+    border-radius: 3px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: auto;
+    display: flex;
+    font-size: 14px;
+    font-family: 'Avenir Next Medium', sans-serif;
+}
+
+.vacanciesWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    padding: 100px 10%;
+    grid-column-gap: 60px;
+}
+
+.vacancies{
+    display: grid;
+    grid-row-gap: 40px;
+}
+
+.vacancy{
+    display: flex;
+    flex-direction: column;
+}
+
+.vacancy-header{
+    font-family: "Avenir Next Bold", sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #083A55;
+    margin: 0 0 10px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    padding: 0;
+}
+
+.vacancy-content{
+    transition: 1.5s;
+    overflow: hidden;
+}
+
+/*Make the first one have height by default*/
+.vacancy-content + .vacancy-content{
+    height: 0;
+}
+
+.vacancy:first-of-type .vacancy-content{
+    /*height: unset;*/
+}
+
+.vacancy-description{
+    font-family: "Avenir Next Regular", sans-serif;
+    font-size: 16px;
+    color: #083a55;
+    line-height: 24px;
+    margin: 0 0 20px;
+}
+
+.vacancy-section-header{
+    font-family: "Avenir Next Bold", sans-serif;
+    font-size: 16px;
+    color: #083a55;
+    line-height: 24px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.vacancy-list{
+    display: grid;
+    grid-row-gap: 15px;
+    list-style-type: none;
+}
+
+.vacancy-list:not(:last-of-type){
+    margin-bottom: 30px;
+}
+
+.vacancy-list__item{
+    font-family: "Avenir Next Regular", sans-serif;
+    font-size: 14px;
+    color: #083a55;
+    display: flex;
+    align-items: start;
+}
+
+.vacancy-list__item::before{
+    width: 6px;
+    height: 6px;
+    margin-top: 6px;
+    border-radius: 50%;
+    background-color: #083A55;
+    margin-right: 8px;
+    display: inline-flex;
+    content: '';
+    flex-shrink: 0;
+}
+
+.vacancy__apply-now{
+    background-color: transparent;
+    border: none;
+    color: #083a55;
+    font-family: "Avenir Next Regular", sans-serif;
+    font-size: 12px;
+    outline: none;
+    margin-top: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.vacancy-form{
+    display: grid;
+    grid-row-gap: 30px;
+    height: fit-content;
+}
+
+.vacancy-form__row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: 30px;
+}
+
+.vacancy-form__input-wrapper{
+    position: relative;
+}
+
+.vacancy-form__input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #e8e8e8;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    outline: none;
+    font-family: 'Avenir Next Regular',sans-serif;
+    transition: 600ms;
+}
+
+.vacancy-form__input--textarea{
+    border: 1px solid #e8e8e8;
+    min-height: 200px;
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.vacancy-form__input:focus{
+    border-color: rgba(255, 87, 107, 0.6);
+    outline: none;
+}
+
+.vacancy-form__input-label,
+.vacancy-form__input--textarea::placeholder{
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    z-index: 1;
+    color: #707070;
+    font-family: 'Avenir Next Regular',sans-serif;
+    left: 0;
+    pointer-events: none;
+}
+
+.vacancy-form__input-label{
+    transition: 300ms;
+}
+
+.vacancy-form__input-label--focus{
+    bottom: 30px;
+}
+
+.vacancy-form__upload-input {
+    display: none;
+}
+
+.vacancy-form__upload-input-wrapper{
+    display: flex;
+}
+
+.vacancy-form__upload-input-btn{
+    margin-left: auto;
+    background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    outline: none;
+    font-family: "Avenir Next Regular", sans-serif;
+    color: #707070;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.vacancy-form__files{
+    display: grid;
+    grid-row-gap: 5px;
+}
+
+.vacancy-form__file{
+    font-family: "Avenir Next Regular", sans-serif;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.vacancy-form__file-button{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-left: 5px;
+    background-color: #dbdbdb;
+    border: none;
+    font-family: "Avenir Next Regular", sans-serif;
+    font-size: 10px;
+    color: #333333;
+    cursor: pointer;
+}
+
+.vacancy-form__submit-btn{
+    background-color: #FF576B;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: "Avenir Next Regular", sans-serif;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    margin-left: auto;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.vacancy-form__submit-btn:disabled{
+    opacity: 0.7;
+}
+
+.vacancy-form__submit-btn.is-loading{
+    color: transparent;
+}
+
+.vacancy-form__submit-btn.is-loading::before{
+    width: 22px;
+    height: 22px;
+    border: 2px solid #bfbfbf;
+    border-top-color: white;
+    border-radius: 50%;
+    animation: rotate linear 0.5s infinite;
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% - 11px);
+    content: '';
+    box-sizing: border-box;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 600px) {
+    .vacanciesWrapper{
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+    .background-img{
+        object-position: unset !important;
+    }
+}

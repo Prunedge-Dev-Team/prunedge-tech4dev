@@ -1,0 +1,111 @@
+@import "gloepid.css";
+@import "status.css";
+
+.mainGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    padding: 0 8% 100px;
+}
+
+.section-header{
+    font-family: "Avenir Next Medium", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0d5e89;
+    margin-bottom: 40px;
+}
+
+.section-text{
+    font-family: "Avenir Next Regular", sans-serif;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+
+.section-text__link{
+    font-family: "Avenir Next Medium",sans-serif;
+    color: #FF576B;
+    text-decoration: none;
+}
+
+.donate-form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.donate-form__input-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    grid-gap: 30px;
+}
+
+.donate-form__input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #083a55;
+    height: 40px;
+    background-color: transparent;
+    outline: none;
+    font-family: "Avenir Next Regular", sans-serif;
+    font-size: 14px;
+    color: #083a55;
+}
+
+.donate-form__input-label{
+    position: absolute;
+    bottom: 12px;
+    font-family: "Avenir Next Regular", sans-serif;
+    font-size: 14px;
+    color: #083a55;
+    transition: 300ms;
+    transform-origin: left;
+}
+
+.donate-form__input-label.is-hovering{
+    transform: translateY(-28px) scale(0.8);
+}
+
+.donate-form__button{
+    padding: 10px 20px;
+    text-decoration: none;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FF576B;
+    font-family: "Avenir Next Regular", sans-serif;
+    font-size: 14px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    transition: 300ms;
+}
+
+.donate-form__button:hover{
+    filter: brightness(80%);
+}
+
+.donate-form__button:disabled{
+    opacity: 0.6;
+}
+
+@media (max-width: 600px) {
+    .mainGrid{
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+    }
+    .section-header{
+        margin-bottom: 16px;
+    }
+    .section-text{
+        margin-bottom: 15px;
+    }
+    .donate-form{
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+    }
+}

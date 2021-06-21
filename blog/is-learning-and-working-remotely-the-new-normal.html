@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog | Article</title>
+    <link rel="stylesheet" href="../assets/css/blog-post.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+</head>
+<body>
+    @@include('./includes/nav.html',{"active": "blog"})
+    <div class="top-image">
+        <div class="shadow">
+            BLOG
+        </div>
+    </div>
+    <a href="../blog/blogCategories/articles.html" class="back">
+        <img src="../assets/images/back.svg">
+        Back
+    </a>
+    <section class="article">
+        <p class="article__title">
+            Is Learning and Working Remotely the New Normal?
+        </p>
+        <p class="article__details">
+            <span class="article__author">
+                Diwura Oladepo
+            </span>
+            |
+            <span>
+                June 29, 2020
+            </span>
+        </p>
+        <div class="social-media">
+            <span>Share Post</span>
+            <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+            <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+            <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+        </div>
+        <img src="../assets/images/remoteLearning.JPG" class="article__img">
+        <div class="article__text">
+            <p>
+             The novel Coronavirus pandemic snuck on the whole world quite unexpectedly. Initially, it started out as a disease in Wuhan, China and then it spread  into a couple of neighbouring Asian countries and all the countries were working hard to curb it before it gets out of control. However, the first quarter of 2020 found the disease spreading across all continents in the world and it slowly moved from being an epidemic to a pandemic, killing thousands of people daily. With the advent of this, governments around the world instituted important policies in place: social distancing; a concept new to most of us, the use of face masks and the policy that affected economies of nations; national lockdowns, all in the bid to contain the virus and slowly reduce its impact on its citizens. With the lockdown came physical shut down of non-essential businesses which account for the majority of businesses and organizations in most countries. This led to organizations quickly iterating and pivoting to remote work, e-commerce and online interactions. This meant that organizations that could not operate remotely or online had little or no chance of survival during this period.
+            </p>
+            <p>
+              As a technology and digital skills empowerment organization and non-profit, most of our training and job matching activities have always involved a lot of physical interactions; from beneficiary mobilization to beneficiary interviews to our in-depth training that spans more than an average of 40 hours of collective interaction and learning time to partner engagement and meetings. We relied majorly on physical interaction because the nature of most non-profits in Africa and across the world involves a high level of interaction with people on the field as meeting people physically has been an important criterion to signing them up and the eventual success of the programs. 
+            </p>
+            <p>
+             In light of the pandemic, we had to think quickly and rapidly of alternative ways to impact our beneficiaries without having to meet them physically. We had to rely more on the use of social and digital media to mobilize our beneficiaries as opposed to traditional mobilization means and word of mouth. Learning delivery methodology has also significantly changed as we have had to move from physical training to online training, making use of video conferencing tools and Learning Management Systems to deliver learning and manage beneficiaries’ end to end learning process. We have also had to rely on technology communication tools to manage conversations with our program Alumni and partners as opposed to paying courtesy visits. This has significantly changed the way we work and impact the lives of our beneficiaries.
+            </p>
+            <p>
+             However, it is interesting to note that social media penetration level is still quite low in Nigeria standing at 13% of the population as of January 2020. This means that several people won’t be reached through our new medium of mobilization and this has the potential of significantly reducing the number of beneficiaries we can access. Our last research from our Nakise program shows that almost 50% of registered applicants did not have access to good internet connection and devices (personal or non-personal) to participate in the training. This poses a general challenge to delivering learning online especially for beneficiaries in underserved communities as learning and assimilation will prove difficult due to inaccessibility to a good internet connection and personal devices. 
+            </p>
+            <p>
+             It is important to critically think about how we can take our training and platforms to underserved communities and how to solve the challenges of accessibility to a constant power supply, functional devices and good internet connection. Accessibility to these three resources is critical in delivering learning remotely and accessing people in underserved communities to impact them with digital and deep tech skills to solve the problems of gender inequality, lack of access to decent work and financial dependencies. 
+            </p>
+            <p>
+              It has become increasingly important to partner with organizations who are willing to provide these resources at an affordable rate and cost as this is a sustainable pathway to ensure that we can positively impact the lives of beneficiaries in underserved communities through our programs.
+            </p>
+            <p>
+              As the world gradually opens up with intra-country and cross border trade and interactions starting to see the light of day, there are key questions for us at Tech4Dev to ponder on: is the work going to remain the same going forward? How can we effectively work remotely as a non-profit and still deliver the same level of impact as we used to? How is access to relevant resources such as internet connectivity, functional devices and power going to affect the ability to work and deliver learning remotely? Can Nigeria and Africa effectively claim to advance towards the future of work if the resources mentioned above are absent? Answers to these questions remain the key to unlocking the new normal and the next level of work and learning in Africa.
+            </p>
+        </div>
+    </section>
+    @@include('./includes/footer.html')
+    <script src="../assets/js/share.js"></script>
+    <script src="../assets/js/nav.js"></script>
+</body>
+</html>

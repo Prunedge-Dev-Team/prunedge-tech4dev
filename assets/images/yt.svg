@@ -1,0 +1,9 @@
+<svg id="Group_14" data-name="Group 14" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="logo-youtube" transform="translate(6 7)">
+    <path id="Shape" d="M6.3,9.974H5.814c-1.393,0-2.741-.033-4.006-.1A1.955,1.955,0,0,1,.08,7.758C.025,6.859,0,5.925,0,4.981S.026,3.1.082,2.208A1.953,1.953,0,0,1,1.811.094C3.02.031,4.318,0,5.778,0H6.2c1.46,0,2.758.031,3.967.094A1.95,1.95,0,0,1,11.9,2.2c.056.914.082,1.849.077,2.776S11.951,6.84,11.9,7.758a1.956,1.956,0,0,1-1.732,2.118C8.923,9.941,7.622,9.974,6.3,9.974ZM4.842,2.426v5.1L8.234,4.977Z" fill="#213642"/>
+  </g>
+  <g id="Rectangle_Copy_8" data-name="Rectangle Copy 8" fill="none" stroke="#213642" stroke-miterlimit="10" stroke-width="1">
+    <rect width="24" height="24" rx="12" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" rx="11.5" fill="none"/>
+  </g>
+</svg>

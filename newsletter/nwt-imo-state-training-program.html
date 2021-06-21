@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Newsletter | Article</title>
+    <link rel="stylesheet" href="../assets/css/newsletter-post.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <style>
+        .img-grid .full{
+            background-image: url('../assets/images/imo/2.jpg');
+        }
+    </style>
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+</head>
+<body>
+    @@include('./includes/nav.html',{"active": "resources"})
+    <div class="top-image">
+        <div class="shadow">
+            NEWSLETTER
+        </div>
+    </div>
+    <a href="./" class="back">
+        <img src="../assets/images/back.svg">
+        Back
+    </a>
+    <section class="article">
+        <p class="article__title yellow">
+            NIGERIAN WOMEN TECHSTERS – IMO STATE TRAINING PROGRAM
+        </p>
+        <p class="article__details">
+            <span class="article__author">
+                Oluwatosin Omowaire
+            </span>
+            |
+            <span>
+                June 26, 2019
+            </span>
+        </p>
+        <div class="social-media">
+            <span>Share Post</span>
+            <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+            <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+            <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+        </div>
+        <img src="../assets/images/imo/1.jpg" class="article__img">
+        <div class="article__text">
+            <p>
+                The Nigerian Women Techsters started its training program in Imo state. The training kick-started on 15th June 2019 with the opening ceremony.
+            </p>
+            <p>
+                The opening day had in attendance over 130 women from the different local government areas parts of Imo state; dignitaries, guests from the Office of the First Lady Imo State and Office of the Secretary to the State Government were also present.
+            </p>
+            <p>
+                The NWT-IMO class will run for 12 weeks, and the participants will be learning across three tracks (Web and Mobile development, Games development and embedded systems). The women will be taught practically in the areas choseThe Nigerian Women Techsters started its training program in Imo state. The training kick-started on 15th June 2019 with the opening ceremony.n and at the end of the program, they will demo projects solving problems around any of the SDGs goals.
+            </p>
+            <p>
+                TNWT Imo state class is organized in partnership with Nzuko labs and supported by the IMO State Government.
+            </p> 
+            <div class="img-grid">
+                <div class="full"></div>
+                <div class="img-grid-inner">
+                    <img src="../assets/images/imo/3.jpg">
+                    <img src="../assets/images/imo/5.jpg">                    
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('./includes/footer.html')
+    <script src="../assets/js/share.js"></script>
+    <script src="../assets/js/nav.js"></script>
+</body>
+</html>

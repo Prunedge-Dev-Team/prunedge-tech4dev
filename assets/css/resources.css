@@ -1,0 +1,344 @@
+@font-face{
+    font-family: 'Avenir Next Medium';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Medium.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Bold';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Bold.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Regular';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Regular.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Italic';
+    src: url('../fonts/avenir-next/AvenirNext-Italic.ttf');
+    font-display: auto;
+}
+
+html{
+    scroll-behavior: smooth
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth
+}
+
+nav{
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+}
+.background-img{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    height: 420px;
+    object-fit: cover;
+}
+
+.header-text{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-family: 'Avenir Next Bold', sans-serif;
+    color: white;
+    height: 420px;    
+    background: rgba(0,0,0,0.4);
+}
+
+.header-text p{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.program-nav{
+    height: 60px;
+    width: 100%;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    transition: 300ms;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 20%;
+}
+
+.program-nav-links{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow: hidden;
+}
+
+.program-nav a{
+    display: inline-flex;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Avenir Next Medium', sans-serif;
+    font-size: 14px;
+    color: #596869;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    /* margin: 0 25px; */
+}
+
+.program-nav span.line{
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF576B;
+    width: 104px;
+    transition: 100ms;
+}
+
+.program-nav a.active{
+    border-bottom: 3px solid #FF576B;
+    box-sizing: border-box;
+    color: #213642;
+}
+
+.program-nav a.active span{
+    color: #213642;
+}
+
+.program-nav a:hover{
+    border-bottom: 3px solid #FF576B;
+}
+
+.program-nav a:hover span{
+    color: #213642;
+}
+
+.program-nav a:hover span{
+    color: #213642;
+}
+
+.program-nav-scroll-btn{
+    position: absolute;
+    top: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+
+main{
+    padding: 73px 10% 66px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.media-page-links{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.media-page-links__link{
+    font-size: 18px;
+    letter-spacing: 0.02px;
+    font-family: 'Avenir Next Regular', sans-serif;
+    color: #707070;
+}
+
+.media-page-links__link a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.media-page-links__link--active{
+    font-family: 'Avenir Next Medium', sans-serif;    
+    color: #213642;
+}
+
+.separate-links{
+    font-size: 17px;
+    color: #213642;
+    margin: 0 5px;
+    font-family: 'Avenir Next Regular', sans-serif;    
+}
+
+.cohorts{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 52px 5%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cohorts__cohort{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cohort__image-container{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.cohort-image-overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    width: 100%;
+    height: 166px;
+    top: 0;
+    opacity: 0;
+    transition: 300ms;
+}
+
+.cohort__image-container:hover .cohort-image-overlay{
+    opacity: 1;
+}
+
+.cohort-image-overlay a{
+    font-family: 'Avenir Next Medium', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.cohort__image{
+    max-width: 100%;
+    height: 167px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.cohort__header{
+    font-size: 14px;
+    font-family: 'Avenir Next Medium', sans-serif;
+    color: #213642;
+    margin: 0 0 7px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cohort__num-images{
+    color: #898989;
+    font-family: 'Avenir Next Regular', sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+.load-more{
+    width: 100%;
+    height: 44px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/5;
+    border: none;
+    font-family: 'Avenir Next Medium', sans-serif;
+    font-size: 12px;
+    color: #213642;
+    cursor: pointer;
+}
+
+.hide{
+    display: none !important;
+}
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+iframe{
+    flex-basis: 30%;
+    margin-bottom: 40px;
+    height: 300px;
+}
+
+@media(max-width: 1000px){
+    .cohorts{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .load-more{
+        grid-column: 1/4;
+    }
+    .program-nav{
+        padding: 0 10%;
+    }
+}
+
+@media(max-width: 800px){
+    .cohorts{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .load-more{
+        grid-column: 1/3;
+    }
+    .program-nav{
+        padding: 0 5%;
+    }
+}
+
+@media(max-width: 580px){
+    footer{
+        grid-template-columns: 1fr
+    }
+    .program-nav-scroll-btn.active{
+        display: block;
+    }
+    .program-nav-scroll-btn.left{
+        left: 5px;
+    }
+    .program-nav-scroll-btn.right{
+        right: 5px;
+    }
+    .program-nav-links a{
+        margin: 0 25px;
+        flex-shrink: 0;
+    }
+    iframe{
+        flex-basis: 100%;
+    }
+}
+
+@media(max-width: 400px){
+    .cohorts{
+        grid-template-columns: 1fr;
+    }
+    .load-more{
+        grid-column: 1/2;
+    }
+}
+
+
+
+

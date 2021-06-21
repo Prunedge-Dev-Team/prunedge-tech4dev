@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Newsletter | Article</title>
+    <link rel="stylesheet" href="../assets/css/newsletter-post.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <style>
+        .img-grid .full{
+            background-image: url('../assets/images/delta/5.jpg');
+        }
+    </style>
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+</head>
+<body>
+    @@include('./includes/nav.html',{"active": "resources"})
+    <div class="top-image">
+        <div class="shadow">
+            NEWSLETTER
+        </div>
+    </div>
+    <a href="./" class="back">
+        <img src="../assets/images/back.svg">
+        Back
+    </a>
+    <section class="article">
+        <p class="article__title yellow">
+            NIGERIAN WOMEN TECHSTERS – DELTA STATE CLOSING/DEMO DAY
+        </p>
+        <p class="article__details">
+            <span class="article__author">
+                Oluwatosin Omowaire
+            </span>
+            |
+            <span>
+                June 24, 2019
+            </span>
+        </p>
+        <div class="social-media">
+            <span>Share Post</span>
+            <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+            <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+            <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+        </div>
+        <img src="../assets/images/delta/1.jpg" class="article__img">
+        <div class="article__text">
+            <p>
+                After an intensive two weeks of boot camp training in Warri, Delta State, 45 women graduated from the coding training covering Web and Mobile Development.
+            </p>
+            <p>
+                The Nigerian Women Techsters program empowers women in underserved communities, giving them leverage to build careers in technology, study STEM courses and run their tech businesses or manage technology-leveraged enterprises. 
+            </p>
+            <p>
+                The NWT-DELTA program started on 20th May 2019 through May 31st 2019, women from across Warri and its environs were participants in the training program. The two weeks’ period introduced the women to their selected tracks, intensive onsite training on web development, the grouping of the participants into business teams and development of prototype businesses based on the learnings.
+            </p>
+            <p>
+                The participants were divided into a group of threes, and each of the group worked on a business idea that provided a solution within the UN SDGs with technology tools. The business project ranged from Education (a solution to provide tutors and learning materials for kids in rural areas.), gender equality (the model will create skills centers for women and connect them to growth opportunities) and climate action (reduce environmental pollution by picking up plastics and provide incentives to drop pickers).
+            </p> 
+            <p>
+                On the demo day/closing, the participants presented their project and judges: (Aisiokudeo Benlynda Naomi, TERC), (Efe Christopher, Creative Designer), (Terkimbi Joshua, Tech4Dev) assessed their presentation based on their ability to identify relevant problems, innovations in the solutions prescribed and capacity for the business to scale for the future.
+            </p>
+            <p>
+                The entire program was highly rewarding to the participants as the beneficiaries were eager to learn and it was impressive to see women move from zero coding knowledge to basic level knowledge and have discussions about building advanced technology solutions in the future.
+            </p>
+            <div class="img-grid">
+                <div class="full"></div>
+                <div class="img-grid-inner">
+                    <img src="../assets/images/delta/4.jpg">
+                    <img src="../assets/images/delta/2.jpg">                    
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('./includes/footer.html')
+    <script src="../assets/js/share.js"></script>
+    <script src="../assets/js/nav.js"></script>
+</body>
+</html>

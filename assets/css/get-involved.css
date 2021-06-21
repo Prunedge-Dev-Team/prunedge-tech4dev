@@ -1,0 +1,544 @@
+@font-face{
+    font-family: 'Avenir Next Medium';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Medium.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Bold';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Bold.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Regular';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Regular.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Italic';
+    src: url('../fonts/avenir-next/AvenirNext-Italic.ttf');
+    font-display: auto;
+}
+
+html{
+    scroll-behavior: smooth
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth
+}
+
+nav{
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+}
+.background-img{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    height: 420px;
+    object-fit: cover;
+}
+
+.header-text{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-family: 'Avenir Next Bold';
+    color: white;
+    height: 420px;    
+    background: rgba(0,0,0,0.4);
+}
+
+.header-text p{
+    margin-top: 150px;
+    text-align: center;
+    max-width: 80%;
+}
+
+.program-nav{
+    height: 60px;
+    width: 100%;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    transition: 300ms;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.program-nav a{
+    display: inline-flex;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Avenir Next Medium';
+    font-size: 14px;
+    color: #596869;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    margin: 0 75px; 
+}
+
+.program-nav span.line{
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF576B;
+    width: 104px;
+    transition: 100ms;
+}
+
+.program-nav a.active{
+    border-bottom: 3px solid #FF576B;
+    box-sizing: border-box;
+}
+
+.program-nav a.active span{
+    color: #213642;
+}
+
+.program-nav a:hover{
+    border-bottom: 3px solid #FF576B;
+}
+
+.program-nav a:hover span{
+    color: #213642;
+}
+
+.program-nav a:hover span{
+    color: #213642;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 100px  
+}
+
+main.volunteer{
+    grid-gap: 0 64px;
+    padding-left: 10%;
+}
+
+main.partner,main.digital-village{
+    padding: 100px 10% 0;
+    grid-gap: 0 8%;
+}
+
+.main-content{
+    font-family: 'Avenir Next Regular';
+    color: #3b3b3b;
+    font-size: 18px;
+}
+
+.main-content .blue{
+    color: #083a55;
+}
+
+.main-content p{
+    margin: 0 0 30px;
+}
+
+.volunteer img,.digital-village img{
+    width: 100%;
+}
+
+.volunteer-form{
+    margin-top: 50px;
+}
+
+.volunteer-form .form-group,
+.partner-form .form-group{
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.form-group--checkbox .checkbox-wrapper{
+    margin-bottom: 0;
+}
+
+.form-group--checkbox .checkbox-label{
+    font-family: "Avenir Next Regular", sans-serif;
+    font-size: 14px;
+    color: #4a4a4a;
+    margin: 0 0 15px;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #e8e8e8;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    outline: none;
+    font-family: 'Avenir Next Regular',sans-serif;
+}
+
+.form-group textarea{
+    height: fit-content;
+    min-height: 38px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    resize: none;
+}
+
+.form-group span{
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    z-index: 1;
+    transition: 200ms;
+    color: #707070;
+    font-family: 'Avenir Next Regular',sans-serif;
+    left: 0;
+}
+
+.form-group input:focus + span,
+.form-group input:required:valid + span,
+.form-group input.not-empty + span,
+.form-group textarea:focus + span,
+.form-group textarea:valid + span{
+    bottom: 40px;
+}
+
+.form-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.form-row .form-group{
+    margin-bottom: 0;
+}
+
+.submit{
+    height: 44px;
+    width: 115px;
+    background-color: #FF576B;
+    border-radius: 3px;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: 'Avenir Next Medium';
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    transition: 300ms;
+}
+
+.submit.is-loading,.submit:disabled{
+    background-color: rgba(255, 87, 107, 0.8)
+}
+
+.submit > span,.submit.is-loading > span,.submit.submitted > span{
+    display: none;
+}
+
+.submit .submit-text{
+    display: block;
+}
+
+.submit.is-loading .loading{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.49);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 0.5s linear infinite;
+}
+
+.submit.submitted .success-text{
+    display: block;
+}
+
+.text .heading{
+    font-size: 20px;
+    font-family: 'Avenir Next Medium';
+    color: #083a55;
+    margin: 0 0 15px;
+}
+
+.text .sub-text{
+    font-family: 'Avenir Next Regular';
+    font-size: 16px;
+    color: #3b3b3b;
+    margin: 0 0 15px;
+    line-height: 26px;
+}
+
+.text .footer .right + span{
+    display: none;
+}
+
+.footer{
+    color: #083a55;
+    font-size: 16px;
+    font-family: 'Avenir Next Medium';
+    line-height: 24px;
+}
+
+.form-heading{
+    color: #083a55;
+    font-family: 'Avenir Next Medium';
+    font-size: 20px;
+    margin: 0 0 50px;
+}
+
+.select{
+    position: relative;
+}
+
+.select input{
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid #e8e8e8;
+    font-family: 'Avenir Next Regular';
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 6px;
+	cursor: pointer;
+}
+
+.select input{
+    color: black;
+}
+
+.select input::placeholder{
+    color: #707070;
+}
+
+.select__options-toggle-btn{
+    height: 16px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 16px;
+    padding: 0;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.select .select-options{
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    list-style-type: none;
+    right: 0;
+    margin: 0;
+    height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: top 100ms;
+    background-color: white;
+    z-index: 4;
+    opacity: 0;
+    border: 1px solid transparent;
+    top: 150px;
+    border-radius: 4px;
+}
+
+.select-options.active{
+    max-height: 160px;
+    height: unset;
+    border-color: #d8d8d8;
+    top: 34px;
+    opacity: 1;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.select-option{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    transition: 300ms;
+    padding: 0 5px;
+    cursor: pointer;
+    color: rgb(70, 70, 70);
+    width: 100%;
+}
+
+.select-option button{
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    text-align: left;
+    color: rgb(70, 70, 70);
+    font-family: 'Avenir Next Regular',sans-serif;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+}
+
+.select .select-options li:hover{
+    /* background-color: rgba(155, 155, 155, 0.5); */
+    background-color: #213642;
+}
+
+.select .select-options li:hover button{
+    color: white;
+}
+
+.select__options-toggle-btn img{
+    height: 100%;
+}
+
+.select.title{
+    width: 30%;
+}
+
+.checkbox-label{
+    font-family: "Avenir Next Regular", sans-serif;
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.checkbox-label__bold{
+    font-weight: bold;
+}
+
+.checkbox-wrapper{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.checkbox{
+    display: grid;
+    grid-template-columns: 16px auto;
+    grid-gap: 14px;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.checkbox__input{
+    display: none;
+}
+
+.checkbox__label{
+    width: 100%;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #4a4a4a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.checkbox__input:checked + .checkbox__label{
+    border-color: #083A55;
+}
+.checkbox__input:checked + .checkbox__label::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #083a55;
+    display: inline-flex;
+}
+
+.checkbox__text{
+    font-family: "Avenir Next Regular", sans-serif;
+    font-size: 14px;
+    color: #4a4a4a;
+    margin: 0;
+}
+
+.visit-text,.quiz-text{
+    font-family: "Avenir Next Regular", sans-serif;
+    color: #3B3B3B;
+    font-size: 14px;
+}
+
+.quiz-text{
+    font-family: "Avenir Next Bold", sans-serif;
+    margin: 30px 0;
+}
+
+.visit-text__link{
+    color: #ff576b;
+    text-decoration: none;
+}
+
+.digital-village__img{
+    margin-top: 20px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media(max-width: 800px){
+    main.partner,main.digital-village{
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        padding-top: 50px;
+    }
+    main.digital-village{
+        padding: 100px 6% 0;
+    }
+}
+
+@media(max-width: 660px){
+    main.volunteer{
+        grid-template-columns: 1fr;
+        padding: 50px 10% 0;
+        grid-gap: 50px 0;
+    }
+    .text .footer .right{
+        display: none;
+    }
+    .text .footer .right + span{
+        display: inline;
+    }
+    .header-text p{
+        margin-top: 60px;
+    }
+    .program-nav a{
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .program-nav{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 30px;
+        padding: 0 10%;
+    }
+}

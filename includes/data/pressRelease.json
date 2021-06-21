@@ -1,0 +1,54 @@
+[
+  {
+    "imageUrl": "assets/images/OKDEA.jpg",
+    "title": "Tech4Dev Announces Partnership with OK Foundation to Empower 1000 Youths with Digital Skills in Badagry",
+    "author": "Chigozie Paul",
+    "date": "June 3, 2021",
+    "synopsis": "On the 20th of May, Tech4Dev, in alliance with the Olu Kosoko Foundation (OK Foundation), declared the Badagry Digital Center open at 40th Birthday Ceremony of Prince Olu Kosoko of Iworo Kingdom, Badagry. This partnership was birthed due to the alarming rate of low involvement of Nigerian youths in the acquisition of digital skills.",
+    "href": "/blog/tech4dev-announces-partnership.html",
+    "imageStyle": "style='height: 300px;'"
+  },
+  {
+    "imageUrl": "assets/images/sti.jpeg",
+    "title": "The Women Techsters Initiative; A Solution Advancing Science, Technology and Innovation",
+    "author": "Chigozie Paul",
+    "date": "June 3, 2021",
+    "synopsis": "According to a 2020 UN Report, The COVID-19 pandemic has created the most significant disruption of education systems in history, affecting nearly 1.6 billion learners in more than 190 countries and all continents. This was one of the themes discussed at the Science Technology and Innovation (STI) Forum. The STI Forum is a global information platform focused on science, technology and innovation for Sustainable Development Goals. Over the years, this platform has become a dedicated virtual open source for knowledge sharing and dissemination of information in terms of research and innovation.",
+    "href": "/blog/STI-Press-Release.html",
+    "imageStyle": "style='height: 300px;'"
+  },
+    {
+        "imageUrl": "assets/images/blog/tech4devstakeholders.jpeg",
+        "title": "Tech4Dev Holds Stakeholders' Engagement Forum Post Basic Digital Literacy for Rural Clusters in Northern Nigeria program.",
+        "author": "Yemisi Arowosafe",
+        "date": "April 7, 2021",
+        "synopsis": "In a time of social distancing and government-enforced lockdowns to curtail the spread of COVID-19, digital technology has enabled the continuation of work, education, and communication. But for millions of people who are unable to use technology, being offline is economically and socially isolating.",
+        "href": "/blog/tech4dev-stakeholders.html"
+      },
+      {
+        "imageUrl": "assets/images/blog/aprilblog2.png",
+        "title": "Tech4Dev Announces Strategic Partnership with the Foreign, Commonwealth and Development Office (FCDO) on Digital Literacy Training in Northern Nigeria.",
+        "author": "Yemisi Arowosafe",
+        "date": "April 7, 2021",
+        "synopsis": "As part of the efforts to empower vulnerable groups in rural clusters in Northern Nigeria with the digital skill set required for the future of work and advanced learnings for the 21st century in Nigeria, Technology for Social Change and Development Initiative (Tech4Dev)...",
+        "href": "/blog/tech4dev-announces-strategic-partnership.html"
+      },
+      {
+        "imageUrl": "assets/images/blog/aprilblog5.jpeg",
+        "title": "Women Techsters Initiative Launch: Inclusivity for 5 million Women in the African Tech Industry.",
+        "author": "Rebecca Nzerem",
+        "date": "April 7, 2021",
+        "synopsis": "On International Women's Day 2021, Tech4Dev, in partnership with Microsoft, held a launch event for its Women Techsters Initiative.",
+        "href": "/blog/women-techsters-initiative-launch.html"
+      },
+      {
+        "imageUrl": "assets/images/solutions.png",
+        "title": "Tech4Dev Is Providing Solutions to Enable Decent Work",
+        "author": "Diwura Oladepo ",
+        "date": "June 28, 2019",
+        "synopsis": "With the advent of technological evolution, the world is changing rapidly; from how we communicate to how we conduct business to how we work. Daily lives and communication have been subsumed by the use of social media where interactions with people across the globe takes places in the new world of social; a world of interconnectivity and speedy communications.",
+        "href": "/blog/diwura-oladepo-on-tech4dev.html",
+        "imageStyle": "style='height: 300px;'"
+      }
+      
+]

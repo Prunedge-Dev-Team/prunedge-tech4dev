@@ -1,0 +1,270 @@
+@font-face{
+    font-family: 'Avenir Next Medium';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Medium.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Bold';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Bold.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Regular';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Regular.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Italic';
+    src: url('../fonts/avenir-next/AvenirNext-Italic.ttf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Poppins Medium';
+    src: url('../fonts/poppins/Poppins-Medium.otf')
+}
+
+@font-face{
+    font-family: 'Poppins Regular';
+    src: url('../fonts/poppins/Poppins-Regular.otf')
+}
+
+@font-face{
+    font-family: 'Poppins Bold';
+    src: url('../fonts/poppins/Poppins-Bold.otf')
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    padding: 0 9.6%;
+    display: flex;
+    height: 76px;
+    background-color: #F2F2F2;
+    font-family: 'Poppins Medium';
+    font-size: 14px;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+nav .logo{
+    margin: auto 0;
+    top: -5px;
+    position: relative;
+}
+
+nav ul.links{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    align-items: center;
+}
+
+nav ul.links li{
+    margin-right: 14px;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+nav ul.links li.active span,nav ul.links li:hover span{
+    background-color: #ed1c24;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+}
+
+nav ul.links a{
+    text-decoration: none;
+    color: #596869;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.top-image{
+    height: 420px;
+    width: 100%;
+    background-image: url('../images/Newsletter-hero.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.top-image .shadow{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(5, 60, 94, 0.5);
+    position: relative;
+    z-index: 1; 
+    padding-top: 228px;
+    font-size: 48px;
+    font-family: 'Poppins Bold';
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.back{
+    height: 28px;
+    font-family: 'Poppins Medium';
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #ed1c24;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-top: 60px;
+}
+
+.back img{
+    height: 16px;
+    margin-right: 5px;
+}
+
+.article{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.article__title{
+    font-size: 30px;
+    color: #213642;
+    margin: 0;
+    font-family: 'Poppins Regular';
+}
+
+.article__details{
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 16px;
+    font-family: 'Poppins Medium';
+    margin: 10px 0 11px;
+}
+
+.social-media{
+    font-size: 16px;
+    font-family: 'Poppins Medium';
+    color: #213642;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 36px;
+}
+
+.social-media a{
+    margin-left: 10px;
+    display: flex;
+}
+
+.article__img{
+    width: 100%;
+    margin: 32px 0 40px;
+}
+
+.article__text{
+    font-size: 18px;
+    font-family: 'Poppins Regular';
+    color: rgba(0, 0, 0, 0.84);
+    line-height: 1.9;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
+.article__text p{
+    margin: 5px 0;
+}
+
+.article__list{
+    padding: 0 20px;
+}
+
+.img-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 565px;
+    margin-top: 50px;
+}
+
+.img-grid img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.img-grid .full{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-grid-inner{
+    display: flex;
+    flex-direction: column;
+    height: 565px;
+}
+
+@media(max-width: 1050px){
+    .article{
+        width: 90%;
+    }
+	footer{
+		padding-left: 5%;
+	}
+}
+
+@media(max-width: 800px){
+    .img-grid{
+        grid-template-columns: 1fr;
+        height: unset;
+    }
+    .img-grid-inner{
+        grid-template-columns: 1fr 1fr;
+        height: unset;
+        display: grid;
+    }
+    .img-grid .full{
+        min-height: 300px;
+    }
+    .img-grid img{
+        width: 100%;
+        height: unset;
+    }
+}
+
+@media(max-width: 600px){
+    .article__text{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 600px){
+    .img-grid-inner{
+        grid-template-columns: 1fr;
+        grid-row-gap: 15px;
+    }
+    .img-grid{
+        grid-row-gap: 15px;
+    }
+}
+
+@media(max-width: 400px){
+    nav{
+        padding: 0 5%;
+    }
+}

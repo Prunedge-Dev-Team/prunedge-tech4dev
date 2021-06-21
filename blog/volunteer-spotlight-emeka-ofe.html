@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog | Article</title>
+    <link rel="stylesheet" href="../assets/css/blog-post.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+</head>
+<body>
+    @@include('./includes/nav.html',{"active": "blog"})
+    <div class="top-image">
+        <div class="shadow">
+            BLOG
+        </div>
+    </div>
+    <a href="../blog/blogCategories/spotlight.html" class="back">
+        <img src="../assets/images/back.svg">
+        Back
+    </a>
+    <section class="article">
+        <p class="article__title">
+            VOLUNTEER SPOTLIGHT: EMEKA OFE
+        </p>
+        <p class="article__details">
+                <span class="article__author">
+                    Oluwatosin Omowaire
+                </span>
+            |
+            <span>
+                    December 2, 2019
+                </span>
+        </p>
+        <div class="social-media">
+            <span>Share Post</span>
+            <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+            <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+            <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+        </div>
+        <img src="../assets/images/emeka-ofe.jpg" class="article__img article__img--left">
+        <div class="article__text">
+            <p>
+                My name is Emeka Ofe, a software engineer. I studied Chemical Engineering at the Federal University of Technology Owerri, Imo State, I switched my career from Chemical Engineering to Software Engineering due to my burning passion for software engineering. The journey has been thrilling so far.
+            </p>
+            <p class="sub-heading">
+                What inspired you to become a Tech4Dev volunteer?
+            </p>
+            <p>
+                Having been raised by parents who are teachers, I had always loved teaching. I take great joy in imparting knowledge to others. By teaching others, you also gain mastery of your skill. My love for teaching and giving back was what made me join Tech4Dev Volunteers; it was an avenue to do all these things while still doing the work I love.
+            </p>
+            <p class="sub-heading">
+                What do you do as a Volunteer at Tech4Dev?
+            </p>
+            <p>
+                I teach women who are interested in technology the basics of programming. I empower them with foundational knowledge, which they can build upon in the future. I am a volunteer tutor for the NWTLagos program.
+            </p>
+            <p class="sub-heading">
+                Share one of your favorites Tech4Dev sessions or moments
+            </p>
+            <p>
+                One of my favorite sessions was giving the students classwork, and seeing most of them being able to apply the knowledge they had gotten within a few hours to do the classwork. It was so inspiring seeing their zeal to learn and how I have been able to impact them in a short period.
+            </p>
+            <p class="sub-heading">
+                What is your motivation for volunteering?
+            </p>
+            <p>
+                My motivation comes from my passion for teaching - to share a skill with others.
+            </p>
+            <p class="sub-heading">
+                What do you gain from volunteering?
+            </p>
+            <p>
+                Seeing my students go on in the future to do exploits with the knowledge I’ve given them is satisfying for me. Sometimes, it is not about monetary gains; seeing these women become technology giants will give me great satisfaction. I look forward to that.
+            </p>
+            <p class="sub-heading">
+                Why is it essential for one to volunteer?
+            </p>
+            <p>
+                By Volunteering, you are doing good for others and the community at large, which provides a natural sense of accomplishment. Your role as a volunteer can also give you a sense of pride and identity.
+            </p>
+            <p class="sub-heading">
+                What tips do you have for new volunteers?
+            </p>
+            <ul class="article__list">
+                <li>
+                    Decide why you want to volunteer. Think about what volunteering can offer you – such as new skills, an opportunity to make a difference or contribute to a cause that you believe in
+                </li>
+                <li>
+                    Decide how much time you can offer to volunteer. Think about your schedule and how much of a commitment you can give
+                </li>
+                <li>
+                    Just do it! Volunteering is a great way to grow
+                </li>
+            </ul>
+
+        </div>
+    </section>
+    @@include('./includes/footer.html')
+<script src="../assets/js/share.js"></script>
+<script src="../assets/js/nav.js"></script>
+</body>
+</html>

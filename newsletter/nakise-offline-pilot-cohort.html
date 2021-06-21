@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Newsletter | Article</title>
+    <link rel="stylesheet" href="../assets/css/newsletter-post.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <style>
+        .img-grid .full{
+            background-image: url('../assets/images/Newletter 3 pictures/IMG-20190517-WA0012.jpg');
+        }
+    </style>
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+</head>
+<body>
+    @@include('./includes/nav.html',{"active": "resources"})
+    <div class="top-image">
+        <div class="shadow">
+            NEWSLETTER
+        </div>
+    </div>
+    <a href="./" class="back">
+        <img src="../assets/images/back.svg">
+        Back
+    </a>
+    <section class="article">
+        <p class="article__title yellow">
+            Nakise Offline Pilot Cohort
+        </p>
+        <p class="article__details">
+            <span class="article__author">
+                Oluwatosin Omowaire
+            </span>
+            |
+            <span>
+                May 31, 2019
+            </span>
+        </p>
+        <div class="social-media">
+            <span>Share Post</span>
+            <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+            <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+            <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+        </div>
+        <img src="../assets/images/Newletter 3 pictures/IMG-20190517-WA0011.jpg" class="article__img">
+        <div class="article__text">
+            <p>
+                The NAKISE program is an initiative that is built to foster employability, entrepreneurship, and enable workplace efficiency. Nakise.ng is an online platform that is equipped with learning materials to enhance users with knowledge for competence in business and corporate work. A newly introduced part of the NAKISE program is the offline training sessions which are organized in partnership with organizations who are open to developing their human capital.
+            </p>
+            <p>
+                The NAKISE offline pilot program was organized in partnership with Nigerian-German center for Jobs, Migration, and Re-integration. The training started on 17th May 2019 at the GIZ Center. Fifty participants who have shown interest in learning workplace skills were selected from a career fair. The training lasted for five days’ topics ranging from Work readiness, Employability Skills, Career Readiness, Business acumen training, and use of office tools.
+            </p>
+            <p>
+                Afterward, these topics were divided into sections capturing proposal writing, account management, mail etiquette, use of Excel, PowerPoint, Digital marketing, and basic design.
+            </p>
+            <p>
+                The participants were able to demonstrate what they’ve learned by applying the training to their business and getting answers to questions relating to their career paths.
+            </p> 
+            <p>
+                We sincerely appreciate Nigerian-German center for jobs, migration, and re-integration for powering the NAKISE offline class and all our facilitators for taking out time to train the participants.
+            </p>
+            <div class="img-grid">
+                <div class="full"></div>
+                <div class="img-grid-inner">
+                    <img src="../assets/images/Newletter 3 pictures/IMG-20190517-WA0012_cropped_2.jpg">
+                    <img src="../assets/images/Newletter 3 pictures/IMG-20190517-WA0010.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('./includes/footer.html')
+    <script src="../assets/js/share.js"></script>
+    <script src="../assets/js/nav.js"></script>
+</body>
+</html>

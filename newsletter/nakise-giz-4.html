@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Newsletter | Article</title>
+    <style>
+        .img-grid .full{
+            background-image: url('../assets/images/nakise4/2.JPG');
+        }
+    </style>
+    <link rel="stylesheet" href="../assets/css/newsletter-post.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+</head>
+<body>
+@@include('./includes/nav.html',{"active": "resources"})
+<div class="top-image">
+    <div class="shadow">
+        NEWSLETTER
+    </div>
+</div>
+<a href="./" class="back">
+    <img src="../assets/images/back.svg">
+    Back
+</a>
+<section class="article">
+    <p class="article__title">
+        Nakise-GIZ Cohort 4
+    </p>
+    <p class="article__details">
+        <span class="article__author">
+            Oluwatosin Omowaire
+        </span>
+        |
+        <span>
+            December 2, 2019
+        </span>
+    </p>
+    <div class="social-media">
+        <span>Share Post</span>
+        <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+        <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+        <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+    </div>
+    <img src="../assets/images/nakise4/1.jpg" class="article__img">
+    <div class="article__text">
+        <p>
+            The Nakise offline training is on its 4th cohort in partnership with Nigerian-German Centre for Jobs, Migration, and Re-integration, with the objective to train youths on employability and workplace efficiency skills.
+        </p>
+        <p>
+            The 4th cohort was significantly targeted at young graduates who are eager to get hands-on skills on Microsoft efficiency tools; we had 25 students take part in the class, which lasted for five days.
+        </p>
+        <p>
+            Temitayo was part of the class and in our conversation with her, she expressed her delight at the initiative saying “I am thrilled to be part of the beneficiaries of the program, the past 4 days have increased my capacity and knowledge about the many things I can do with Microsoft tools. I have learned the use of MS Excel for business and corporate analysis. I now know how to use PowerPoint expertly and also give presentations. I’m going to use all the learnings here to scale in my career. Big thanks to Tech4dev for the free training.”
+        </p>
+        <p>
+            We appreciate our partner – GIZ for their continued dedication towards ensuring that youths get decent jobs and are also sufficiently equipped with the necessary skills for their workplace.
+        </p>
+        <div class="img-grid">
+            <div class = "full"></div>
+            <div class="img-grid-inner">
+                <img src="../assets/images/nakise4/3.jpg">
+                <img src="../assets/images/nakise4/4.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+@@include('./includes/footer.html')
+<script src="../assets/js/share.js"></script>
+<script src="../assets/js/nav.js"></script>
+</body>
+</html>

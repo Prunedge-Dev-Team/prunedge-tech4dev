@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="304px" height="202px" viewBox="0 0 304 202" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="250" height="148" rx="4"></rect>
+        <filter x="-15.2%" y="-25.0%" width="135.2%" height="159.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="6" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="13.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.031372549   0 0 0 0 0.22745098   0 0 0 0 0.333333333  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#2FFB82" offset="0%"></stop>
+            <stop stop-color="#00CE41" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact-Copy" transform="translate(-574.000000, -260.000000)">
+            <g id="Group-4" transform="translate(595.000000, 280.000000)">
+                <g id="Group-2">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group" transform="translate(187.327824, 19.274419)">
+                        <ellipse id="Oval" fill="#FF7B73" cx="13.4297521" cy="13.4232558" rx="13.4297521" ry="13.4232558"></ellipse>
+                        <ellipse id="Oval-Copy" fill-opacity="0.76" fill="#FAD643" cx="28.5812672" cy="13.4232558" rx="13.4297521" ry="13.4232558"></ellipse>
+                    </g>
+                    <rect id="Rectangle" fill="#E0F8FF" x="23.415978" y="96.372093" width="41.322314" height="6.19534884" rx="3.09767442"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#E0F8FF" x="23.415978" y="111.516279" width="10.3305785" height="6.19534884" rx="3.09767442"></rect>
+                    <rect id="Rectangle-Copy-6" fill="#E0F8FF" x="101.239669" y="111.516279" width="10.3305785" height="6.19534884" rx="3.09767442"></rect>
+                    <rect id="Rectangle-Copy-8" fill="#E0F8FF" x="152.892562" y="111.516279" width="10.3305785" height="6.19534884" rx="3.09767442"></rect>
+                    <rect id="Rectangle-Copy-9" fill="#E0F8FF" x="174.242424" y="111.516279" width="10.3305785" height="6.19534884" rx="3.09767442"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#E0F8FF" x="44.7658402" y="111.516279" width="17.2176309" height="6.19534884" rx="3.09767442"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#E0F8FF" x="73.0027548" y="111.516279" width="17.2176309" height="6.19534884" rx="3.09767442"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#E0F8FF" x="123.278237" y="111.516279" width="17.2176309" height="6.19534884" rx="3.09767442"></rect>
+                    <rect id="Rectangle-Copy" fill="#E0F8FF" x="83.3333333" y="96.372093" width="41.322314" height="6.19534884" rx="3.09767442"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#E0F8FF" x="143.250689" y="96.372093" width="41.322314" height="6.19534884" rx="3.09767442"></rect>
+                    <rect id="Rectangle" fill="#F7CE1F" x="23.415978" y="19.2744186" width="42.6997245" height="27.5348837" rx="4"></rect>
+                </g>
+                <g id="Group-3" transform="translate(224.000000, 121.000000)">
+                    <circle id="Oval" fill="url(#linearGradient-3)" cx="20.5" cy="20.5" r="20.5"></circle>
+                    <g id="md-checkmark" transform="translate(13.203390, 14.593220)" fill="#FFFFFF" fill-rule="nonzero">
+                        <polygon id="Path" points="4.86915175 9.30087189 1.2740113 5.64222876 0 6.8764625 4.86915175 11.8135593 15.2881356 1.23419329 14.0141243 0"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog | Article</title>
+    <link rel="stylesheet" href="../assets/css/blog-post.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+</head>
+<body>
+@@include('./includes/nav.html',{"active": "blog"})
+<div class="top-image">
+    <div class="shadow">
+        BLOG
+    </div>
+</div>
+<a href="../blog/blogCategories/spotlight.html" class="back">
+    <img src="../assets/images/back.svg">
+    Back
+</a>
+<section class="article">
+    <p class="article__title">
+    Partner Spotlight: Microsoft
+    </p>
+    <p class="article__details">
+        <span class="article__author">
+            Chigozie Paul
+        </span>
+        |
+        <span>
+                April 7, 2021
+            </span>
+    </p>
+    <div class="social-media">
+        <span>Share Post</span>
+        <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+        <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+        <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+    </div>
+    <img src="../assets/images/blog/msspotlight.png" class="article__img">
+    <div class="article__text">
+        <p>
+            Tech4Dev is a non-profit social enterprise that creates access to decent work and entrepreneurship opportunities and platforms for Africans through digital skills empowerment and advocacy. 
+            It is an organisation dedicated to using technology to advance sustainable human capital development in Africa.
+        </p>
+        <p>
+           Since its establishment in 2016, Tech4Dev has impacted lives through its various strategic events and pilot programs. Some of the programs pioneered by Tech4Dev are Codepreneur, Code4impact, 
+           Nakise, Basic Digital Education Initiative, Nigerian Women Techsters, and the Women Techsters initiative. Through the latter, we are on a mission to impact 5 million women across Africa with 
+           digital and deep tech skills by 2030.
+        </p>
+        <p>
+           We have partnered with several like-minded organisations to achieve our goals on this journey, and one of such organisations is Microsoft. Microsoft Corporation is an American multinational 
+           technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses supports, and sells computer software, consumer electronics, personal computers, and related services.
+        </p>
+        <p>
+           Microsoft is one of the largest and most influential companies in the private computer industry. Its best-known software products are the Microsoft Windows line of operating systems, 
+           the Microsoft Office suite, and the Internet Explorer and Edge web browsers. Its flagship hardware products are the Xbox video game consoles and the Microsoft Surface lineup of touchscreen personal computers.
+        </p>
+        <p>
+            Asides from being a multinational organisation, Microsoft is also an enterprise deeply invested in corporate philanthropy. Since its existence, Microsoft has partnered with many 
+            organisations to achieve technological advancements in different parts of the world, especially in <a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4MbVr" target="_blank">Africa</a>. As of April 1, 2021, Microsoft Corporation disclosed that through its Global Skilling Initiative (GSI), 
+            it has helped over 30 million people in 249 countries and territories gain access to digital skills, topping its initial goal of 25 million last June. It is extending its commitment to help 250,000 companies 
+            make a skills-based hire in 2021. Worthy of note is the recognition of Tech4Dev for driving digital inclusion for women across Africa through the Women Techsters initiative, which will be delivered through 
+            the partnership with Microsoft.
+        </p>
+        <p>
+            Through the successful partnership with Microsoft, we were able to empower over 2000 women across 12 states in Nigeria with digital and deep tech skills through the Nigerian Women Techsters initiative. The Partnership between Tech4Dev and Microsoft is sustained by the mutual goal of achieving a more inclusive
+             skills-based labour market by providing opportunities for people to acquire the skills needed to access decent jobs. It has been a fantastic journey so far, and we look forward to many more years of impact.
+        </p>  
+    </div>
+</section>
+@@include('./includes/footer.html')
+<script src="../assets/js/share.js"></script>
+<script src="../assets/js/shapes-polyfill.min.js"></script>
+<script src="../assets/js/nav.js"></script>
+</body>
+</html>

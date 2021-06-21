@@ -1,0 +1,302 @@
+@font-face{
+    font-family: 'Avenir Next Medium';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Medium.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Bold';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Bold.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Regular';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Regular.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Italic';
+    src: url('../fonts/avenir-next/AvenirNext-Italic.ttf');
+    font-display: auto;
+}
+
+html{
+    scroll-behavior: smooth
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth
+}
+
+nav{
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+}
+.background-img{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    height: 420px;
+    object-fit: cover;
+}
+
+.header-text{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-family: 'Avenir Next Bold';
+    color: white;
+    height: 420px;    
+    background: rgba(0,0,0,0.4);
+}
+
+.header-text p{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.program-nav{
+    height: 60px;
+    width: 100%;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    transition: 300ms;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.program-nav a{
+    display: inline-flex;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Avenir Next Medium';
+    font-size: 14px;
+    color: #596869;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    margin: 0 75px; 
+}
+
+.program-nav span.line{
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF576B;
+    width: 104px;
+    transition: 100ms;
+}
+
+.program-nav a.active{
+    border-bottom: 3px solid #FF576B;
+    box-sizing: border-box;
+}
+
+.program-nav a.active span{
+    color: #213642;
+}
+
+.program-nav a:hover{
+    border-bottom: 3px solid #FF576B;
+}
+
+.program-nav a:hover span{
+    color: #213642;
+}
+
+.program-nav a:hover span{
+    color: #213642;
+}
+
+p.form-header{
+    font-family: 'Avenir Next Medium';
+    font-size: 24px;
+    color: #083a55;
+    text-align: center;
+    margin-top: 90px;
+    width: 80%;
+    margin: 90px auto 30px;
+}
+
+.contact-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 10%;
+    margin: auto;
+    max-width: 900px;
+    width: 80%;
+}
+
+.contact-form .form-group{
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.contact-form .form-group:last-of-type,
+.contact-form button{
+    grid-column: 1/3;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #e8e8e8;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    outline: none;
+    font-family: 'Avenir Next Regular';
+    font-size: 15px;
+}
+
+
+.contact-form .form-group textarea{
+    height: fit-content;
+    min-height: 38px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    resize: none;
+}
+
+.contact-form .form-group span{
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    transition: 200ms;
+    color: #707070;
+    font-family: 'Avenir Next Regular',sans-serif;
+    left: 0;
+}
+
+.contact-form .form-group input:focus + span,
+.contact-form .form-group input:valid + span,
+.contact-form .form-group textarea:focus + span,
+.contact-form .form-group textarea:valid + span{
+    top: -20px;
+}
+
+.submit{
+    height: 44px;
+    width: 175px;
+    background-color: #FF576B;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: 'Avenir Next Medium';
+    font-size: 14px;
+    cursor: pointer;
+    margin: auto;
+    transition: 300ms;
+}
+
+.submit.is-loading{
+    background-color: rgba(255, 87, 107, 0.8)
+}
+
+.submit > span,.submit.is-loading > span,.submit.submitted > span{
+    display: none;
+}
+
+.submit .submit-text{
+    display: block;
+}
+
+.submit.is-loading .loading{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.49);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 0.5s linear infinite;
+}
+
+.submit.submitted .success-text{
+    display: block;
+}
+
+.follow-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    background-image: url(../images/contact-section.png);
+    color: white;
+    font-family: 'Avenir Next Medium';
+    margin-top: 80px;
+    font-size: 18px;
+}
+
+.follow-us p{
+    z-index: 3;
+    max-width: 500px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 32px;
+    width: 80%;
+}
+
+.follow-links{
+    z-index: 3;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    width: 80%;
+    max-width: 300px;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    height: 200px;
+    z-index: 2;
+    background-color: rgba(33, 54, 66, 0.5);
+    width: 100%;
+}
+
+footer{
+    margin-top: 0;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media(max-width: 580px){
+    .contact-form{
+        grid-template-columns: 1fr
+    }
+    .contact-form .form-group:last-of-type, .contact-form button{
+        grid-column: unset
+    }
+}

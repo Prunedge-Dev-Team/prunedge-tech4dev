@@ -1,0 +1,82 @@
+[
+    {
+        "imageUrl": "assets/images/blog/myths-about-women.jpg",
+        "title": "Myths About Women in Tech",
+        "author": "Oluwasefunmi Obielodan",
+        "date": "September 9, 2020",
+        "synopsis": "According to the World Economic Forum’s annual Global Gender Gap index, 2015, women make-up half the population and earn more advanced degrees than men in 100 countries… Why then are they a distinct minority in Tech?",
+        "href": "/blog/myths-about-women-in-tech.html"
+      },
+      {
+        "imageUrl": "assets/images/blog/cultural-diversity.jpg",
+        "title": "Importance of Cultural Diversity for Non-Profit Organisations",
+        "author": "Blessing Ashi",
+        "date": "September 9, 2020",
+        "synopsis": "In 1941, Mahnaz Afkhami an Iranian-American Human rights activist quoted “We have the ability to achieve—if we master the necessary goodwill—a common global society blessed with a shared culture of peace that is nourished by the ethnic, national and local diversities that enrich our lives”.",
+        "href": "/blog/importance-of-cultural-diversity.html"
+      },
+      {
+        "imageUrl": "assets/images/blog/inclusion.jpg",
+        "title": "Inclusion of Women in Technology: A Stimulus for the African Economy",
+        "author": "Terkimbi Joshua",
+        "date": "September 9, 2020",
+        "synopsis": "Technology in today's world is no longer seen as an exclusive right of a few but rather a way of life that necessitates integration and inclusion for all. The most integral part of technology’s impact on the African economy is still tied to internet penetration per country, closing gender gaps, and creating access to opportunities for digital skill development for all Africans.",
+        "href": "/blog/inclusion-of-women.html"
+      },
+      {
+        "imageUrl": "assets/images/remote-1.jpg",
+        "title": "Is learning and working remotely the new normal?",
+        "author": "Diwura Oladepo",
+        "date": "June 29, 2020",
+        "synopsis": "In light of the pandemic, we had to think quickly and rapidly of alternative ways to impact our beneficiaries without having to meet them physically.",
+        "href": "/blog/is-learning-and-working-remotely-the-new-normal.html"
+      },
+      {
+        "imageUrl": "assets/images/role-of-light.jpg",
+        "title": "The role light plays in science, culture, education and sustainable development",
+        "author": "Rebecca Nzerem",
+        "date": "May 17, 2020",
+        "synopsis": "It is common knowledge that light plays an important role in the continued existence of man. Since the birth of light in 1876 by the great Thomas Edison, humanity has not looked back since.",
+        "href": "/blog/role-of-light-in-science.html"
+      },
+      {
+        "imageUrl": "assets/images/advancement.jpg",
+        "title": "21st Century Technology Advancement and Women Participation",
+        "author": "Oluwatosin Omowaire",
+        "date": "May 8, 2020",
+        "synopsis": "The World we live in is dynamic; hence the constant changes we see around us. There is an increase in the number of women in technology which has brought with it an increased sense of self among women across the World.",
+        "href": "/blog/tech-advancement-and-women-participation.html"
+      },
+      {
+        "imageUrl": "assets/images/girls-in-ict-main.jpg",
+        "title": "Girls must have a Seat at the ICT table.",
+        "author": "Diwura Oladepo",
+        "date": "April 23, 2020",
+        "synopsis": "Taking a journey down memory lane, during our pilot women coding program, Code4Impact, we trained 70 girls from University of Lagos(UNILAG), Lagos State University(LASU), Ladoke Akintola University of Technology(LAUTECH) and Yaba College of Technology(YABATECH).",
+        "href": "/blog/international-girls-in-ict.html"
+      },
+      {
+        "imageUrl": "assets/images/digital-skills-as-a-tool.jpg",
+        "title": "Digital skills as a tool to unlock the african economy",
+        "author": "Terkimbi Joshua",
+        "date": "April 23, 2020",
+        "synopsis": "Working on the Nigerian Women Techsters (NWT) Initiative has exposed me to the limitless opportunities that can emerge from empowering women and the importance of consciously creating enabling environments for programs that impact communities through human capital development.",
+        "href": "/blog/digital-skills-as-a-tool.html"
+      },
+      {
+        "imageUrl": "assets/images/DSC_1314.JPG",
+        "title": "Massive opportunities for women in technology.",
+        "author": "Oluwatosin Omowaire ",
+        "date": "May 31, 2019",
+        "synopsis": "As the old wisdom goes, if you lost your job, you could blame to suspects cheap labor in the developing world or computers, of course, it is a truism that technological change causes disruption in economies, but it is much greater step to argue that it causes unemployment, in fact the opposite seems to be true.",
+        "href": "/blog/massive-opportunities-for-women-in-technology.html"
+      },
+      {
+        "imageUrl": "assets/images/DSC_1301.JPG",
+        "title": "Why we need more women in tech in Nigeria",
+        "author": "Oluwatosin Omowaire ",
+        "date": "May 31, 2019",
+        "synopsis": "Tech4Dev (Technology for Social Change and Development) initiated The Nigerian Women Techsters program, a program to train 2,400 women on programming skills in Nigeria.",
+        "href": "/blog/why-we-need-more-women-in-tech-in-nigeria.html"
+      }
+]

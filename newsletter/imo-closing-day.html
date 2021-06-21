@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Newsletter | Article</title>
+    <link rel="stylesheet" href="../assets/css/newsletter-post.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <style>
+        .img-grid .full{
+            background-image: url('../assets/images/imo-closing-day/2.jpg');
+        }
+    </style>
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+</head>
+<body>
+@@include('./includes/nav.html',{"active": "resources"})
+<div class="top-image">
+    <div class="shadow">
+        NEWSLETTER
+    </div>
+</div>
+<a href="./" class="back">
+    <img src="../assets/images/back.svg">
+    Back
+</a>
+<section class="article">
+    <p class="article__title yellow">
+        Nigeria Women Techsters – Imo Closing/Demo Day
+    </p>
+    <p class="article__details">
+            <span class="article__author">
+                Oluwatosin Omowaire
+            </span>
+        |
+        <span>
+            October 8, 2019
+        </span>
+    </p>
+    <div class="social-media">
+        <span>Share Post</span>
+        <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+        <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+        <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+    </div>
+    <img src="../assets/images/imo-closing-day/1.jpg" class="article__img">
+    <div class="article__text">
+        <p>
+            The Imo state Nigerian Women Techsters training held in Owerri, Imo state, has successfully trained 270 women on digital and deep tech skills.
+        </p>
+        <p>
+            The training which started on 15th June 2019 through a 12 weeks intensive learning class, trained the women on three selected tracks: Web and Mobile Development, Games Development, and Embedded Systems.
+        </p>
+        <p>
+            The Closing/ Demo day, which was held on 14th September 2019, allowed the beneficiaries to display their acquired knowledge from the training program; they had projects demo in line with solutions to any of the SDGs goals.
+        </p>
+        <p>
+            Each of the groups had exceptional projects to present.
+        </p>
+        <p>
+            One of the projects, the smart irrigation system, is a project that automatically waters a farm. It detects dehydration in plants and automatically irrigates the plants to the desired water level. It has been programmed to irrigate at dawn and in the dusk.
+        </p>
+        <p>
+            The e-cradle project is solving the lack of quality educators in underserved communities and enhancing children’s technological and cognitive development. It has an offline application that enables children to access courses interactively.
+        </p>
+        <p>
+            Dignitaries present at the event were Hon. Meekam Mgbenwelu, Commissioner of Technology, Development, Imo State, SSA to the First Lady and representatives from the Ministry of Education, Imo State among others.
+        </p>
+        <p>
+            As a means to encourage the beneficiaries, the Office of the First Lady, Imo State awarded the best ten women gifts items in cash and kind to aid the sustainability of their learning.
+        </p>
+        <p>
+            The NWT Imo training program was delivered in partnership with Nzuko Labs.
+        </p>
+    </div>
+    <div class="img-grid">
+        <div class="full"></div>
+        <div class="img-grid-inner">
+            <img src="../assets/images/imo-closing-day/3.jpg">
+            <img src="../assets/images/imo-closing-day/1.jpg">
+        </div>
+    </div>
+</section>
+@@include('./includes/footer.html')
+<script src="../assets/js/lazy.js"></script>
+<script>
+    lazy([...document.querySelectorAll('.img-grid img')].map(el => transformElement(el,'')))
+</script>
+<script src="../assets/js/share.js"></script>
+<script src="../assets/js/nav.js"></script>
+</body>
+</html>

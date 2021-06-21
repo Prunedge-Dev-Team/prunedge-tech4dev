@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Newsletter | Article</title>
+    <link rel="stylesheet" href="../assets/css/newsletter-post.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <style>
+        .img-grid .full{
+            background-image: url('../assets/images/microsoft-philanthrophies/2.jpg');
+        }
+    </style>
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/icon.png">
+</head>
+<body>
+@@include('./includes/nav.html',{"active": "resources"})
+<div class="top-image">
+    <div class="shadow">
+        NEWSLETTER
+    </div>
+</div>
+<a href="./" class="back">
+    <img src="../assets/images/back.svg">
+    Back
+</a>
+<section class="article">
+    <p class="article__title yellow">
+        Microsoft Philanthropies features a story on Women Techsters
+    </p>
+    <p class="article__details">
+        <span class="article__author">
+            Oluwatosin Omowaire
+        </span>
+        |
+        <span>
+            February 29, 2020
+        </span>
+    </p>
+    <div class="social-media">
+        <span>Share Post</span>
+        <a data-target='fb' target='_blank'><img src="../assets/images/fb.svg"></a>
+        <a data-target='ln' target='_blank'><img src="../assets/images/ln.svg"></a>
+        <a data-target='tw' target='_blank'><img src="../assets/images/tw.svg"></a>
+    </div>
+    <img src="../assets/images/microsoft-philanthrophies/1.jpg" class="article__img">
+    <div class="article__text">
+        <p>
+            It is one thing to do the work and another to be recognized for it: This is why we are excited about the Women Techsters story featured on the Microsoft website.
+        </p>
+        <p>
+            All of us at Tech4Dev are very elated to be featured on the global Microsoft blog as a success story of digital skills empowerment leading to jobs and career advancement. This further ascertains that our work in bridging the gender gap in technology is internationally recognized and viable. Our dedication to bridging the gap that exists in technology between men and women has put us on the map and we are excited to bring about positive impact in the world.
+        </p>
+        <p>
+            We are grateful to Microsoft for telling our story and bringing to light our passion to change the digital gender gap narrative. We are also appreciative of the opportunity to be recognized for our work in the digital space and also for the support Microsoft has given us in our journey so far. Our zeal to empower women and girls with digital and deep tech skills is strengthened. We are inspired to do more!
+        </p>
+        <p>
+            To read the full story: <a href="https://customers.microsoft.com/en-us/story/781356-tech4dev-nonprofit-office365-nigeria">https://customers.microsoft.com/en-us/story/781356-tech4dev-nonprofit-office365-nigeria</a>
+        </p>
+    </div>
+    <div class="img-grid">
+        <div class="full"></div>
+        <div class="img-grid-inner">
+            <img src="../assets/images/microsoft-philanthrophies/3.jpg" style="top: 0px">
+            <img src="../assets/images/microsoft-philanthrophies/4.jpg">
+        </div>
+    </div>
+</section>
+@@include('./includes/footer.html')
+<script src="../assets/js/share.js"></script>
+<script src="../assets/js/nav.js"></script>
+</body>
+</html>
