@@ -49,25 +49,7 @@
             "active": "@@active",
             "href": "get-involved/volunteer.html"
         })
-         <!-- 
-        <li class="resources-hover-wrapper @@if(context.active === 'resources') {active}">
-            <span class="page-links__link">Resources</span>
-            <div class="resources-hover">
-                <p>
-                    <a class="resources-hover-link" href="@@webRoot/resources/nwt.html">Media</a>
-                </p>
-                <p>
-                    <a class="resources-hover-link" href="@@webRoot/blog/index.html">Blog</a>
-                </p>
-                <p>
-                    <a class="resources-hover-link" href="@@webRoot/newsletter/index.html">Newsletter</a>
-                </p>
-                <p>
-                <a class="resources-hover-link" href="#">Reports</a>
-                </p> 
-            </div>
-        </li>
-        -->
+    
          @@include('includes/navLink.html',{
             "text": "Blog",
             "id": "blog",
@@ -80,9 +62,7 @@
             "active": "@@active",
             "href": "resources/nwt.html"
         })
-<!--        <li>-->
-<!--            <a class="page-links__link" href="@@webRoot/contact.html">Contact us</a>-->
-<!--        </li>-->
+
         @@include('includes/navLink.html',{
             "text": "Contact us",
             "id": "contact",
@@ -189,32 +169,6 @@
                     Get Involved
                 </a>
             </li>
-            <!-- 
-            <li class="subnav-resources-wrapper subnav-pg-link">
-                    Add something here 
-                <button class="show-subnav-resources">
-                    Resources
-                    <img src="@@webRoot/assets/images/caret-down.svg">
-                </button>
-                <ul class="subnav-resources">
-                    <li class="subnav-resource">
-                        <a href="@@webRoot/resources/nwt.html">
-                            Media
-                        </a>
-                    </li>
-                    <li class="subnav-resource">
-                        <a href="@@webRoot/blog/index.html">
-                            Blog
-                        </a>
-                    </li>
-                    <li class="subnav-resource">
-                        <a href="@@webRoot/newsletter/index.html">
-                            Newsletter
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            -->
 
             <li class="subnav-pg-link">
                 <a href="@@webRoot/blog/blogCategories/pressRelease.html">

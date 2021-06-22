@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-dev": "SET NODE_ENV=development && gulp",
     "build-prod": "SET NODE_ENV=production && gulp",
-    "start-dev": "gulp && cd build && live-server",
+    "start": "npm install && gulp && cd build && live-server",
     "build": "npm install && gulp"
   },
   "repository": {
