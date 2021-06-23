@@ -268,7 +268,7 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     });
 
-    const iframeLinks = ['https://www.youtube.com/embed/snJClianGwA','https://www.youtube.com/embed/bVwxY9rqEbY','https://www.youtube.com/embed/qcZKRUH2KAc'];
+    const iframeLinks = ['https://www.youtube.com/embed/snJClianGwA','https://www.youtube.com/embed/4LASYETL58M','https://www.youtube.com/embed/qcZKRUH2KAc'];
     const iframes = [...document.querySelectorAll('.video iframe')];
     [...document.querySelectorAll('.iframe-placeholder')].forEach((e,i) => {
        e.addEventListener('click', () => {

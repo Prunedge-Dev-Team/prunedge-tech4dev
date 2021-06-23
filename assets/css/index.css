@@ -681,7 +681,7 @@ section .header{
     box-sizing: border-box;
 }
 
-.iframe-placeholder:hover .iframe-placeholder__overlay{
+.iframe-placeholder .iframe-placeholder__overlay{
     opacity: 1;
 }
 
