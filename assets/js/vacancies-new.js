@@ -272,7 +272,8 @@ submitButton.addEventListener("click", async (_) => {
 
   try {
     // const url = "https://formello.herokuapp.com/submit/5e6657f82056fd0017817f65"
-    const url = "localhost:3000/apiv1/talent/apply'"
+    // const url = "localhost:3000/apiv1/talent/apply"
+    const url =  "https://tech4dev.azurewebsites.net/apiv1/talent/apply"
 
     await axios.post(
       url,
