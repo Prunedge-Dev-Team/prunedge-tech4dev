@@ -271,8 +271,11 @@ submitButton.addEventListener("click", async (_) => {
   submitButton.disabled = true;
 
   try {
+    // const url = "https://formello.herokuapp.com/submit/5e6657f82056fd0017817f65"
+    const url = "localhost:3000/apiv1/talent/apply'"
+
     await axios.post(
-      "https://formello.herokuapp.com/submit/5e6657f82056fd0017817f65",
+      url,
       formData
     );
     window.setStatus("success");
