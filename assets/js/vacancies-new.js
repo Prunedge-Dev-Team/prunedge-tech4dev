@@ -277,7 +277,8 @@ submitButton.addEventListener("click", async (_) => {
 
     await axios.post(
       url,
-      formData
+      formData,
+      {headers: {"Access-Control-Allow-Origin": "*"}}
     );
     window.setStatus("success");
 
