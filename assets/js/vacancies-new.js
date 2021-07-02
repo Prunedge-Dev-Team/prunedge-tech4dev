@@ -286,6 +286,7 @@ submitButton.addEventListener("click", async (_) => {
     //     }
     //   }
     // );
+    console.log(formData);
 
     let response = await fetch(url, {
       method: 'POST',
