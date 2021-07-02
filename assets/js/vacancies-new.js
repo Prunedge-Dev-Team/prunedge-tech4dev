@@ -288,6 +288,7 @@ submitButton.addEventListener("click", async (_) => {
     // );
 
     let response = await fetch(url, {
+      method: 'POST',
       headers: {
         "Access-Control-Allow-Origin": "*",
         "Content-Type": "multipart/form-data"
