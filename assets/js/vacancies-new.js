@@ -210,7 +210,6 @@ window.addEventListener("DOMContentLoaded", (_) => {
   });
 });
 
-console.log("aaaa");
 
 [...document.querySelectorAll(".form__section")].forEach((section) => {
   const label = section.querySelector("label");
@@ -264,10 +263,12 @@ submitButton.addEventListener("click", async (_) => {
   }
   let formData = new FormData();
   inputs.forEach(({ value, name }) => {
-    console.log(name, value)
-    if(name !== "files")
-    formData.append(name, value);
+    if(name !== "files"){
+      formData.append(name, value);
+      console.log(name, value)
+    }
   });
+  console.log("aaaa");
 
   formData.append("files", resumeFile);
   formData.append("role", currentRole);
