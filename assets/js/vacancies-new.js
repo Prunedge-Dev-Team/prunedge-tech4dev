@@ -268,7 +268,6 @@ submitButton.addEventListener("click", async (_) => {
       console.log(name, value)
     }
   });
-  console.log("hhhhg");
 
   formData.append("files", resumeFile);
   formData.append("role", currentRole);
@@ -293,14 +292,15 @@ submitButton.addEventListener("click", async (_) => {
     //   }
     // );
     console.log(formData.values);
+    const myHeaders = new Headers();
+    myHeaders.append('Content-Type', 'multipart/form-data');
+    myHeaders.append('Access-Control-Allow-Origin', '*');
+    // myHeaders.append('X-Custom-Header', 'ProcessThisImmediately');
 
     let response = await fetch(url, {
       method: 'POST',
       body: formData,
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Content-Type": "multipart/form-data"
-      }
+      headers: myHeaders,
     });
     console.log(response);
     window.setStatus("success");
@@ -317,3 +317,6 @@ submitButton.addEventListener("click", async (_) => {
     submitButton.disabled = false;
   }
 });
+
+console.log("hhhhg");
+
