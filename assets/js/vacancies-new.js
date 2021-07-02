@@ -233,9 +233,9 @@ const resumeReset = document.querySelector(".resume__file-reset");
 
 let resumeFile = null;
 
-resumeInput.addEventListener("change", (_) => {
+resumeInput.addEventListener("change", (e) => {
   // const file = [...resumeInput.files].pop();
-  const file = resumeInput.files[0];
+  const file = e.target.files[0];
   const fileShower = resumeFileWrapper.querySelector(".resume__file");
   fileShower.innerHTML = file.name;
   resumeFile = file;
