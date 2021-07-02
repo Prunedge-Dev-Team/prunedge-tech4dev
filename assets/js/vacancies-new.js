@@ -265,6 +265,7 @@ submitButton.addEventListener("click", async (_) => {
   let formData = new FormData();
   inputs.forEach(({ value, name }) => {
     console.log(name, value)
+    if(name !== "files")
     formData.append(name, value);
   });
 
