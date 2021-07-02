@@ -300,7 +300,6 @@ submitButton.addEventListener("click", async (_) => {
     let response = await fetch(url, {
       method: 'POST',
       body: formData,
-      headers: myHeaders,
     });
     console.log(response);
     window.setStatus("success");
@@ -318,5 +317,5 @@ submitButton.addEventListener("click", async (_) => {
   }
 });
 
-console.log("hhhhg");
+console.log("h");
 
