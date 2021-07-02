@@ -260,7 +260,7 @@ submitButton.addEventListener("click", async (_) => {
     window.setStatus("error", true, "Kindly fill all the inputs.");
     return null;
   }
-  const formData = new FormData();
+  let formData = new FormData();
   inputs.forEach(({ value, name }) => {
     console.log(name, value)
     formData.append(name, value);
