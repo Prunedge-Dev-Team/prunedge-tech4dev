@@ -262,6 +262,7 @@ submitButton.addEventListener("click", async (_) => {
   }
   const formData = new FormData();
   inputs.forEach(({ value, name }) => {
+    console.log(name, value)
     formData.append(name, value);
   });
 
