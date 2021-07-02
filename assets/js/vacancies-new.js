@@ -268,7 +268,7 @@ submitButton.addEventListener("click", async (_) => {
       console.log(name, value)
     }
   });
-  console.log("aaaa");
+  console.log("hhhh");
 
   formData.append("files", resumeFile);
   formData.append("role", currentRole);
