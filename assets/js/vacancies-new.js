@@ -268,7 +268,7 @@ submitButton.addEventListener("click", async (_) => {
       console.log(name, value)
     }
   });
-  console.log("hhhh");
+  console.log("hhhhg");
 
   formData.append("files", resumeFile);
   formData.append("role", currentRole);
@@ -292,10 +292,11 @@ submitButton.addEventListener("click", async (_) => {
     //     }
     //   }
     // );
-    console.log(formData);
+    console.log(formData.values);
 
     let response = await fetch(url, {
       method: 'POST',
+      body: formData,
       headers: {
         "Access-Control-Allow-Origin": "*",
         "Content-Type": "multipart/form-data"
