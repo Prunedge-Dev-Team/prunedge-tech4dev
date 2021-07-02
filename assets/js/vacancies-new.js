@@ -210,6 +210,8 @@ window.addEventListener("DOMContentLoaded", (_) => {
   });
 });
 
+console.log("aaaa");
+
 [...document.querySelectorAll(".form__section")].forEach((section) => {
   const label = section.querySelector("label");
   const input = section.querySelector("input");
