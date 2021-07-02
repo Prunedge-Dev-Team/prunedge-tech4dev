@@ -266,7 +266,7 @@ submitButton.addEventListener("click", async (_) => {
     formData.append(name, value);
   });
 
-  formData.append("cvFiles", resumeFile);
+  formData.append("files", resumeFile);
   formData.append("role", currentRole);
 
   submitButton.classList.add("is-loading");
