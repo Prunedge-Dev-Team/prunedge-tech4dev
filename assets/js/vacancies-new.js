@@ -1,6 +1,6 @@
 const jobs = [
   {
-    id: "programs Associate",
+    id: "programs-associate",
     title: "programs Associate",
     synopsis:
       "We are looking for an experienced programs Associate",
@@ -33,7 +33,7 @@ const jobs = [
     ],
   },
   {
-    id: "Placement Lead",
+    id: "Placement-lead",
     title: "Placement Lead",
     synopsis:
       "We are looking for an experienced Placement Lead.",
@@ -66,7 +66,7 @@ const jobs = [
     ],
   },
   {
-    id: "Programs Intern",
+    id: "Programs-intern",
     title: "Programs Intern",
     synopsis:
       "We are looking for Programs Intern.",
