@@ -1,88 +1,95 @@
 const jobs = [
   {
-    id: "programs-manager",
-    title: "Programs Manager",
+    id: "programs Associate",
+    title: "programs Associate",
     synopsis:
-      "We are looking for an experienced Programs Manager to organize and coordinate all our programs.",
+      "We are looking for an experienced programs Associate",
     location: "Lagos, Nigeria",
     description: `
-            We are looking for an experienced Programs Manager to organize and coordinate all
-            our programs. You will provide strategic guidance to teams in ways that promote the
-            Tech4Dev’s culture, mission, vision and objectives. You will also oversee the progress of
-            operations of all programs.
-            The ideal candidate will be an excellent leader and will have experience in managing
-            team members to produce results in a timely manner. They will also be able to develop
-            efficient strategies and tactics.
-            The goal is to ensure that all programs deliver the desirable outcome to our organization.
+         
         `,
     responsibilities: [
-      "Plans, develops, implements, and coordinates all programs across the organization",
-      "Provides on-site leadership for Programs Team by building and motivating team members to meet program goals, adhering to their responsibilities and deliverables",
-      "Participates in establishing practices, policies, tools and partnerships to expand and mature these capabilities for the organization",
-      "Manages all aspects of all programs to ensure the overall program is aligned to and directly supports the achievement of strategic objectives",
-      "Monitors team’s performance and completes performance reviews",
-      "Provides and communicate status report regarding all programs, deliverables, dependencies, risks and issues to the leadership team",
-      "Understands interdependencies between technology and the organization’s objectives",
-      "Directs, develops, implements and disseminates strategies and objectives to ensure achievement Tech4Dev’s objectives as prescribed by the Leadership Team",
-      "Designs and implements systems to assess, collect, maintain, and analyze data; provides progress reports and evaluates, final reports and other information related to programs",
-      "Develops and manages all aspects of programs engagement from planning, external vendor relationships, communications, resources, budget, change, risks and issues",
-      "Sets and continually manages program’s expectations while delegating and managing deliverables with team members, facilitators and beneficiaries",
-      "Monitors, tracks and controls outcomes to resolve issues, conflicts, dependencies and critical path deliverables",
-      "Establishes and implements short- and long-term goals, objectives, policies, and operating procedures; monitors and evaluates operational effectiveness and effects changes required for improvement",
-      "Directs, manages, and oversees the daily administrative components of all programs",
-      "Plans and develops strategies for fund raising for all programs; prepare and review grant proposals",
+      `Strategize and outline goals and objectives of the program`,
+      `Assign team members and volunteers to the different initiatives`, 
+      `Estimate and implement program budgets`, 
+      `Set program controls/governance/standards`, 
+      `Monitor all initiatives through the entire program cycle, while managing the day-today detailed aspects of multiple initiatives`,  
+      `Coordinate and utilize resources for multiple projects in the program`, 
+      `Communicate with individual initiative volunteers to address potential risks as well as resolve problems and issues`,
+      `Manage program facilitators across all states`,
+
     ],
     requirements: [
-      "Minimum of 3+ years proven experience as a Program Manager in a not-for profit organization",
-      "In-depth understanding of program management techniques and methods",
-      "Strong experience presenting and demonstrated communication skills; both written and oral",
-      "Intermediate level of proficiency with MS Word, MS Project, Excel, PowerPoint and SharePoint with experience presenting to stakeholders and Senior Leadership",
-      "Project Management Professional (PMP) / PRINCE II certification is an added advantage",
+      `Bachelors’ degree in a related field`,
+      `Minimum of 1 year experience in Programs or a related field.`,
+      `Programs or Project Management skills`,
+      `Strong analytical skills`,
+      `Critical thinking and problem-solving skills`,
+      `Excellent time-management skills`,
+      `Excellent interpersonal, presentation and communication skills`,
     ],
     skills: [
-      "Strong knowledge of digital and deep technology trends",
-      "Proven knowledge and skills in technology focal areas such as software development, IOT, Data Engineering, Artificial Intelligence etc.",
-      "Strong ability to gather, design, analyze, interpret data, compile information, and prepare reports",
-      "Excellent leadership and communication (written, verbal and presentation) skills",
-      "Proven ability to work creatively and analytically in a problem-solving environment demonstrating teamwork, innovation and excellence",
-      "Program planning and implementation skills",
-      "Strong grants writing skills",
-      "Strong partnership building and interpersonal skills",
+    ``
     ],
   },
   {
-    id: "partnership-sustainability-associate",
-    title: "Partnerships and Sustainability Associate",
+    id: "Placement Lead",
+    title: "Placement Lead",
     synopsis:
-      "We are looking for an experienced Partnerships and Sustainability Associate.",
+      "We are looking for an experienced Placement Lead.",
     location: "Lagos, Nigeria",
     description: `
            
         `,
     responsibilities: [
-      `Develop partner networks and strategic partnerships`,
-      `Develop a partnership strategy to increase the reach and impact of Tech4Dev’s mission`,
-      `Expand and diversify the organization's donor base/pipeline and work closely with other team members to secure funding for new initiatives`,
-      `Review guidelines for all proposals and reports to make sure all submissions are accurately formatted and include all required information, including budgets and materials`,
-      `Write grant Proposals, with key input from Programs Leads`,
-      `Coordinate the management of ongoing relationships with existing partners and where relevant, leverage those relationships to greater collective impact`,
-      `Perform relevant research to identify available grant opportunities and evaluate the results`,
-      `Cultivate and enrich relationships with partners`,
-      `Oversee and organize events that include, but are not limited to, partner socials, the annual meeting, and all partnership events.`,
-      `Create and diversify the funding base/pipeline`,
-      `Develop and manage reporting and financial tracking of strategic partnership activities`,
-      `Develop and manage information collection networks`,
+     `Secure partnership internship placement for all beneficiaries on all programs`,
+    `Facilitate the interviewing of beneficiaries to assist in completion of placement assistance request forms;`, 
+    `Maintain files of beneficiaries; conduct pre-screening of beneficiaries to verify qualifications`,
+    `Supervise the receiving of internship offers from employers; match beneficiaries to jobs and maintain records of alumni/beneficiaries placed in jobs`,
+    `Analyze available job market economic data and information`,
+    `Research job market trends and requirements for a variety of occupations`,
+    `Coordinate contractual relationships with a variety of technology organizations`,
     ],
-    requirements: [
-      `Minimum two years’ previous work experience in a nonprofit organization`,
-      `BA/BSC required`,
+    requirements:[
+      `Minimum of two years’ full-time experience in a Human Resource role.`,
+      `Bachelor's degree in Human Resources or any other relevant field`,
     ],
     skills: [
-      `Excellent written and oral communication skills`,
-      `Excellent attention to detail and strong organization skills`,
-      `A multi-tasker with strong ability to work under pressure`,
-      `Can take the initiative, work independently, and as part of a team`,
-      `Flexible, adaptive work style with a collaborative and proactive approach`,
+      `Efficient time management and prioritization skills are essential `,
+      `Work independently with little direction`,
+      `Strong attention to details`,
+      `Proven ability to negotiate Experience in Technology Industry is a plus`,
+      `Excellent written and verbal communications skills, including networking skills with people at all levels internally and externally`,
+      `Proven talent at building relationships and influencing without authority to produce results and outcomes.`,
+      `Proficient in utilizing Microsoft Office Suite; and confident learning other programs and technology tools to execute in this role`,
+
+    ],
+  },
+  {
+    id: "Programs Intern",
+    title: "Programs Intern",
+    synopsis:
+      "We are looking for Programs Intern.",
+    location: "Lagos, Nigeria",
+    description: `
+           
+        `,
+    responsibilities: [
+      `Provide support to your direct report and program manager in implementing key program deliverables`,
+      `Provide support for creation and review of key program documentation`,
+      `Participate in program monitoring and evaluation to ensure end line deliverables are properly tracked`,
+    ],
+    requirements:[
+      `Minimum 0f 6 months experience in Programs or Project management`,
+      `Bachelors’ degree in a related field`,
+      `Strong analytical skills`,
+      `Critical thinking and problem-solving skills`,
+      `Excellent time-management skills`,
+      `Excellent interpersonal, presentation and communication skills`,
+    ],
+    skills: [
+      ``
+
     ],
   },
 ];
