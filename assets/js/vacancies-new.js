@@ -22,14 +22,13 @@ const jobs = [
     requirements: [
       `Bachelors’ degree in a related field`,
       `Minimum of 1 year experience in Programs or a related field.`,
+    ],
+    skills: [
       `Programs or Project Management skills`,
       `Strong analytical skills`,
       `Critical thinking and problem-solving skills`,
       `Excellent time-management skills`,
       `Excellent interpersonal, presentation and communication skills`,
-    ],
-    skills: [
-    ``
     ],
   },
   {
@@ -82,14 +81,13 @@ const jobs = [
     requirements:[
       `Minimum 0f 6 months experience in Programs or Project management`,
       `Bachelors’ degree in a related field`,
+    
+    ],
+    skills: [
       `Strong analytical skills`,
       `Critical thinking and problem-solving skills`,
       `Excellent time-management skills`,
       `Excellent interpersonal, presentation and communication skills`,
-    ],
-    skills: [
-      ``
-
     ],
   },
 ];
@@ -202,6 +200,7 @@ const generateJobPreview = ({
           items: responsibilities,
         })}
         ${getSection({ header: "What you should have", items: skills })}
+        ${getSection({ header: "requirements", items: requirements })}
         ${getSection({ header: "What is required from you", items: skills })}
     `;
 
