@@ -105,31 +105,46 @@ form.addEventListener('submit', (e) => {
     const submitButton = form.querySelector('button.submit');
     submitButton.classList.add('is-loading');
     submitButton.classList.remove('submitted');
-    submitButton.disabled = true;
-    fetch(`https://script.google.com/macros/s/AKfycbweHhV5WJC8ES7LldphS6CI3h8l3qPW_VfQ8pm4iU3riEJ6QBQb/exec?${params}`)
+    submitButton.disabled = true; 
+    // const url = "http://localhost:3000/apiv1/talent/apply"
+    const url =  "https://tech4dev.azurewebsites.net/apiv1/partnership"
+    const res = await axios.post(
+      url,
+      formData,
+      {
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods":"GET,PUT,POST,DELETE,PATCH,OPTIONS",
+          "Content-Type": "multipart/form-data"
+        }
+      }
+    );
+    console.log(res)
+
+    // fetch(`https://script.google.com/macros/s/AKfycbweHhV5WJC8ES7LldphS6CI3h8l3qPW_VfQ8pm4iU3riEJ6QBQb/exec?${params}`)
         //TODO Add error handling
-        .then(res => res.json())
-        .then(res => {
-            console.log(res);
-            if(res.result === 'success'){
-                submitButton.classList.remove('is-loading');
-                submitButton.classList.add('submitted');
-                window.setStatus('success');
-                setTimeout(() => {
-                    submitButton.classList.remove('submitted');
-                    submitButton.disabled = false;
-                },5000);
-                formInputs.filter(input => input.name !== 'sheetname' && input.name !== 'committed').forEach(input => {
-                    input.value = '';
-                    input.classList.remove('not-empty')
-                })
-            }else{
-                throw new Error()
-            }
-        })
-        .catch(() => {
-            submitButton.classList.add('error');
-            window.setStatus('error');
-        })
+        // .then(res => res.json())
+        // .then(res => {
+        //     console.log(res);
+        //     if(res.result === 'success'){
+        //         submitButton.classList.remove('is-loading');
+        //         submitButton.classList.add('submitted');
+        //         window.setStatus('success');
+        //         setTimeout(() => {
+        //             submitButton.classList.remove('submitted');
+        //             submitButton.disabled = false;
+        //         },5000);
+        //         formInputs.filter(input => input.name !== 'sheetname' && input.name !== 'committed').forEach(input => {
+        //             input.value = '';
+        //             input.classList.remove('not-empty')
+        //         })
+        //     }else{
+        //         throw new Error()
+        //     }
+        // })
+        // .catch(() => {
+        //     submitButton.classList.add('error');
+        //     window.setStatus('error');
+        // })
 
 });

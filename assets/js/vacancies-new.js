@@ -323,5 +323,4 @@ submitButton.addEventListener("click", async (_) => {
   }
 });
 
-console.log("h");
 
