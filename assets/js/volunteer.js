@@ -111,7 +111,7 @@ form.addEventListener('submit', async(e) => {
     ...form.querySelectorAll("input"),
     form.querySelector("textarea"),
   ];
-  if (inputs.some(({ value }) => !value.trim()) || !resumeFile) {
+  if (inputs.some(({ value }) => !value.trim())) {
     window.setStatus("error", true, "Kindly fill all the inputs.");
     return null;
    }
