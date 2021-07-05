@@ -111,6 +111,7 @@ form.addEventListener('submit', async(e) => {
     ...form.querySelectorAll("input"),
     form.querySelector("textarea"),
   ];
+  console.log(inputs);
   if (inputs.some(({ value }) => !value.trim())) {
     window.setStatus("error", true, "Kindly fill all the inputs.");
     return null;
