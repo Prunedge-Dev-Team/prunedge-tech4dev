@@ -146,13 +146,13 @@ form.addEventListener('submit', async(e) => {
                 input.value = '';
                 input.classList.remove('not-empty')
             })
-        }else{
-            throw new Error()
-        }
-    }catch(() => {
+    }else{
+        throw new Error()
+    }
+    }catch(error) {
         submitButton.classList.add('error');
         window.setStatus('error');
-    })
+    }
 
 
     // console.log(res)
