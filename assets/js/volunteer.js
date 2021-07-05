@@ -106,6 +106,20 @@ form.addEventListener('submit', async(e) => {
     submitButton.classList.add('is-loading');
     submitButton.classList.remove('submitted');
     submitButton.disabled = true; 
+
+  const inputs = [
+    ...form.querySelectorAll("input"),
+    form.querySelector("textarea"),
+  ];
+  if (inputs.some(({ value }) => !value.trim()) || !resumeFile) {
+    window.setStatus("error", true, "Kindly fill all the inputs.");
+    return null;
+   }
+    let formData = new FormData();
+    inputs.forEach(({ value, name }) => {
+      formData.append(name, value);
+    });
+    console.log(formData);
     // const url = "http://localhost:3000/apiv1/talent/apply"
     const url =  "https://tech4dev.azurewebsites.net/apiv1/partnership"
     const res = await axios.post(
