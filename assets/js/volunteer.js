@@ -95,7 +95,7 @@ const form = document.querySelector(':not(footer) form');
     })
 });
 
-form.addEventListener('submit', (e) => {
+form.addEventListener('submit', async(e) => {
     e.preventDefault();
     const formInputs = [...form.querySelectorAll('input:not([type=radio])'),form.querySelector('input[type=hidden]'),...form.querySelectorAll('input:checked'),textarea].filter(input => input);
     let params = formInputs.reduce((params,input) => {
