@@ -123,7 +123,7 @@ form.addEventListener('submit', async(e) => {
     const url = "http://localhost:3000/apiv1/partnership"
     // const url =  "https://tech4dev.azurewebsites.net/apiv1/partnership"
     try{
-      const res = axios.post(
+      const res = await axios.post(
       url,
       formData,
       {
