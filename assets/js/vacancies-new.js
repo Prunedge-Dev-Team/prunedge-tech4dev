@@ -1,7 +1,7 @@
 const jobs = [
   {
     id: "programs-associate",
-    title: "programs Associate",
+    title: "Programs Associate",
     synopsis:
       "We are looking for an experienced programs Associate",
     location: "Lagos, Nigeria",
@@ -68,7 +68,7 @@ const jobs = [
     id: "Programs-intern",
     title: "Programs Intern",
     synopsis:
-      "We are looking for Programs Intern.",
+      "We are looking for a Programs Intern.",
     location: "Lagos, Nigeria",
     description: `
            
