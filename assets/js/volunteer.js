@@ -116,16 +116,18 @@ form.addEventListener('submit', async(e) => {
     window.setStatus("error", true, "Kindly fill all the inputs.");
     return null;
    }
+    let formData1 = {};
     let formData = new FormData();
     inputs.forEach(({ value, name }) => {
       formData.append(name, value);
+      formData1[name] = value;
     });
     const url = "http://localhost:3000/apiv1/partnership"
     // const url =  "https://tech4dev.azurewebsites.net/apiv1/partnership"
     try{
       const res = await axios.post(
       url,
-      formData,
+      formData1,
       {
         headers: {
           "Access-Control-Allow-Origin": "*",
