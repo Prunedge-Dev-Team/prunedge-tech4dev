@@ -136,7 +136,7 @@ form.addEventListener('submit', async(e) => {
       }
     );
      console.log(res);
-    if(res.result === 'success'){
+    if(res.data.result === 'success'){
             submitButton.classList.remove('is-loading');
             submitButton.classList.add('submitted');
             window.setStatus('success');
