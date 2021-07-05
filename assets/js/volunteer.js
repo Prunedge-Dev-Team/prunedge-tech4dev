@@ -120,8 +120,8 @@ form.addEventListener('submit', async(e) => {
       formData.append(name, value);
     });
     console.log(formData);
-    // const url = "http://localhost:3000/apiv1/talent/apply"
-    const url =  "https://tech4dev.azurewebsites.net/apiv1/partnership"
+    const url = "http://localhost:3000/apiv1/partnership"
+    // const url =  "https://tech4dev.azurewebsites.net/apiv1/partnership"
     const res = await axios.post(
       url,
       formData,
