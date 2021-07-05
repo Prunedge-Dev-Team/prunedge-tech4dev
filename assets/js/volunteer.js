@@ -128,7 +128,7 @@ form.addEventListener('submit', async(e) => {
     // const url =  "https://tech4dev.azurewebsites.net/apiv1/partnership"
     const res = await axios.post(
       url,
-      formData,
+      formData1,
       {
         headers: {
           "Access-Control-Allow-Origin": "*",
