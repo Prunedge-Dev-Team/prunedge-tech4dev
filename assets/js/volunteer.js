@@ -126,9 +126,9 @@ form.addEventListener('submit', async(e) => {
     console.log(formData);
     const url = "http://localhost:3000/apiv1/partnership"
     // const url =  "https://tech4dev.azurewebsites.net/apiv1/partnership"
-    const res = await axios.post(
+    await axios.post(
       url,
-      formData1,
+      {...formData1},
       {
         headers: {
           "Access-Control-Allow-Origin": "*",
@@ -137,7 +137,7 @@ form.addEventListener('submit', async(e) => {
         }
       }
     );
-    console.log(res)
+    // console.log(res)
 
     // fetch(`https://script.google.com/macros/s/AKfycbweHhV5WJC8ES7LldphS6CI3h8l3qPW_VfQ8pm4iU3riEJ6QBQb/exec?${params}`)
         //TODO Add error handling
