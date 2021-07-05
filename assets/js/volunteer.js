@@ -122,7 +122,8 @@ form.addEventListener('submit', async(e) => {
     });
     const url = "http://localhost:3000/apiv1/partnership"
     // const url =  "https://tech4dev.azurewebsites.net/apiv1/partnership"
-    axios.post(
+    try{
+      const res = axios.post(
       url,
       formData,
       {
@@ -131,11 +132,9 @@ form.addEventListener('submit', async(e) => {
           "Access-Control-Allow-Methods":"GET,PUT,POST,DELETE,PATCH,OPTIONS",
         }
       }
-    )
-    .then(res => res.json())
-    .then(res => {
-        console.log(res);
-        if(res.result === 'success'){
+    );
+     console.log(res);
+    if(res.result === 'success'){
             submitButton.classList.remove('is-loading');
             submitButton.classList.add('submitted');
             window.setStatus('success');
@@ -150,8 +149,7 @@ form.addEventListener('submit', async(e) => {
         }else{
             throw new Error()
         }
-    })
-    .catch(() => {
+    }catch(() => {
         submitButton.classList.add('error');
         window.setStatus('error');
     })
