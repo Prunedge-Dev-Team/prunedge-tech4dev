@@ -117,9 +117,11 @@ form.addEventListener('submit', async(e) => {
     return null;
    }
     let formData = new FormData();
+    let formData1 = {}
     inputs.forEach(({ value, name }) => {
       formData.append(name, value);
-       console.log(name, value);
+      formData1[name]=value;
+      console.log(formData1);
     });
     console.log(formData);
     const url = "http://localhost:3000/apiv1/partnership"
