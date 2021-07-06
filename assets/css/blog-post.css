@@ -182,7 +182,11 @@ nav ul.links a{
     font-family: 'Poppins Medium';
     margin: 10px 0 11px;
 }
-
+.image_description{
+    font-size: 8px;
+    font-family: 'Poppins Medium';
+    color: rgba(0, 0, 0, 0.54);
+}
 .social-media{
     font-size: 16px;
     font-family: 'Poppins Medium';
@@ -193,6 +197,7 @@ nav ul.links a{
     height: 36px;
     margin-bottom: 32px;
 }
+
 
 .social-media a{
     margin-left: 10px;
