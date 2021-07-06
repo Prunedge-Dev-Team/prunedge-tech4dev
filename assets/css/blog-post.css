@@ -183,9 +183,13 @@ nav ul.links a{
     margin: 10px 0 11px;
 }
 .image_description{
-    font-size: 8px;
+    font-size: 12px;
     font-family: 'Poppins Medium';
     color: rgba(0, 0, 0, 0.54);
+}
+.wrap_image_and_text{
+    display: flex;
+    flex-direction:column;
 }
 .social-media{
     font-size: 16px;
