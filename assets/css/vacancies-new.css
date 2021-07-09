@@ -276,8 +276,12 @@ button{
 }
 
 .resume__input{
-    display: none;
-    visibility: hidden;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #074F8A;
+    /* display: none; */
+    /* visibility: hidden; */
 }
 
 .resume__button{
