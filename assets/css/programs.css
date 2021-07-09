@@ -244,7 +244,9 @@ main{
     border-radius: 2px;
     margin-bottom: 12px;
 }
-
+.pilot-state{
+    margin-right:20px;
+}
 .bold{
     font-family: 'Avenir Next Bold' ,sans-serif 
 }
