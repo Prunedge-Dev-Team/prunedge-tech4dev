@@ -1,4 +1,13 @@
-[
+[    
+      {
+        "imageUrl": "assets/images/jessica.jpg",
+        "title": "Women Techsters Beneficiaries Spotlight: Jessica Tebogo",
+        "author": "Chigozie Paul",
+        "date": "July 13, 2021",
+        "synopsis": "Asides equipping women with digital and deep tech skills to bridge the gender divide within the technology ecosystems, one of the major objectives of the Women Techsters initiative is to help these women access decent work and gain financial independence and stability.",
+        "href": "/blog/women-techsters-beneficiaries-spotlight-Jessica.html",
+        "imageStyle": "style='object-position: 0 -40px;height: 300px;'"
+      },
     {
         "imageUrl": "assets/images/blog/msspotlight.png",
         "title": "Partner Spotlight: Microsoft.",
