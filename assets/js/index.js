@@ -1,3 +1,31 @@
+document.querySelectorAll('.testimonial').forEach(e => {
+    e.addEventListener('click',(event) => {
+        if(!event.path[0].classList.contains('close-testimonial')){
+            console.log(event.path[0].classList)
+            e.classList.add('active');
+            console.log(event.path[0])
+
+        }
+    })
+});
+
+document.querySelectorAll('.close-testimonial').forEach(e => {
+    e.addEventListener('click', () => {
+        document.querySelector('.testimonial.active').classList.remove('active');
+    })
+});
+
+window.addEventListener('keydown', e => {
+    if(e.key === 'Escape' || e.key === 'Esc'){
+        if(document.querySelector('.testimonial.active')){
+            document.querySelector('.testimonial.active').classList.remove('active');
+        }
+    }
+});
+
+
+
+
 //Partners infinite scroll
 const infiniteScroll = async (parentClass) => {
     // Select all the images

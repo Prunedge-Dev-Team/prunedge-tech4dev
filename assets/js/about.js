@@ -1,7 +1,10 @@
 document.querySelectorAll('.teammate').forEach(e => {
     e.addEventListener('click',(event) => {
         if(!event.path[0].classList.contains('close-team')){
+            console.log(event.path[0].classList)
             e.classList.add('active');
+            console.log(event.path[0])
+
         }
     })
 });
