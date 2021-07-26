@@ -153,6 +153,13 @@ nav{
     color: #213642;
 }
 
+.link-to-site{
+   margin: 30px auto;
+   /* border: 1px solid red; */
+   /* width: 250px; */
+   text-align: center;
+}
+
 main{
     padding: 0 122px 0 172px;
 }
