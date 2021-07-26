@@ -30,6 +30,7 @@ const jobs = [
       `Excellent time-management skills`,
       `Excellent interpersonal, presentation and communication skills`,
     ],
+    status:"closed",
   },
   {
     id: "Placement-lead",
@@ -63,6 +64,7 @@ const jobs = [
       `Proficient in utilizing Microsoft Office Suite; and confident learning other programs and technology tools to execute in this role`,
 
     ],
+    status:"closed",
   },
   {
     id: "Programs-intern",
@@ -89,6 +91,7 @@ const jobs = [
       `Excellent time-management skills`,
       `Excellent interpersonal, presentation and communication skills`,
     ],
+    status:"closed",
   },
 ];
 
@@ -99,10 +102,15 @@ const jobsPreviewDiv = document.querySelector(".job-preview-section");
 let currentRole = null;
 
 const onJobClick = (id) => {
-  jobsListDiv.classList.add("hide");
-  jobsPreviewDiv.classList.remove("hide");
-  jobsPreviewDiv.querySelector(`#${id}`).classList.add("is-active");
-  currentRole = jobs.find(({ id: jobId }) => jobId === id).title;
+  if(jobs.find(({ id: jobId }) => jobId === id).status === "closed"){
+    window.setStatus("error", true, "This offer has been closed");
+  }else{
+    jobsListDiv.classList.add("hide");
+    jobsPreviewDiv.classList.remove("hide");
+    jobsPreviewDiv.querySelector(`#${id}`).classList.add("is-active");
+    currentRole = jobs.find(({ id: jobId }) => jobId === id).title;
+  }
+  
 };
 
 document
