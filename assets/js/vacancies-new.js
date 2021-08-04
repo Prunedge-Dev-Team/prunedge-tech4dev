@@ -1,99 +1,166 @@
+// const jobs = [
+//   {
+//     id: "programs-associate",
+//     title: "Programs Associate",
+//     synopsis:
+//       "We are looking for an experienced programs Associate",
+//     location: "Lagos, Nigeria",
+//     description: `
+         
+//         `,
+//     responsibilities: [
+//       `Strategize and outline goals and objectives of the program`,
+//       `Assign team members and volunteers to the different initiatives`, 
+//       `Estimate and implement program budgets`, 
+//       `Set program controls/governance/standards`, 
+//       `Monitor all initiatives through the entire program cycle, while managing the day-today detailed aspects of multiple initiatives`,  
+//       `Coordinate and utilize resources for multiple projects in the program`, 
+//       `Communicate with individual initiative volunteers to address potential risks as well as resolve problems and issues`,
+//       `Manage program facilitators across all states`,
+
+//     ],
+//     requirements: [
+//       `Bachelors’ degree in a related field`,
+//       `Minimum of 1 year experience in Programs or a related field.`,
+//     ],
+//     skills: [
+//       `Programs or Project Management skills`,
+//       `Strong analytical skills`,
+//       `Critical thinking and problem-solving skills`,
+//       `Excellent time-management skills`,
+//       `Excellent interpersonal, presentation and communication skills`,
+//     ],
+//     status:"closed",
+//   },
+//   {
+//     id: "Placement-lead",
+//     title: "Placement Lead",
+//     synopsis:
+//       "We are looking for an experienced Placement Lead.",
+//     location: "Lagos, Nigeria",
+//     description: `
+           
+//         `,
+//     responsibilities: [
+//      `Secure partnership internship placement for all beneficiaries on all programs`,
+//     `Facilitate the interviewing of beneficiaries to assist in completion of placement assistance request forms;`, 
+//     `Maintain files of beneficiaries; conduct pre-screening of beneficiaries to verify qualifications`,
+//     `Supervise the receiving of internship offers from employers; match beneficiaries to jobs and maintain records of alumni/beneficiaries placed in jobs`,
+//     `Analyze available job market economic data and information`,
+//     `Research job market trends and requirements for a variety of occupations`,
+//     `Coordinate contractual relationships with a variety of technology organizations`,
+//     ],
+//     requirements:[
+//       `Minimum of two years’ full-time experience in a Human Resource role.`,
+//       `Bachelor's degree in Human Resources or any other relevant field`,
+//     ],
+//     skills: [
+//       `Efficient time management and prioritization skills are essential `,
+//       `Work independently with little direction`,
+//       `Strong attention to details`,
+//       `Proven ability to negotiate Experience in Technology Industry is a plus`,
+//       `Excellent written and verbal communications skills, including networking skills with people at all levels internally and externally`,
+//       `Proven talent at building relationships and influencing without authority to produce results and outcomes.`,
+//       `Proficient in utilizing Microsoft Office Suite; and confident learning other programs and technology tools to execute in this role`,
+
+//     ],
+//     status:"closed",
+//   },
+//   {
+//     id: "Programs-intern",
+//     title: "Programs Intern",
+//     synopsis:
+//       "We are looking for a Programs Intern.",
+//     location: "Lagos, Nigeria",
+//     description: `
+           
+//         `,
+//     responsibilities: [
+//       `Provide support to your direct report and program manager in implementing key program deliverables`,
+//       `Provide support for creation and review of key program documentation`,
+//       `Participate in program monitoring and evaluation to ensure end line deliverables are properly tracked`,
+//     ],
+//     requirements:[
+//       `Minimum 0f 6 months experience in Programs or Project management`,
+//       `Bachelors’ degree in a related field`,
+    
+//     ],
+//     skills: [
+//       `Strong analytical skills`,
+//       `Critical thinking and problem-solving skills`,
+//       `Excellent time-management skills`,
+//       `Excellent interpersonal, presentation and communication skills`,
+//     ],
+//     status:"closed",
+//   },
+// ];
+
+
 const jobs = [
   {
-    id: "programs-associate",
-    title: "Programs Associate",
+    id: "hr-Intern",
+    title: "HR Intern",
     synopsis:
-      "We are looking for an experienced programs Associate",
+      "We are looking for HR Intern",
     location: "Lagos, Nigeria",
     description: `
          
         `,
     responsibilities: [
-      `Strategize and outline goals and objectives of the program`,
-      `Assign team members and volunteers to the different initiatives`, 
-      `Estimate and implement program budgets`, 
-      `Set program controls/governance/standards`, 
-      `Monitor all initiatives through the entire program cycle, while managing the day-today detailed aspects of multiple initiatives`,  
-      `Coordinate and utilize resources for multiple projects in the program`, 
-      `Communicate with individual initiative volunteers to address potential risks as well as resolve problems and issues`,
-      `Manage program facilitators across all states`,
+      `Assist with the recruitment process by identifying candidates, performing reference checks and issuing employment contracts`,
+      `Maintain calendars of HR management team`, 
+      `Assist with performance management procedures`, 
+      `Schedule meetings, interviews, HR events and maintain agendas`, 
+      `Produce and submit reports on general HR activity`,  
+      `Maintain digital and electronic records of employees`, 
+      `Perform orientation and update records of new team members`,
+      `Coordinate training sessions and seminars`,
 
     ],
     requirements: [
-      `Bachelors’ degree in a related field`,
-      `Minimum of 1 year experience in Programs or a related field.`,
+      `Minimum of 6 months work experience in Human Resources Management or a related field`,
+      `Bachelors’ degree in Human Resources Management or related field`,
+      `Ability to maintain confidentiality of documents and other personal information`,
     ],
     skills: [
-      `Programs or Project Management skills`,
-      `Strong analytical skills`,
       `Critical thinking and problem-solving skills`,
       `Excellent time-management skills`,
       `Excellent interpersonal, presentation and communication skills`,
+      `Proficient in MS Office`,
     ],
-    status:"closed",
+    status:"open",
   },
   {
-    id: "Placement-lead",
-    title: "Placement Lead",
+    id: "partnerships-intern",
+    title: "Partnerships and Sustainability Intern",
     synopsis:
-      "We are looking for an experienced Placement Lead.",
+      "We are looking for a Partnerships and Sustainability Intern.",
     location: "Lagos, Nigeria",
     description: `
            
         `,
     responsibilities: [
-     `Secure partnership internship placement for all beneficiaries on all programs`,
-    `Facilitate the interviewing of beneficiaries to assist in completion of placement assistance request forms;`, 
-    `Maintain files of beneficiaries; conduct pre-screening of beneficiaries to verify qualifications`,
-    `Supervise the receiving of internship offers from employers; match beneficiaries to jobs and maintain records of alumni/beneficiaries placed in jobs`,
-    `Analyze available job market economic data and information`,
-    `Research job market trends and requirements for a variety of occupations`,
-    `Coordinate contractual relationships with a variety of technology organizations`,
+      `Provide support to the Partnerships and Susutainability Lead in implementing key deliverables of the department`,
+      `Provide support in sourcing and writing grant applications within applicable deadlines`,
+      `Provide support in drafting letters, MoUs and other official documentation`,
+      `Provide support in managing partners and stakeholders, including curating, scheduling and documenting partnership correspondence.`,
     ],
     requirements:[
-      `Minimum of two years’ full-time experience in a Human Resource role.`,
-      `Bachelor's degree in Human Resources or any other relevant field`,
-    ],
-    skills: [
-      `Efficient time management and prioritization skills are essential `,
-      `Work independently with little direction`,
-      `Strong attention to details`,
-      `Proven ability to negotiate Experience in Technology Industry is a plus`,
-      `Excellent written and verbal communications skills, including networking skills with people at all levels internally and externally`,
-      `Proven talent at building relationships and influencing without authority to produce results and outcomes.`,
-      `Proficient in utilizing Microsoft Office Suite; and confident learning other programs and technology tools to execute in this role`,
-
-    ],
-    status:"closed",
-  },
-  {
-    id: "Programs-intern",
-    title: "Programs Intern",
-    synopsis:
-      "We are looking for a Programs Intern.",
-    location: "Lagos, Nigeria",
-    description: `
-           
-        `,
-    responsibilities: [
-      `Provide support to your direct report and program manager in implementing key program deliverables`,
-      `Provide support for creation and review of key program documentation`,
-      `Participate in program monitoring and evaluation to ensure end line deliverables are properly tracked`,
-    ],
-    requirements:[
-      `Minimum 0f 6 months experience in Programs or Project management`,
+      `Minimum of 6 months work experience in a Partnerships and Sustainability role or a related field.`,
       `Bachelors’ degree in a related field`,
     
     ],
     skills: [
-      `Strong analytical skills`,
+      `Strong writing skills`,
       `Critical thinking and problem-solving skills`,
       `Excellent time-management skills`,
       `Excellent interpersonal, presentation and communication skills`,
     ],
-    status:"closed",
+    status:"open",
   },
 ];
+
+
 
 const jobsListDiv = document.querySelector(".jobs-list");
 const jobsDiv = document.querySelector(".jobs");
