@@ -74,7 +74,12 @@
             "active": "@@active",
             "href": "contact.html"
         })
-      
+        @@include('includes/navLink.html',{
+            "text": "Art",
+            "id": "art",
+            "active": "@@active",
+            "href": "art/index.html"
+        })
         <li>
             <a class="page-links__link--donate" href="@@webRoot/donate.html">Donate</a>
         </li>
@@ -191,11 +196,11 @@
                     Contact Us
                 </a>
             </li>
-            <!--<li class="subnav-pg-link">
+            <li class="subnav-pg-link">
                 <a href="@@webRoot/art/index.html">
-                    Art Exhibition
+                    Art
                 </a>
-            </li> -->
+            </li> 
             <li class="subnav-pg-link">
                 <a href="@@webRoot/donate.html">
                     Donate

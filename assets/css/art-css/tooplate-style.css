@@ -6,13 +6,14 @@ http://www.tooplate.com/view/2086-multi-color
 
 */
 body {
-	background-color: #DDDDDD;
+	/* background-color: #DDDDDD; */
 	color: black;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 17px;
 	font-weight: 300;
 	overflow-x: hidden;
 }
+
 
 .tm-white { color: #FFFFFF; }
 
@@ -48,11 +49,7 @@ a:focus {
 	background: none;
 }
 
-.navbar { padding: 0; }
 
-.cd-slider-nav nav { 
-	width: 100%; 	
-}
 
 .cd-slider-nav .navbar-nav {
 	display: inline-block;
@@ -456,12 +453,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
     width: 100%;
 }
 
-.tm-footer { padding: 50px 11px 20px; }
-.tm-footer-link { color: white; }
-.tm-footer-link:hover,
-.tm-footer-link:focus {
-	color: yellow;
-}
+
 
 /*.tm-home-fa {
 	display: block;
@@ -878,3 +870,5 @@ figure.effect-bubba:hover p {
 	.tm-2-col-textbox-2 { margin-right: 15px; }
 	#google-map { height: 520px; }
 }
+
+
