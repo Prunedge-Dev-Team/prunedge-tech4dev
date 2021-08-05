@@ -98,6 +98,33 @@
 
 const jobs = [
   {
+    id: "Programs-intern",
+    title: "Programs Intern",
+    synopsis:
+      "We are looking for a Programs Intern.",
+    location: "Lagos, Nigeria",
+    description: `
+               
+      `,
+    responsibilities: [
+      `Provide support to your direct report and program manager in implementing key program deliverables`,
+      `Provide support for creation and review of key program documentation`,
+      `Participate in program monitoring and evaluation to ensure end line deliverables are properly tracked`,
+    ],
+    requirements:[
+      `Minimum 0f 6 months experience in Programs or Project management`,
+      `Bachelors’ degree in a related field`,
+    
+    ],
+    skills: [
+      `Strong analytical skills`,
+      `Critical thinking and problem-solving skills`,
+      `Excellent time-management skills`,
+      `Excellent interpersonal, presentation and communication skills`,
+    ],
+    status:"open",
+  },
+  {
     id: "hr-Intern",
     title: "HR Intern",
     synopsis:
@@ -176,6 +203,7 @@ const onJobClick = (id) => {
     jobsPreviewDiv.classList.remove("hide");
     jobsPreviewDiv.querySelector(`#${id}`).classList.add("is-active");
     currentRole = jobs.find(({ id: jobId }) => jobId === id).title;
+    console.log(currentRole)
   }
   
 };
