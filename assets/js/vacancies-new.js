@@ -185,6 +185,44 @@ const jobs = [
     ],
     status:"open",
   },
+
+   {
+    id: "instructional-design-lead",
+    title: "Instructional Design Lead (full time role)",
+    synopsis:
+      "We are looking for an instructional Design Lead.",
+    location: "Lagos, Nigeria",
+    description: `
+           
+        `,
+    responsibilities: [
+      `Creating engaging learning activities and compelling course content for all programs`,
+      `Providing assessments and activities that enhance the learning process of beneficiaries`,
+      `Conducting train-the-trainer classes for facilitators`,
+      `Maintaining program documentation.`,
+      `Supervise learning programs delivery and implementation `,
+      `Assessing learning needs of beneficiaries`,
+      `Staying abreast of the latest trends and best-practices in the eLearning and instructional design community in order to enhance and expand on training objects and deliverables`,
+      
+    ],
+    requirements:[
+      `Minimum of 2 - 3 years’ experience in a Lead Facilitation role (Tech facilitation is an advantage)`,
+      `B.Sc. in Educational management/Technology, Instructional design or similar field`,
+    
+    ],
+    skills: [
+      `Solid knowledge of course development `,
+      `Knowledge of Information Technology`,
+      `Experience with LMS platform is a plus`,
+      `Excellent knowledge of learning theories and instructional design models`,
+      `Lesson and curriculum planning skills`,
+      `Excellent verbal and written communication skills`,
+      `Understanding of varied learning styles`,
+      `Knowledge of assessment and evaluation methods`,
+      `Must be open to learning new skills`,
+    ],
+    status:"open",
+  },
 ];
 
 
