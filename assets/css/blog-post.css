@@ -216,7 +216,9 @@ nav ul.links a{
     width: 100%;
     margin: 0px 0 40px;
 } */
-
+.bold_text{
+    font-size:18px;
+}
 .article__img--left{
     float: left;
     margin: 10px 30px 10px 0px;

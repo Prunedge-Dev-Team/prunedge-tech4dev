@@ -1,4 +1,12 @@
 [
+  {
+    "imageUrl": "assets/images/blog/mini-demo.png",
+    "title": "Women Techsters Fellowship Mini Demo Day.",
+    "author": "Chigozie Paul",
+    "date": "August 7, 2021",
+    "synopsis": "On the 5th and 6th July, the Women Techsters Fellows had a mini demo day to showcase what they have learned so far and prepare for their final project. In total, 28 groups had presentations to make. Various groups duly represented each learning track. We had six groups, nine groups, two groups, six groups, and five groups respectively in product design, software development, product management, Data Science, and Ai and Cybersecurity learning tracks.",
+    "href": "/blog/mental-health.html"
+  },
    {
         "imageUrl": "assets/images/blog/Gratitude-jar.jpg",
         "title": "Tech4Dev’s Mental Health Awareness Event.",
