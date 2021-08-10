@@ -162,7 +162,7 @@ const jobs = [
     title: "Partnerships and Sustainability Intern",
     synopsis:
       "We are looking for a Partnerships and Sustainability Intern.",
-    location: "Lagos, Nigeria",
+    location: "Abuja, Nigeria",
     description: `
            
         `,
