@@ -122,7 +122,7 @@ const jobs = [
       `Excellent time-management skills`,
       `Excellent interpersonal, presentation and communication skills`,
     ],
-    status:"open",
+    status:"closed",
   },
   {
     id: "hr-Intern",
@@ -155,7 +155,7 @@ const jobs = [
       `Excellent interpersonal, presentation and communication skills`,
       `Proficient in MS Office`,
     ],
-    status:"open",
+    status:"closed",
   },
   {
     id: "partnerships-intern",
@@ -183,7 +183,7 @@ const jobs = [
       `Excellent time-management skills`,
       `Excellent interpersonal, presentation and communication skills`,
     ],
-    status:"open",
+    status:"closed",
   },
 
    {
@@ -221,7 +221,7 @@ const jobs = [
       `Knowledge of assessment and evaluation methods`,
       `Must be open to learning new skills`,
     ],
-    status:"open",
+    status:"closed",
   },
 ];
 
