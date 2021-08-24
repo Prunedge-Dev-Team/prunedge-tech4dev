@@ -25,14 +25,6 @@
             <img src="../../assets/images/arrow-left-9b9b90.svg" alt="">
         </button>
         <div class="program-nav-links">
-          
-            <!--
-            <a href="../../newsletter/index.html">
-                <span>
-                    News-letter
-                </span>
-            </a>
-            -->
         </div>
         <button class="program-nav-scroll-btn right active">
             <img src="../../assets/images/arrow-right-9b9b90.svg" alt="">
@@ -66,7 +58,7 @@
             </form>
         </section>
         <section class="articles">
-            @@loop("includes/blogtemplate.html","includes/data/allBlogs.json")
+            @@loop("includes/blogtemplate.html","includes/data/events.json")
         </section>
     </main>
     @@include('./includes/footer.html')

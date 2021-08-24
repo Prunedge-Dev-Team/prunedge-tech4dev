@@ -1,13 +1,22 @@
 <div class="blog-artical-grid">
 								<h3><a href="single-page.html">@@title</a></h3>
+								<p class="article__details">
+								    <span class="article__author">
+									   @@author
+                                    </span>
+                                    |
+                                    <span>
+                                        @@date
+                                    </span>
+                                </p>
 								<div class="blog-artical-grid-pic-info">
 									<div class="blog-artical-grid-pic">
-										<img src="@@webRoot/@@imageUrl" title="place-name" />
+										<img src="@@webRoot/@@imageUrl" title="place-name" @@if(context.imageStyle){ @@imageStyle }/>
 									</div>
 									<div class="blog-artical-grid-pic-info-admin">
 										<div class="blog-artical-grid-pic-info-admin-left">
 											<ul>
-												<li><a href="#"><img src="images/admin-pic1.jpg" title="name-here" /></a></li>
+												<li><a href="#"><img src="@@webRoot/@@writterImage" title="name-here" /></a></li>
 												<li><p>Written by <a href="#">@@author</a></p></li>
 											</ul>
 										</div>
@@ -20,9 +29,11 @@
 								<!----start-artical-tags---->
 								<div class="artical-tags">
 									<ul>
-										<li><a href="#">Art</a></li>
-										<li><a href="#">WebDesign</a></li>
-										<li><a href="#">Logotypes</a></li>
+										<li><a href="@@webRoot@@categoryArticles">Articles</a></li>
+										<li><a href="@@webRoot@@categoryPressrelease">Press Release</a></li>
+										<li><a href="@@webRoot@@categoryEvents">Events</a></li>
+										<li><a href="@@webRoot@@categorySpotlight">Spotlight</a></li>
+										<li><a href="@@webRoot@@categoryAll">All categories</a></li>
 										<div class="clear"> </div>
 									</ul>
 								</div>
@@ -32,7 +43,7 @@
 										<div class="artical-details-left">
 											<p>@@synopsis</p>
 										</div>
-										<div class="artical-details-right">
+										<div class="artical-details-right" style="display:none;">
 											<p>Nunc id mi rutrum, sollicitudin elit eget, pretium risus. Quisque molestie nunc sed justo ornare, ipsum lorem mattis urna, eu feugiat augue justo quis risus. Sed vitae lacus dignissim, sodales justo sit amet, tristique justo. <a href="#">Proin eget erat</a> quis leo suscipit laoreet at ac diam. Integer eu interdum mauris. Aenean a aliquam turpis, eu tincidunt urna.</p>
 										</div>
 										<div class="clear"> </div>

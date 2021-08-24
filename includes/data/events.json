@@ -1,26 +1,64 @@
 [
   {
+    
+    "imageUrl": "assets/images/blog/ms.png",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%;'",
+    "title": "Leveraging Technology for Food Sustainability.",
+    "author": "Chigozie Paul",
+    "date": "August 24, 2021",
+    "synopsis": "We hosted a virtual panel session with industry experts in the Agrotech/Agribusiness fields to mark International Youth Day. Two panels constituted the panel session. Our guest speakers for the first panel moderated by Yemisi Arowosafe, Communications lead, Tech4Dev were Ayodeji Arikawe, Co-Founder, Thrive Agric; Oyindamola Asaaju, Agribusiness Professional and Oluwatosin Ogunsola, Chief Executive, Templus Agro-Consults Limited.",
+    "href": "/blog/newEvents/laverage-tech.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
+    
     "imageUrl": "assets/images/blog/mini-demo.png",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%;'",
     "title": "Women Techsters Fellowship Mini Demo Day.",
     "author": "Chigozie Paul",
     "date": "August 7, 2021",
     "synopsis": "On the 5th and 6th July, the Women Techsters Fellows had a mini demo day to showcase what they have learned so far and prepare for their final project. In total, 28 groups had presentations to make. Various groups duly represented each learning track. We had six groups, nine groups, two groups, six groups, and five groups respectively in product design, software development, product management, Data Science, and Ai and Cybersecurity learning tracks.",
-    "href": "/blog/newEvents/women-techsters-mini-demo.html"
+    "href": "/blog/newEvents/women-techsters-mini-demo.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
   },
    {
         "imageUrl": "assets/images/blog/Gratitude-jar.jpg",
+        "writterImage":"assets/images/people/chigozie.jpeg",
+        "imageStyle":"style='width:100%;'",
         "title": "Tech4Dev’s Mental Health Awareness Event.",
         "author": "Chigozie Paul",
         "date": "June 15, 2021",
         "synopsis": "Every year, the month of May is set aside to create awareness around Mental health. In general terms, mental health is the emotional well-being of an individual. For a very long while, mental health has been viewed as less important than the state of the body, especially in this part of the world. But statistics have shown that the state of one's mental health is, in fact, just as important as the state of the person's body.",
-        "href": "/blog/mental-health.html"
+        "href": "/blog/mental-health.html",
+        "categoryArticles":"/blog/blogCategories/articles-1.html",
+        "categoryEvents":"/blog/blogCategories/events-1.html",
+        "categoryAll":"/blog/blogCategories/all.html",
+        "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+        "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
       },
     {
         "imageUrl": "assets/images/blog/thankyou.jpeg",
+        "writterImage":"assets/images/people/toyin.png",
+        "imageStyle":"style='width:100%;'",
         "title": "Tech4Dev Launches the First Edition of the Women Techsters Fellowship Program Under the Women Techsters Initiative in Partnership with Microsoft",
         "author": "Oluwatoyin Akande",
         "date": "May 17, 2021",
         "synopsis": "Men in tech usually exceed women in tech by at least a 3:1 ratio or even higher in some sectors. As part of the commitment to bridge the digital divide between men and women in the Tech sector, Tech4Dev launched the first edition of The Women Techsters Fellowship on Monday, the 26th of April 2021.",
-        "href": "/blog/tech4dev-lunches-women-techsters.html"
+        "href": "/blog/tech4dev-lunches-women-techsters.html",
+        "categoryArticles":"/blog/blogCategories/articles-1.html",
+        "categoryEvents":"/blog/blogCategories/events-1.html",
+        "categoryAll":"/blog/blogCategories/all.html",
+        "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+        "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
       }
 ]
