@@ -1,3 +1,69 @@
+@font-face{
+    font-family: 'Avenir Next Medium';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Medium.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Bold';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Bold.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Regular';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Regular.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Italic';
+    src: url('../fonts/avenir-next/AvenirNext-Italic.ttf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Poppins Medium';
+    src: url('../fonts/poppins/Poppins-Medium.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Poppins Regular';
+    src: url('../fonts/poppins/Poppins-Regular.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Poppins Bold';
+    src: url('../fonts/poppins/Poppins-Bold.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Medium';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Medium.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Bold';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Bold.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Regular';
+    src: url('../fonts/avenir-next/AvenirNextLTPro-Regular.otf');
+    font-display: auto;
+}
+
+@font-face{
+    font-family: 'Avenir Next Italic';
+    src: url('../fonts/avenir-next/AvenirNext-Italic.ttf');
+    font-display: auto;
+}
+
 
 /* start editing from here */
 a{text-decoration:none;}
@@ -66,12 +132,18 @@ body{
 .blog-artical-grid h3 a{
 	color: #404040;
 	text-transform: uppercase;
-	font-size: 1.2em;
-	font-family: 'Open Sans', sans-serif;
+	/* font-size: 1.2em; */
+	font-size: 16px;
+    font-family: 'Poppins Medium';	
 	font-weight: 700;
 	padding: 0.8em 0;
 	display: block;
 }
+.blog-title{
+    font-family: 'Poppins Regular';
+    text-transform: uppercase;
+}
+
 .blog-artical-grid-pic-info-admin-left{
 	float:left;
 }
@@ -105,6 +177,7 @@ body{
 	color: #FFF;
 	margin-left: 1em;
 	font-weight: 600;
+    font-family: 'Poppins Medium';
 }
 .blog-artical-grid-pic-info-admin-left li p a{
 	color:#FFF;
@@ -119,11 +192,15 @@ body{
 .blog-artical-grid-pic-info-admin-right h6{
 	color: #FFF;
 	font-size: 1.5em;
-	margin-top: 0.6em;
-	font-weight: 600;
+	font-size: 20px;
+    font-family: 'Poppins Medium';
+	margin-top: 1.3em;
+	/* font-weight: 600; */
 }
 .blog-artical-grid-pic-info-admin-right h6 span{
 	font-size:0.8em;
+	/* font-size: 16px; */
+    /* font-family: 'Poppins Medium'; */
 	vertical-align:top;
 }
 .blog-artical-grid-pic-info{
@@ -137,10 +214,10 @@ body{
 .artical-tags ul li a{
 	background: url(../images/tags-bg.jpg) no-repeat left #EDEDED;
 	color: #404040;
-	text-transform: uppercase;
+	/* text-transform: uppercase;
 	font-size: 0.875em;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
+	font-weight: 700; */
 	padding: 0.1em 1em 0.1em 1.5em;
 	display: block;
 	transition:0.5s all;
@@ -249,9 +326,9 @@ body{
 }
 .blog-right-head h3{
 	color: #3D3E41;
-	text-transform: uppercase;
+	/* text-transform: uppercase;
 	font-size: 1.3em;
-	font-weight: 700;
+	font-weight: 700; */
 	padding: 0.3em 0;
 }
 .article__details{
@@ -261,10 +338,10 @@ body{
 
 .blog-single-page h3 a {
 	color: #404040;
-	text-transform: uppercase;
-	font-size: 1.2em;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
+	/* text-transform: uppercase; */
+	/* font-size: 1.2em; */
+	/* font-family: 'Open Sans', sans-serif; */
+	/* font-weight: 700; */
 	padding: 0.8em 0;
 	display: block;
 }
@@ -293,9 +370,9 @@ body{
 }
 .blog-single-page-artical-info h3{
 	color: #3D3E41;
-	text-transform: uppercase;
+	/* text-transform: uppercase;
 	font-size: 1.2em;
-	font-weight: 700;
+	font-weight: 700; */
 	padding: 0.3em 0;
 }
 
@@ -307,7 +384,11 @@ body{
 	}
 	.article__details{
 		display:block;
-		margin-top: 0px;
+		/* margin-top: 0px; */
+		color: rgba(0, 0, 0, 0.54);
+		font-size: 16px;
+		font-family: 'Poppins Medium';
+		margin: 10px 0 11px;
 	}
 	
 	

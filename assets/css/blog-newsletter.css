@@ -271,14 +271,20 @@ nav{
 }
 
 .article__title{
-    font-family: 'Avenir Next Medium', sans-serif;
+    /* font-family: 'Avenir Next Medium', sans-serif;
     font-size: 24px;
     margin-top: 0;
     color: #213642;
     letter-spacing: 0.1px;
     text-decoration: none;
     width: 90%;
-    display: inline-block;
+    display: inline-block; */
+    font-size: 30px;
+    color: #213642;
+    margin: 0;
+    font-family: 'Poppins Regular';
+    text-transform: uppercase;
+    
 }
 
 .article__details{

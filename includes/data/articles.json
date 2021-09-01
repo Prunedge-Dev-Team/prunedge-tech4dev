@@ -1,5 +1,20 @@
 [
   {
+    "imageUrl": "assets/images/blog/children.png",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%;'",
+    "title": "How Young Is Too Young: Dealing with Children's Involvement in Tech.",
+    "author": "Chigozie Paul",
+    "date": "September 1, 2021",
+    "synopsis": " In a new national survey conducted on the most current snapshot of technology by the Erikson Institute, whose sample was 1,000 American parents with children under age 6. 85 percent of parents reported that they allow their young children to use Technology.",
+    "href":  "/blog/newArticles/dealing-with-children-involvement-in-tech.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
     "imageUrl": "assets/images/blog/International-youth.png",
     "writterImage":"assets/images/people/chigozie.jpeg",
     "imageStyle":"style='width:100%;'",
