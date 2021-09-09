@@ -1,5 +1,20 @@
 [
   {
+    "imageUrl": "assets/images/blog/inter-tech-day.png",
+    "writterImage":"assets/images/people/gladys.png",
+    "imageStyle":"style='width:100%;'",
+    "title": "International Literacy Day: Narrowing the Digital Divide",
+    "author": "Gladys Ehindola",
+    "date": "September 8, 2021",
+    "synopsis": "Happy International Literacy Day! The theme for the 2021 International Literacy Day is “Literacy for a human-centered recovery: Narrowing the digital divide.” We stand in solidarity with every person or organization striving to ensure global literacy, especially digital literacy towards narrowing the digital divide.",
+    "href":  "/blog/newArticles/international-literacy-day-2021.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
     "imageUrl": "assets/images/blog/mou.png",
     "writterImage":"assets/images/people/toyin.png",
     "imageStyle":"style='width:100%;'",
