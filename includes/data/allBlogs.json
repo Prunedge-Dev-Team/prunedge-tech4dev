@@ -1,5 +1,35 @@
 [
   {
+    "imageUrl": "assets/images/blog/Picture1.JPG",
+    "writterImage":"assets/images/people/toyin.png",
+    "imageStyle":"style='width:100%;'",
+    "title": "TECH4DEV LAUNCHES THE I AM A WOMAN TECHSTER CAMPAIGN WITH AN ART EXHIBITION",
+    "author": "Oluwatoyin Akande",
+    "date": "September 20, 2021",
+    "synopsis": "To achieve her goal of impacting 10,000 women in 2021 and 5 million women across Africa by 2030 through the Women Techsters initiative, Tech4Dev - a non-profit social enterprise working to provide access to decent work for Africans through digital and technology skills empowerment and advocacy- launched the #IAmAWomanTechster Campaign with an Art Exhibition on Sunday, 12th of September 2021.",
+    "href": "/blog/newPressrelease/women-techsters-art-exhibition.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
+    "imageUrl": "assets/images/blog/Picture1.JPG",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%;'",
+    "title": "#IAMAWOMANTECHSTER ART EXHIBITION",
+    "author": "Chigozie Paul",
+    "date": "September 20, 2021",
+    "synopsis": "The launch of the #IAMAWOMANTECHSTER campaign through the #IAMAWOMANTECHSTER Art Exhibition was such a success. The #IAMAWOMANTECHSTER Campaign is geared towards celebrating women in Science, Technology, Engineering, and Mathematics (STEM) fields in general and inspiring more women to consider the endless possibilities available to them within the technology ecosystem",
+    "href": "/blog/newEvents/i-am-a-womentechster-art-exhibition.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
     "imageUrl": "assets/images/blog/inter-tech-day.png",
     "writterImage":"assets/images/people/gladys.png",
     "imageStyle":"style='width:100%;'",
