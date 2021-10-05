@@ -1,4 +1,4 @@
-// const jobs = [
+// const jobs2 = [
 //   {
 //     id: "programs-associate",
 //     title: "Programs Associate",
@@ -96,7 +96,7 @@
 // ];
 
 
-// const jobs = [
+// const jobs1 = [
 //   {
 //     id: "Programs-intern",
 //     title: "Programs Intern",
