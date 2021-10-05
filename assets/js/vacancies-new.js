@@ -96,40 +96,178 @@
 // ];
 
 
+// const jobs = [
+//   {
+//     id: "Programs-intern",
+//     title: "Programs Intern",
+//     synopsis:
+//       "We are looking for a Programs Intern.",
+//     location: "Lagos, Nigeria",
+//     description: `
+               
+//       `,
+//     responsibilities: [
+//       `Provide support to your direct report and program manager in implementing key program deliverables`,
+//       `Provide support for creation and review of key program documentation`,
+//       `Participate in program monitoring and evaluation to ensure end line deliverables are properly tracked`,
+//     ],
+//     requirements:[
+//       `Minimum 0f 6 months experience in Programs or Project management`,
+//       `Bachelors’ degree in a related field`,
+    
+//     ],
+//     skills: [
+//       `Strong analytical skills`,
+//       `Critical thinking and problem-solving skills`,
+//       `Excellent time-management skills`,
+//       `Excellent interpersonal, presentation and communication skills`,
+//     ],
+//     status:"closed",
+//   },
+//   {
+//     id: "hr-Intern",
+//     title: "HR Intern",
+//     synopsis:
+//       "We are looking for HR Intern",
+//     location: "Lagos, Nigeria",
+//     description: `
+         
+//         `,
+//     responsibilities: [
+//       `Assist with the recruitment process by identifying candidates, performing reference checks and issuing employment contracts`,
+//       `Maintain calendars of HR management team`, 
+//       `Assist with performance management procedures`, 
+//       `Schedule meetings, interviews, HR events and maintain agendas`, 
+//       `Produce and submit reports on general HR activity`,  
+//       `Maintain digital and electronic records of employees`, 
+//       `Perform orientation and update records of new team members`,
+//       `Coordinate training sessions and seminars`,
+
+//     ],
+//     requirements: [
+//       `Minimum of 6 months work experience in Human Resources Management or a related field`,
+//       `Bachelors’ degree in Human Resources Management or related field`,
+//       `Ability to maintain confidentiality of documents and other personal information`,
+//     ],
+//     skills: [
+//       `Critical thinking and problem-solving skills`,
+//       `Excellent time-management skills`,
+//       `Excellent interpersonal, presentation and communication skills`,
+//       `Proficient in MS Office`,
+//     ],
+//     status:"closed",
+//   },
+//   {
+//     id: "partnerships-intern",
+//     title: "Partnerships and Sustainability Intern",
+//     synopsis:
+//       "We are looking for a Partnerships and Sustainability Intern.",
+//     location: "Abuja, Nigeria",
+//     description: `
+           
+//         `,
+//     responsibilities: [
+//       `Provide support to the Partnerships and Susutainability Lead in implementing key deliverables of the department`,
+//       `Provide support in sourcing and writing grant applications within applicable deadlines`,
+//       `Provide support in drafting letters, MoUs and other official documentation`,
+//       `Provide support in managing partners and stakeholders, including curating, scheduling and documenting partnership correspondence.`,
+//     ],
+//     requirements:[
+//       `Minimum of 6 months work experience in a Partnerships and Sustainability role or a related field.`,
+//       `Bachelors’ degree in a related field`,
+    
+//     ],
+//     skills: [
+//       `Strong writing skills`,
+//       `Critical thinking and problem-solving skills`,
+//       `Excellent time-management skills`,
+//       `Excellent interpersonal, presentation and communication skills`,
+//     ],
+//     status:"closed",
+//   },
+
+//    {
+//     id: "instructional-design-lead",
+//     title: "Instructional Design Lead (full time role)",
+//     synopsis:
+//       "We are looking for an instructional Design Lead.",
+//     location: "Lagos, Nigeria",
+//     description: `
+           
+//         `,
+//     responsibilities: [
+//       `Creating engaging learning activities and compelling course content for all programs`,
+//       `Providing assessments and activities that enhance the learning process of beneficiaries`,
+//       `Conducting train-the-trainer classes for facilitators`,
+//       `Maintaining program documentation.`,
+//       `Supervise learning programs delivery and implementation `,
+//       `Assessing learning needs of beneficiaries`,
+//       `Staying abreast of the latest trends and best-practices in the eLearning and instructional design community in order to enhance and expand on training objects and deliverables`,
+      
+//     ],
+//     requirements:[
+//       `Minimum of 2 - 3 years’ experience in a Lead Facilitation role (Tech facilitation is an advantage)`,
+//       `B.Sc. in Educational management/Technology, Instructional design or similar field`,
+    
+//     ],
+//     skills: [
+//       `Solid knowledge of course development `,
+//       `Knowledge of Information Technology`,
+//       `Experience with LMS platform is a plus`,
+//       `Excellent knowledge of learning theories and instructional design models`,
+//       `Lesson and curriculum planning skills`,
+//       `Excellent verbal and written communication skills`,
+//       `Understanding of varied learning styles`,
+//       `Knowledge of assessment and evaluation methods`,
+//       `Must be open to learning new skills`,
+//     ],
+//     status:"closed",
+//   },
+// ];
+
+
 const jobs = [
   {
-    id: "Programs-intern",
-    title: "Programs Intern",
+    id: "partnerships-and-sustainability-associate",
+    title: "Partnerships and Sustainability Associate",
     synopsis:
-      "We are looking for a Programs Intern.",
-    location: "Lagos, Nigeria",
+      "We are looking for a partnerships and sustainability associate.",
+    location: "Abuja, Nigeria",
     description: `
                
       `,
     responsibilities: [
-      `Provide support to your direct report and program manager in implementing key program deliverables`,
-      `Provide support for creation and review of key program documentation`,
-      `Participate in program monitoring and evaluation to ensure end line deliverables are properly tracked`,
+      `Provide support to direct report and the Director of Partnerships and Sustainability in implementing key deliverables of the department`,
+      `Provide support in sourcing grant applications`,
+      `Track and report on success metrics, including audience reach, engagement, social media participation and more`,
+      `Provide support in drafting letters, MoUs and other official documentation`,
+      `Build tools and templates to strengthen the operations of the Partnerships Team, including proposal templates and guidance on the partnerships process.`,
+      `Support in managing a portfolio of existing partnerships`,
+      ` Provide support in managing partners and stakeholders, including curating, scheduling and documenting partnership correspondence`,
+      `Provide creative ways of achieving deliverables in a timely manner`,
     ],
     requirements:[
-      `Minimum 0f 6 months experience in Programs or Project management`,
+      `Minimum 1 year’s work experience in a Partnerships and Sustainability or a related field.`,
       `Bachelors’ degree in a related field`,
     
     ],
     skills: [
-      `Strong analytical skills`,
+      `Excellent research, writing and presentation skills, with strong potential for proposal development`,
       `Critical thinking and problem-solving skills`,
       `Excellent time-management skills`,
       `Excellent interpersonal, presentation and communication skills`,
+      `Strong attention to details`,
+      `Excellent written and verbal communications skills`,
+      `Proficiency in utilizing Microsoft Office Suite`,
     ],
-    status:"closed",
+    status:"open",
   },
   {
-    id: "hr-Intern",
-    title: "HR Intern",
+    id: "grant-writer",
+    title: "Grant Writer",
     synopsis:
-      "We are looking for HR Intern",
-    location: "Lagos, Nigeria",
+      "We are looking for Grant Writer",
+    location: "Lagos/Abuja, Nigeria",
     description: `
          
         `,
@@ -145,83 +283,16 @@ const jobs = [
 
     ],
     requirements: [
-      `Minimum of 6 months work experience in Human Resources Management or a related field`,
-      `Bachelors’ degree in Human Resources Management or related field`,
-      `Ability to maintain confidentiality of documents and other personal information`,
+      ` Bachelors’ degree in English or any other relevant field.`,
+      `Minimum of 2 years’ experience in research and creative writing.`,
+      `Experience in non-profit industry is an added advantage.`,
     ],
     skills: [
-      `Critical thinking and problem-solving skills`,
-      `Excellent time-management skills`,
-      `Excellent interpersonal, presentation and communication skills`,
-      `Proficient in MS Office`,
+      `Bachelors’ degree in English or any other relevant field.`,
+      `Minimum of 2 years’ experience in research and creative writing.`,
+      `Experience in non-profit industry is an added advantage.`,
     ],
-    status:"closed",
-  },
-  {
-    id: "partnerships-intern",
-    title: "Partnerships and Sustainability Intern",
-    synopsis:
-      "We are looking for a Partnerships and Sustainability Intern.",
-    location: "Abuja, Nigeria",
-    description: `
-           
-        `,
-    responsibilities: [
-      `Provide support to the Partnerships and Susutainability Lead in implementing key deliverables of the department`,
-      `Provide support in sourcing and writing grant applications within applicable deadlines`,
-      `Provide support in drafting letters, MoUs and other official documentation`,
-      `Provide support in managing partners and stakeholders, including curating, scheduling and documenting partnership correspondence.`,
-    ],
-    requirements:[
-      `Minimum of 6 months work experience in a Partnerships and Sustainability role or a related field.`,
-      `Bachelors’ degree in a related field`,
-    
-    ],
-    skills: [
-      `Strong writing skills`,
-      `Critical thinking and problem-solving skills`,
-      `Excellent time-management skills`,
-      `Excellent interpersonal, presentation and communication skills`,
-    ],
-    status:"closed",
-  },
-
-   {
-    id: "instructional-design-lead",
-    title: "Instructional Design Lead (full time role)",
-    synopsis:
-      "We are looking for an instructional Design Lead.",
-    location: "Lagos, Nigeria",
-    description: `
-           
-        `,
-    responsibilities: [
-      `Creating engaging learning activities and compelling course content for all programs`,
-      `Providing assessments and activities that enhance the learning process of beneficiaries`,
-      `Conducting train-the-trainer classes for facilitators`,
-      `Maintaining program documentation.`,
-      `Supervise learning programs delivery and implementation `,
-      `Assessing learning needs of beneficiaries`,
-      `Staying abreast of the latest trends and best-practices in the eLearning and instructional design community in order to enhance and expand on training objects and deliverables`,
-      
-    ],
-    requirements:[
-      `Minimum of 2 - 3 years’ experience in a Lead Facilitation role (Tech facilitation is an advantage)`,
-      `B.Sc. in Educational management/Technology, Instructional design or similar field`,
-    
-    ],
-    skills: [
-      `Solid knowledge of course development `,
-      `Knowledge of Information Technology`,
-      `Experience with LMS platform is a plus`,
-      `Excellent knowledge of learning theories and instructional design models`,
-      `Lesson and curriculum planning skills`,
-      `Excellent verbal and written communication skills`,
-      `Understanding of varied learning styles`,
-      `Knowledge of assessment and evaluation methods`,
-      `Must be open to learning new skills`,
-    ],
-    status:"closed",
+    status:"open",
   },
 ];
 
