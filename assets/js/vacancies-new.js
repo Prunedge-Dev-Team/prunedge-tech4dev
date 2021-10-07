@@ -272,15 +272,12 @@ const jobs = [
          
         `,
     responsibilities: [
-      `Assist with the recruitment process by identifying candidates, performing reference checks and issuing employment contracts`,
-      `Maintain calendars of HR management team`, 
-      `Assist with performance management procedures`, 
-      `Schedule meetings, interviews, HR events and maintain agendas`, 
-      `Produce and submit reports on general HR activity`,  
-      `Maintain digital and electronic records of employees`, 
-      `Perform orientation and update records of new team members`,
-      `Coordinate training sessions and seminars`,
-
+      `Research and identify potential donors by reviewing Tech4Dev’s files, following up on leads and reading up on technology/digital transformation periodicals.`,
+      `Write high-quality grant letters, proposals, narratives and applications requesting funds from individual, corporate and foundation prospects.`, 
+      `Possess knowledge of procedures governing state, federal, and private grant proposal submissions, funder selection criteria and postaward funder expectations`, 
+      `Identify new funders to support programs. Meet with program staff to determine funding needs and program planning.`, 
+      `Maintain tracking system for grant, renewal, and report deadlines.`,  
+      `Schedule grant proposals according to process and ensure all internal approvals are obtained prior to submission. Actively engage in ongoing prospect research to identify viable funding opportunities.`, 
     ],
     requirements: [
       ` Bachelors’ degree in English or any other relevant field.`,
@@ -288,9 +285,12 @@ const jobs = [
       `Experience in non-profit industry is an added advantage.`,
     ],
     skills: [
-      `Bachelors’ degree in English or any other relevant field.`,
-      `Minimum of 2 years’ experience in research and creative writing.`,
-      `Experience in non-profit industry is an added advantage.`,
+      `Excellent written and verbal communications skills, including networking skills with people at all levels internally and externally.`,
+      `Strong executive presence and interpersonal skills to effectively influence and interact with leadership, partners and donors.`,
+      `High proficiency in Microsoft Office Suite and database programs`,
+      `Must be accurate and detail oriented, possess strong organizational and time management skills and the ability to prioritize complex projects`,
+      `Ability to work independently as well as collaboratively in a team environment`,
+
     ],
     status:"open",
   },
