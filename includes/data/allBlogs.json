@@ -1,4 +1,19 @@
-[
+[ 
+  {
+  "imageUrl": "assets/images/blog/Winner-emeto.png",
+  "writterImage":"assets/images/people/chigozie.jpeg",
+  "imageStyle":"style='width:100%;'",
+  "title": "Facilitator Spotlight: Winner Emeto",
+  "author": "Chigozie Paul",
+  "date": "October 6, 2021",
+  "synopsis": "For every project that we successfully carry out, we have help in the form of volunteers, from NWT to The Women Techsters Open Day, Bootcamp, and even Fellowship. Volunteering is an essential part of our organization, and we do not take every person who has volunteered with us for granted.",
+  "href": "/blog/newSpotlight/facilitator-spotlight.html",
+  "categoryArticles":"/blog/blogCategories/articles-1.html",
+  "categoryEvents":"/blog/blogCategories/events-1.html",
+  "categoryAll":"/blog/blogCategories/all.html",
+  "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+  "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+},
 
   {
     "imageUrl": "assets/images/blog/teacher.jpg",
