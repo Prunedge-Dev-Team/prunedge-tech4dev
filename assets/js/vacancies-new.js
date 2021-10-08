@@ -294,6 +294,76 @@ const jobs = [
     ],
     status:"open",
   },
+  
+   {
+    id: "instructional-design-lead",
+    title: "Instructional Design Lead",
+    synopsis:
+      "We are looking for an instructional Design Lead.",
+    location: "Lagos, Nigeria",
+    description: `
+           
+        `,
+    responsibilities: [
+      `Creating engaging learning activities and compelling course content for all programs`,
+      `Providing assessments and activities that enhance the learning process of beneficiaries`,
+      `Conducting train-the-trainer classes for facilitators`,
+      `Maintaining program documentation.`,
+      `Supervise learning programs delivery and implementation `,
+      `Assessing learning needs of beneficiaries`,
+      `Staying abreast of the latest trends and best-practices in the eLearning and instructional design community in order to enhance and expand on training objects and deliverables`,
+      
+    ],
+    requirements:[
+      `Minimum of 2 - 3 years’ experience in a Lead Facilitation role (Tech facilitation is an advantage)`,
+      `B.Sc. in Educational management/Technology, Instructional design or similar field`,
+    
+    ],
+    skills: [
+      `Solid knowledge of course development `,
+      `Knowledge of Information Technology`,
+      `Experience with LMS platform is a plus`,
+      `Excellent knowledge of learning theories and instructional design models`,
+      `Lesson and curriculum planning skills`,
+      `Excellent verbal and written communication skills`,
+      `Understanding of varied learning styles`,
+      `Knowledge of assessment and evaluation methods`,
+      `Must be open to learning new skills`,
+    ],
+    status:"open",
+  },
+
+  {
+    id: "communications-intern",
+    title: "Communications Intern",
+    synopsis:
+      "We are looking for a Communications Intern.",
+    location: "Lagos, Nigeria",
+    description: `
+           
+        `,
+    responsibilities: [
+      `Be responsible for social media accounts creation and management, increasing social media visibility through targeted organic & paid content push and management`,
+      `Generate and manage the distribution and use of engaging media content (audio, video, blog, etc.)`,
+      `Responsible for generating content for all communication materials as well as curating and managing Tech4Dev’s Newsletters and blog(s) `,
+      `Ensuring all messaging across all media platforms align with key organizational strategies`,
+      `Develop communications strategies for initiative launches, and advocacy `,
+      `Brainstorm and collaborate with teams for new communications ideas and strategies•Develop weekly, monthly,quarterly, and annual media activity reports`,
+      `Manage online community for Women Techsters`,
+      
+    ],
+    requirements:[
+      `Minimum of 6 monthswork experience in Communicationsor a related field`,
+    ],
+    skills: [
+      `Excellent Interpersonal and Communication skills`,
+      `Outstanding social media engagement (Social media Savviness)`,
+      `Strong writing, editing and Copyrighting skills`,
+      `Creativity: Ability to ‘think outside the box’`,
+      `Most important criterion: Passion for Non-Profit and willingness to learn`,
+    ],
+    status:"open",
+  },
 ];
 
 
