@@ -1,5 +1,20 @@
 [ 
   {
+    "imageUrl": "assets/images/blog/children1.jpg",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%;'",
+    "title": "International Day of the Girl Child, 2021 - Digital Generation. Our Generation",
+    "author": "Chigozie Paul",
+    "date": "October 11, 2021",
+    "synopsis": "Globally, the percentage of females among Science Technology Engineering and Mathematics (STEM) graduates is below 15 percent in over two-thirds of countries. And in middle and higher-income countries, only 14 percent of girls who were top performers in science or mathematics expected to work in science and engineering compared to 26 percent of top-performing boys. - un.org",
+    "href": "/blog/newArticles/children-day.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
   "imageUrl": "assets/images/blog/Winner-emeto.png",
   "writterImage":"assets/images/people/chigozie.jpeg",
   "imageStyle":"style='width:100%;'",
