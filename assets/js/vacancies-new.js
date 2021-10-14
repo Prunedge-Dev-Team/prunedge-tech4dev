@@ -364,6 +364,39 @@ const jobs = [
     ],
     status:"open",
   },
+    {
+    id: "hr-Intern",
+    title: "HR Intern",
+    synopsis:
+      "We are looking for HR Intern",
+    location: "Lagos, Nigeria",
+    description: `
+         
+        `,
+    responsibilities: [
+      `Assist with the recruitment process by identifying candidates, performing reference checks and issuing employment contracts`,
+      `Maintain calendars of HR management team`, 
+      `Assist with performance management procedures`, 
+      `Schedule meetings, interviews, HR events and maintain agendas`, 
+      `Produce and submit reports on general HR activity`,  
+      `Maintain digital and electronic records of employees`, 
+      `Perform orientation and update records of new team members`,
+      `Coordinate training sessions and seminars`,
+
+    ],
+    requirements: [
+      `Minimum of 6 months work experience in Human Resources Management or a related field`,
+      `Bachelors’ degree in Human Resources Management or related field`,
+      `Ability to maintain confidentiality of documents and other personal information`,
+    ],
+    skills: [
+      `Critical thinking and problem-solving skills`,
+      `Excellent time-management skills`,
+      `Excellent interpersonal, presentation and communication skills`,
+      `Proficient in MS Office`,
+    ],
+    status:"closed",
+  },
 ];
 
 
