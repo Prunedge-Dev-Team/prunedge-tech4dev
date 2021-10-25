@@ -1,37 +1,5 @@
 // const jobs2 = [
-//   {
-//     id: "programs-associate",
-//     title: "Programs Associate",
-//     synopsis:
-//       "We are looking for an experienced programs Associate",
-//     location: "Lagos, Nigeria",
-//     description: `
-         
-//         `,
-//     responsibilities: [
-//       `Strategize and outline goals and objectives of the program`,
-//       `Assign team members and volunteers to the different initiatives`, 
-//       `Estimate and implement program budgets`, 
-//       `Set program controls/governance/standards`, 
-//       `Monitor all initiatives through the entire program cycle, while managing the day-today detailed aspects of multiple initiatives`,  
-//       `Coordinate and utilize resources for multiple projects in the program`, 
-//       `Communicate with individual initiative volunteers to address potential risks as well as resolve problems and issues`,
-//       `Manage program facilitators across all states`,
 
-//     ],
-//     requirements: [
-//       `Bachelors’ degree in a related field`,
-//       `Minimum of 1 year experience in Programs or a related field.`,
-//     ],
-//     skills: [
-//       `Programs or Project Management skills`,
-//       `Strong analytical skills`,
-//       `Critical thinking and problem-solving skills`,
-//       `Excellent time-management skills`,
-//       `Excellent interpersonal, presentation and communication skills`,
-//     ],
-//     status:"closed",
-//   },
 //   {
 //     id: "Placement-lead",
 //     title: "Placement Lead",
@@ -97,33 +65,6 @@
 
 
 // const jobs1 = [
-//   {
-//     id: "Programs-intern",
-//     title: "Programs Intern",
-//     synopsis:
-//       "We are looking for a Programs Intern.",
-//     location: "Lagos, Nigeria",
-//     description: `
-               
-//       `,
-//     responsibilities: [
-//       `Provide support to your direct report and program manager in implementing key program deliverables`,
-//       `Provide support for creation and review of key program documentation`,
-//       `Participate in program monitoring and evaluation to ensure end line deliverables are properly tracked`,
-//     ],
-//     requirements:[
-//       `Minimum 0f 6 months experience in Programs or Project management`,
-//       `Bachelors’ degree in a related field`,
-    
-//     ],
-//     skills: [
-//       `Strong analytical skills`,
-//       `Critical thinking and problem-solving skills`,
-//       `Excellent time-management skills`,
-//       `Excellent interpersonal, presentation and communication skills`,
-//     ],
-//     status:"closed",
-//   },
 //   {
 //     id: "hr-Intern",
 //     title: "HR Intern",
@@ -223,10 +164,157 @@
 //     ],
 //     status:"closed",
 //   },
+// {
+//   id: "Programs-intern",
+//   title: "Programs Intern",
+//   synopsis:
+//     "We are looking for a Programs Intern.",
+//   location: "Lagos, Nigeria",
+//   description: `
+             
+//     `,
+//   responsibilities: [
+//     `Provide support to your direct report and program manager in implementing key program deliverables`,
+//     `Provide support for creation and review of key program documentation`,
+//     `Participate in program monitoring and evaluation to ensure end line deliverables are properly tracked`,
+//   ],
+//   requirements:[
+//     `Minimum 0f 6 months experience in Programs or Project management`,
+//     `Bachelors’ degree in a related field`,
+  
+//   ],
+//   skills: [
+//     `Strong analytical skills`,
+//     `Critical thinking and problem-solving skills`,
+//     `Excellent time-management skills`,
+//     `Excellent interpersonal, presentation and communication skills`,
+//   ],
+//   status:"open",
+// },
 // ];
 
 
 const jobs = [
+    {
+    id: "communications-anager",
+    title: "Communications Manager",
+    synopsis:
+      "We are looking for a Communications Manager.",
+    location: "Lagos, Nigeria",
+    description: `
+               
+      `,
+    responsibilities: [
+      ` Developing, managing and implementing our global communications strategy to raise the profile and the visibility of Tech4Dev, in line with our External Relations strategy and our advocacy activities.`,
+      ` Ensuring consistency of strategy, messaging and brand identity compliance 
+      across all the organization and providing a solid framework for all colleagues 
+      and members to effectively communicate with external stakeholders`,
+      ` Responsible for managing the design, storytelling and digital media leads 
+      and team`,
+      `Identifying and engaging around media and press opportunities`,
+      ` Responsible for driving thought leadership and building media/press 
+      relations`,
+      ` Responsible for editing of all content across all platforms as well as for 
+      articles, external communication materials and media content creation`,
+      ` Ensuring all messaging across all media platforms aligns with key 
+      organizational strategies`,
+      ` Brainstorm and collaborate with teams for new communications ideas and 
+      strategies`,
+      `Develop communications strategies for initiative launches, and advocacy`,
+      `Responsible for managing and growing the overall organization brand`,
+      ` Responsible for ensuring planning and success of events and brand related 
+      engagements`,
+      `Responsible for managing the communications and media budget`,
+    ],
+    requirements:[
+      `Minimum of 5 years work experience in a Communications Role`,
+      ` Minimum of 2 years’ experience in Impact Storytelling within a Non-Profit 
+      Organisation`,
+      `Minimum of 1 year experience in a leadership position`,
+    
+    ],
+    skills: [
+      `Excellent Interpersonal and Communication skills`,
+      `Outstanding social media engagement (Social media Savviness)`,
+      `Strong writing, editing and Copyrighting skills`,
+      `Creativity: Ability to ‘think outside the box`,
+      `Most important criterion: Passion for Non-Profit and willingness to learn`,
+    ],
+    status:"open",
+  },
+
+    {
+    id: "Programs-intern",
+    title: "Programs Intern",
+    synopsis:
+      "We are looking for a Programs Intern.",
+    location: "Lagos, Nigeria",
+    description: `
+               
+      `,
+    responsibilities: [
+      `Provide support to your direct report and program manager in implementing key program deliverables`,
+      `Provide support for creation and review of key program documentation`,
+      `Participate in program monitoring and evaluation to ensure end line deliverables are properly tracked`,
+    ],
+    requirements:[
+      `Minimum 0f 6 months experience in Programs or Project management`,
+      `Bachelors’ degree in a related field`,
+    
+    ],
+    skills: [
+      `Strong analytical skills`,
+      `Critical thinking and problem-solving skills`,
+      `Excellent time-management skills`,
+      `Excellent interpersonal, presentation and communication skills`,
+    ],
+    status:"open",
+  },
+
+
+    {
+    id: "programs-associate",
+    title: "Programs Associate",
+    synopsis:
+      "We are looking for an experienced programs Associate",
+    location: "Lagos, Nigeria",
+    description: `
+         
+        `,
+    responsibilities: [
+      `Strategize and outline goals and objectives of the program`,
+      `Assign team members and volunteers to the different initiatives`, 
+      `Estimate and implement program budgets`, 
+      `Set program controls/governance/standards`, 
+      `Monitor all initiatives through the entire program cycle, while managing the day-today detailed aspects of multiple initiatives`,  
+      `Set timelines for goal posts/due dates`,
+      `Coordinate and utilize resources for multiple projects in the program`, 
+      `Communicate with individual initiative volunteers to address potential risks as well as resolve problems and issues`,
+      `Communicate program objectives, goals, and progress to program directors, executives, upper management, and stakeholders`,
+      `Set objectives to maximize ROI; prepare and present progress and budget reports to the leadership team as well as relevant advisory board members and Trustees`,
+       `Assist team members and volunteers when needed to accomplish team goals`,
+       `Create and implement the baseline and end line surveys for all initiatives as well 
+       as ensure monitoring and evaluation of initiatives to ensure success and 
+       outcomes of the initiatives`,
+       `Manage program facilitators across all states`,
+
+    ],
+    requirements: [
+      `Bachelors’ degree in a related field`,
+      ` Minimum 1-2 years working experience in Product/Programs management 
+      within a Non-Profit Organization`,
+    ],
+    skills: [
+      `Proficiency in one coding language (Python, React, .Net, JavaScript, etc)`,
+      `Strong analytical skills`,
+      `Critical thinking and problem-solving skills`,
+      `Excellent time-management skills`,
+      `Excellent interpersonal, presentation and communication skills`,
+      `Ability to understand business requirements and translate them into technical 
+      requirements`,
+    ],
+    status:"open",
+  },
   {
     id: "partnerships-and-sustainability-associate",
     title: "Partnerships and Sustainability Associate",
