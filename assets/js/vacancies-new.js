@@ -274,7 +274,7 @@ const jobs = [
 
     {
     id: "programs-associate",
-    title: "Programs Associate",
+    title: "Programs Associate (Engineering Communities)",
     synopsis:
       "We are looking for an experienced programs Associate",
     location: "Lagos, Nigeria",
@@ -651,7 +651,7 @@ resumeInput.addEventListener("change", (e) => {
   const fil = e.target.files
   var size = parseFloat(file.size / 1024).toFixed(2);
   if(file.type !== "application/pdf"){
-    window.setStatus("error", true, "Wronge file type, only pdf is allowed");
+    window.setStatus("error", true, "Wrong file type, only pdf is allowed");
     return null;
   }else if(size >= 1000){
     window.setStatus("error", true, "File size might be more than 1Mb");
