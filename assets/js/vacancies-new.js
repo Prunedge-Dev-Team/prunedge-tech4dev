@@ -710,35 +710,62 @@ submitButton.addEventListener("click", async (_) => {
     // const url = "http://localhost:3000/apiv1/talent/apply"
     const url =  "https://tech4dev.azurewebsites.net/apiv1/talent/apply"
 
-    await axios.post(
-      url,
-      formData,
-      {
-        headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Methods":"GET,PUT,POST,DELETE,PATCH,OPTIONS",
-          "Content-Type": "multipart/form-data"
-        }
-      }
-    );
-    // console.log(formData.values);
-    // const myHeaders = new Headers();
-    // myHeaders.append('Content-Type', 'multipart/form-data');
-    // myHeaders.append('Access-Control-Allow-Origin', '*');
-    // // myHeaders.append('X-Custom-Header', 'ProcessThisImmediately');
+    // const response = await axios.post(
+    //   url,
+    //   formData,
+    //   {
+    //     headers: {
+    //       "Access-Control-Allow-Origin": "*",
+    //       "Access-Control-Allow-Methods":"GET,PUT,POST,DELETE,PATCH,OPTIONS",
+    //       "Content-Type": "multipart/form-data"
+    //     }
+    //   }
+    // );
+ const submitForm = (payload) => {
+      return axios
+        .post(
+          url,
+          payload,
+          {
+                headers: {
+                  "Access-Control-Allow-Origin": "*",
+                  "Access-Control-Allow-Methods":"GET,PUT,POST,DELETE,PATCH,OPTIONS",
+                  "Content-Type": "multipart/form-data"
+                }
+          }
+        )
+        .then(
+          (response) => {
+            return response;
+          },
+          (error) => {
+            return error.response;
+          }
+        );
+    };
 
-    // let response = await fetch(url, {
-    //   method: 'POST',
-    //   body: formData,
-    // });
-    // console.log(response);
-    window.setStatus("success");
+    const response = await submitForm(formData)
+    if(response.data.error === "duplicate key value violates unique constraint \"jobapplications_email_key\""){
+      window.setStatus("error", true, "duplicate application. Email already used");
+      submitButton.classList.remove("is-loading");
+      submitButton.disabled = false;
+      return null;
+    }else if(response.status == 200){
+      window.setStatus("success");
 
-    inputs.forEach((input) => (input.value = ""));
-    resumeReset.click();
-    [...document.querySelectorAll(".is-focused")].forEach((label) =>
-      label.classList.remove("is-focused")
-    );
+      inputs.forEach((input) => (input.value = ""));
+      resumeReset.click();
+      [...document.querySelectorAll(".is-focused")].forEach((label) =>
+        label.classList.remove("is-focused")
+      );
+      submitButton.classList.remove("is-loading");
+      submitButton.disabled = false;
+      return null;
+    }
+    window.setStatus("error");
+
+ 
+    
   } catch (err) {
     window.setStatus("error");
   } finally {
