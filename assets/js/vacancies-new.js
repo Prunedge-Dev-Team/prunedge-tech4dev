@@ -483,7 +483,7 @@ const jobs = [
       `Excellent interpersonal, presentation and communication skills`,
       `Proficient in MS Office`,
     ],
-    status:"closed",
+    status:"open",
   },
 ];
 
