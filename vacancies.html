@@ -97,20 +97,33 @@
                     <span class="resume__label">
                         Resume/CV (file type: pdf, file size: Not more than 1mb)
                     </span>
-                    <label class="resume__button" for="resume">
-                        Attach CV
+
+                    <label style="display: flex;height:55%;cursor:pointer;background-color:#F9FAFB;border:1px solid #3CAE5C; width:130px;border-radius:8px">
+                        <p style="color:#3CAE5C;position:relative;bottom:4px;left:5px;top:13px">Attach CV</p>
+                        <!-- <input 
+                           name="file"
+                           type="file" placeholder="Upload Certificate" style="display:none"
+                        /> -->
+                        <input multiple name="files" type="file" class="resume__input" placeholder="Upload Certificate" style="display:none" id="resume">
+                        <img src="./assets/images/download-icon.jpg" style="width:40px;height:30px;color:#3CAE5C;padding-left:10px;position:relative;top:2px;left: 7px;"></img>
+
                     </label>
+
+                    <!-- <label class="resume__button" for="resume">
+                        Attach CV
+                    </label> -->
                     <div class="resume__file-wrapper d-flex">
                         <p class="resume__file">
 
                         </p>
-                        <button type="button" class="resume__file-reset">
+                        <button type="button" class="resume__file-reset" style="background-color: #F9FAFB;">
                             Reset
                         </button>
                     </div>
-                    <input multiple name="files" type="file" class="resume__input" id="resume">
+                    <!-- <input multiple name="files" type="file" class="resume__input" id="resume"> -->
                 </div>
             </div>
+            <p class="ErroMsg">must be less than 250 characters</p>
             <textarea
                     class="form__textarea"
                     placeholder="In less than 50 words, Why do you want to work with us?"

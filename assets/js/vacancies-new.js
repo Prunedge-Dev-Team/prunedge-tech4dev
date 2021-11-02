@@ -643,9 +643,20 @@ const resumeReset = document.querySelector(".resume__file-reset");
 
 let resumeFile = null;
 
+
+
 resumeInput.addEventListener("change", (e) => {
   // const file = [...resumeInput.files].pop();
   const file = e.target.files[0];
+  const fil = e.target.files
+  var size = parseFloat(file.size / 1024).toFixed(2);
+  if(file.type !== "application/pdf"){
+    window.setStatus("error", true, "Wronge file type, only pdf is allowed");
+    return null;
+  }else if(size >= 1000){
+    window.setStatus("error", true, "File size might be more than 1Mb");
+    return null;
+  }
   const fileShower = resumeFileWrapper.querySelector(".resume__file");
   fileShower.innerHTML = file.name;
   resumeFile = file;
@@ -661,11 +672,22 @@ const form = document.querySelector("form");
 
 const submitButton = document.querySelector(".form__submit-btn");
 
+
+
 submitButton.addEventListener("click", async (_) => {
+  const words = form.querySelector("textarea")
+
+  if(words.value.length > 249){
+    const wordcount = form.querySelector(".ErroMsg");
+    wordcount.style.display = "block"
+    window.setStatus("error", true, "words count more than 50");
+    return null;
+  }
   const inputs = [
     ...form.querySelectorAll("input"),
     form.querySelector("textarea"),
   ];
+
   if (inputs.some(({ value }) => !value.trim()) || !resumeFile) {
     window.setStatus("error", true, "Kindly fill all the inputs.");
     return null;
@@ -674,7 +696,6 @@ submitButton.addEventListener("click", async (_) => {
   inputs.forEach(({ value, name }) => {
     if(name !== "files"){
       formData.append(name, value);
-      console.log(name, value)
     }
   });
 
