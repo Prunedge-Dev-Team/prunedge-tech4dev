@@ -1,4 +1,20 @@
 [ 
+
+  {
+    "imageUrl": "assets/images/blog/buss.jpeg",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%;'",
+    "title": "Staying Connected with Your Business in A Digital World",
+    "author": "Chigozie Paul",
+    "date": "November 5, 2021",
+    "synopsis": "Recently, Mark Zuckerberg, co-Founder of Facebook, Inc. and serial entrepreneur, made an announcement that rocked the world. Facebook's name was changing to Metaverse, and with this new name, they were introducing a new concept. The Metaverse was designed to explore the shared virtual reality part of the internet",
+    "href": "/blog/newArticles/business-in-a-digital-world.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
   {
   "imageUrl": "assets/images/blog/tech.jpeg",
   "writterImage":"assets/images/people/chigozie.jpeg",
