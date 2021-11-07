@@ -321,7 +321,7 @@ const images = [
 
 const counterFunction = () =>{
     const counters = document.querySelectorAll('.stat-header')
-    const finalCount = ["4,500+","10M+", "Over 25","400+" , "More than 5"]
+    const finalCount = ["4,500+","10M+", "Over 25","400+" , "5"]
     const speed = 200;
     counters.forEach((counter)=>{
         const updateCounter = () => {
