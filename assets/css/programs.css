@@ -61,14 +61,10 @@ nav{
 }
 
 .background-img{
-    /* object-position: 100 -100px; */
-    /* background-size: contain; */
-    /* background-size: 80% 100%; */
     width: 100%;
     position: absolute;
     z-index: 1;
-    height: 450px;
-    /* object-fit: cover; */
+    height: 420px;
 }
 
 .background-img--board{
@@ -84,7 +80,7 @@ nav{
     font-size: 48px;
     font-family: 'Avenir Next Bold', sans-serif;
     color: white;
-    height: 450px;    
+    height: 420px;    
     background: rgba(0,0,0,0.4);
 }
 
