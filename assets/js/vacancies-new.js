@@ -450,7 +450,7 @@ const jobs = [
       `Creativity: Ability to ‘think outside the box’`,
       `Most important criterion: Passion for Non-Profit and willingness to learn`,
     ],
-    status:"close",
+    status:"closed",
   },
     {
     id: "hr-Intern",
