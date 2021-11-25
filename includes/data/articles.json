@@ -1,5 +1,20 @@
 [ 
   {
+    "imageUrl": "assets/images/blog/domestic-violence.jpeg",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:85%;'",
+    "title": "Orange the World: Fund, Respond, Prevent, Collect!",
+    "author": "Chigozie Paul",
+    "date": "November 25, 2021",
+    "synopsis": "Violence against women (VAW), also known as gender-based violence, means any act done against the feminine gender that results in, or is likely to result in, physical, sexual, or psychological harm or suffering. Violence against Women has a very long, unpleasant history.",
+    "href": "/blog/newArticles/domestic-voilence.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
     "imageUrl": "assets/images/blog/men.jpeg",
     "writterImage":"assets/images/people/chigozie.jpeg",
     "imageStyle":"style='width:100%;'",
