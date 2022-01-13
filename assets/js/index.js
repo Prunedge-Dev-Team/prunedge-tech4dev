@@ -321,7 +321,7 @@ const images = [
 
 const counterFunction = () =>{
     const counters = document.querySelectorAll('.stat-header')
-    const finalCount = ["4,500+","10M+", "Over 25","400+" , "5"]
+    const finalCount = ["13,609","10M+", "Over 25","400+" , "5"]
     const speed = 200;
     counters.forEach((counter)=>{
         const updateCounter = () => {
@@ -333,7 +333,7 @@ const counterFunction = () =>{
                counter.innerText = count + inc;
                setTimeout(updateCounter, 10)
             }else{
-                if(target == 4500){
+                if(target == 13609){
                     counter.innerText = finalCount[0]
                 }
                 if(target == 10000000){
