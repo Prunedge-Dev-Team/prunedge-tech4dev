@@ -1,5 +1,20 @@
 [ 
   {
+    "imageUrl": "assets/images/blog/babalwa.jpg",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%;height:700px'",
+    "title": "WOMEN TECHSTERS BENEFICIARIES SPOTLIGHT: BABALWA MPUNYUKA",
+    "author": "Chigozie Paul",
+    "date": "January 14, 2022",
+    "synopsis": "My name is Babalwa Mpunyuka, from Pretoria, South Africa. I am currently a beneficiary of the Cybersecurity learning track of the Women Techsters Fellowship Program, sponsored by Tech4Dev in partnership with Microsoft.",
+    "href": "/blog/newSpotlight/beneficiaries-spotlight-babalwa.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
     "imageUrl": "assets/images/blog/human-right.jpeg",
     "writterImage":"assets/images/people/chigozie.jpeg",
     "imageStyle":"style='width:100%;'",
