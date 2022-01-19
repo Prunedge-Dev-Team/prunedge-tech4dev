@@ -422,7 +422,7 @@ footer{
     grid-template-columns: 1fr 0.5fr 1fr 1fr 1.5fr;
     background-color: #083A55;
     color: white;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 footer div .header{
@@ -465,6 +465,23 @@ footer li a{
     width: 100%;
 }
 
+.download{
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.download button{
+    width: 185px;
+    height: 40px;
+    background-color: #FF576B;
+    color: white;
+    border: none;
+    font-family: 'Avenir Next Medium',sans-serif;
+    border-radius: 5px 5px;
+    cursor: pointer;
+}
+
+
 .newsletter form{
     display: flex;
     width: 100%;
@@ -492,6 +509,7 @@ footer li a{
 }
 
 .footer-bottom-row{
+    margin-top: 10px;
     display: flex;
     grid-column: 1/6;
     justify-content: space-between;
@@ -548,7 +566,7 @@ footer a:hover{
     .footer-bottom-row{
         flex-direction: column;
         align-items: flex-start;
-        height: 80px;
+        height: 120px;
         justify-content: space-between;
         grid-column: 1/4;
     }
