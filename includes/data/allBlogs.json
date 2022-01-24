@@ -1,5 +1,20 @@
 [ 
   {
+    "imageUrl": "assets/images/blog/education.jpeg",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%;'",
+    "title": "Changing Course, Transforming Education",
+    "author": "Chigozie Paul",
+    "date": "January 24, 2022",
+    "synopsis": " The world is becoming a digital village. This development places a different demand on education, which means that education now includes equipping people with the digital skills needed to survive in a fully digitalized world.",
+    "href": "/blog/newArticles/international-day-of-education.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
     "imageUrl": "assets/images/blog/happy-new-year.jpg",
     "writterImage":"assets/images/people/chigozie.jpeg",
     "imageStyle":"style='width:100%;'",
