@@ -1,5 +1,20 @@
 [
   {
+    "imageUrl": "assets/images/blog/Product-design.png",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%; height:700px'",
+    "title": "Careers in Tech: Product Design",
+    "author": "Chigozie Paul",
+    "date": "Febuary 4, 2022",
+    "synopsis": "Product design isn't just about 'pushing pixels' or 'making things pop.' Product design is about creating usable, functional, and beautiful experiences/products that satisfy user and business needs. - Olamide Jegede, Product Designer.",
+    "href": "/blog/newArticles/career-in-design.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
     "imageUrl": "assets/images/blog/finalist.jpeg",
     "writterImage":"assets/images/people/chigozie.jpeg",
     "imageStyle":"style='width:100%;height:700px'",
@@ -7,7 +22,7 @@
     "author": "Chigozie Paul",
     "date": "January 28, 2022",
     "synopsis": "We put out the first call for application for the #Digitalforallchallenge on the 16th of September 2021. The #Digitalforallchallenge is a program designed to equip people with digital skills while providing them with incentives as they learn.",
-    "href": "/blog/newArticles/digitalforallchallenge-winners.html",
+    "href": "/blog/newArticles/career-in-design.html",
     "categoryArticles":"/blog/blogCategories/articles-1.html",
     "categoryEvents":"/blog/blogCategories/events-1.html",
     "categoryAll":"/blog/blogCategories/all.html",

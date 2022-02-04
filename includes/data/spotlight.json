@@ -1,5 +1,20 @@
 [   
   {
+    "imageUrl": "assets/images/blog/Kehinde.jpg",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%; height:700px'",
+    "title": "DIGITAL SKILL FOR EMPLOYABILITY (DSFE) BENEFICIARIES SPOTLIGHT: AYOOLUWA BALOGUN",
+    "author": "Chigozie Paul",
+    "date": "Febuary 4, 2022",
+    "synopsis": "My name is Ayooluwa Olufunmilayo Balogun, a graduate of Biochemistry from the University of Lagos. I am currently a beneficiary of the Digital Skills for Employability (DSFE) training.",
+    "href": "/blog/newSpotlight/dsfe-beneficiary.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
     "imageUrl": "assets/images/blog/babalwa.jpg",
     "writterImage":"assets/images/people/chigozie.jpeg",
     "imageStyle":"style='width:100%;height:700px'",
