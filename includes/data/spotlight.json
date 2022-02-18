@@ -1,4 +1,19 @@
-[   
+[  
+  {
+    "imageUrl": "assets/images/blog/sp.jpeg",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%;height:700px'",
+    "title": "WOMEN TECHSTERS BENEFICIARIES SPOTLIGHT: EMWIONGBON IVIE",
+    "author": "Chigozie Paul",
+    "date": "January 18, 2022",
+    "synopsis": "My name is Emwiongbon Ivie, a beneficiary of the Women Techsters Fellowship. I studied computer science in school, and while in school, I have always loved the idea of becoming a programmer and building applications that work on both mobile and the web. I saw how these innovations changed the world, and I wanted to be part of it.",
+    "href": "/blog/newSpotlight/beneficiaries-spotlight-ivie.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  }, 
   {
     "imageUrl": "assets/images/blog/Kehinde.jpg",
     "writterImage":"assets/images/people/chigozie.jpeg",
