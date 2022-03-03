@@ -1,5 +1,20 @@
 [ 
   {
+    "imageUrl": "assets/images/blog/Love-act1.png",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%;'",
+    "title": "The Love Act 2.0",
+    "author": "Chigozie Paul",
+    "date": "Febuary 03, 2022",
+    "synopsis": "All around the world, February is known as the month of love. In commemoration of this, Tech4Dev, in partnership with our technology partner, Prunedge, carries out the Love Act every year. The Love Act was born out of a need to show love to the people in our immediate community.",
+    "href": "/blog/newEvents/love-act.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
     "imageUrl": "assets/images/blog/2.jpeg",
     "writterImage":"assets/images/people/chigozie.jpeg",
     "imageStyle":"style='width:100%;'",
