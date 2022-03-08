@@ -1,5 +1,20 @@
 [
   {
+    "imageUrl": "assets/images/blog/iwd.jpg",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%;'",
+    "title": "Gender equality today for a sustainable tomorrow.",
+    "author": "Chigozie Paul",
+    "date": "March 08, 2022",
+    "synopsis": "According to the Women’s Economic Empowerment Issues paper, April 2011 edition, Women’s economic empowerment is a prerequisite for sustainable development, pro-poor growth, and achieving all the Millennium Development Goals (MDGs).",
+    "href": "/blog/newEvents/international-women-day-2022.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
     "imageUrl": "assets/images/blog/Love-act1.png",
     "writterImage":"assets/images/people/chigozie.jpeg",
     "imageStyle":"style='width:100%;'",
