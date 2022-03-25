@@ -1,5 +1,35 @@
 [ 
   {
+    "imageUrl": "assets/images/blog/Hannah Olaniyi.jpg",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%;height:700px'",
+    "title": "My Microsoft Hackaton Story - Hannah Olaniyi",
+    "author": "Chigozie Paul",
+    "date": "March 25, 2022",
+    "synopsis": "My name is Hannah Olaniyi, from Osun State, Nigeria. I'm from a family of 6 and the second of four children. I am currently a 300-level student at the University of Lagos, Nigeria, studying Education and Biology and a Product Designer.",
+    "href": "/blog/newSpotlight/beneficiaries-spotlight-hannah.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
+    "imageUrl": "assets/images/blog/Yajid.jpeg",
+    "writterImage":"assets/images/people/chigozie.jpeg",
+    "imageStyle":"style='width:100%;height:700px'",
+    "title": "Volunteer Spotlight – Yazid Salahaludeen Mikail.",
+    "author": "Chigozie Paul",
+    "date": "March 25, 2022",
+    "synopsis": "My name is Yazid Salahaludeen Mikail. I hail from Kaduna State, and I am a 3rd-year chemical engineering student at Ahmadu Bello University, Zaria. I heard about Tech4Dev from social media.",
+    "href": "/blog/newSpotlight/facilitators-spotlight-yazid.html",
+    "categoryArticles":"/blog/blogCategories/articles-1.html",
+    "categoryEvents":"/blog/blogCategories/events-1.html",
+    "categoryAll":"/blog/blogCategories/all.html",
+    "categoryPressrelease":"/blog/blogCategories/pressRelease-1.html",
+    "categorySpotlight":"/blog/blogCategories/spotlight-1.html"
+  },
+  {
     "imageUrl": "assets/images/blog/iwd.jpg",
     "writterImage":"assets/images/people/chigozie.jpeg",
     "imageStyle":"style='width:100%;'",
