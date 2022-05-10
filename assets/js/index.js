@@ -241,23 +241,23 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const carouselImages = [
         {
+            src: './assets/images/home/sliderimage/slider-15b.jpg',
+            loaded: false
+        },
+        {
+            src: './assets/images/home/sliderimage/slider-13b.jpg',
+            loaded: false
+        },
+        {
+            src: './assets/images/home/sliderimage/slider-16b.jpg',
+            loaded: false
+        },
+        {
+            src: './assets/images/home/sliderimage/index-3b.jpg',
+            loaded: false
+        },
+        {
             src: './assets/images/home/sliderimage/index-2b.jpg',
-            loaded: false
-        },
-        {
-            src: './assets/images/home/sliderimage/slider-5b.jpg',
-            loaded: false
-        },
-        {
-            src: './assets/images/home/sliderimage/slider-6b.jpg',
-            loaded: false
-        },
-        {
-            src: './assets/images/home/sliderimage/slider-7b.jpg',
-            loaded: false
-        },
-        {
-            src: './assets/images/home/sliderimage/slider-8b.jpg',
             loaded: false
         },
         // {
@@ -321,7 +321,7 @@ const images = [
 
 const counterFunction = () =>{
     const counters = document.querySelectorAll('.stat-header')
-    const finalCount = ["13,609","10M+", "Over 25","400+" , "5"]
+    const finalCount = ["41,079","10M+", "36","1000+" , "15"]
     const speed = 200;
     counters.forEach((counter)=>{
         const updateCounter = () => {
@@ -333,19 +333,19 @@ const counterFunction = () =>{
                counter.innerText = count + inc;
                setTimeout(updateCounter, 10)
             }else{
-                if(target == 13609){
+                if(target == 41079){
                     counter.innerText = finalCount[0]
                 }
                 if(target == 10000000){
                     counter.innerText = finalCount[1]
                 }
-                if(target == 20){
+                if(target == 36){
                     counter.innerText = finalCount[2]
                 }
-                if(target == 400){
+                if(target == 1000){
                     counter.innerText = finalCount[3]
                 }
-                if(target == 5){
+                if(target == 15){
                     counter.innerText = finalCount[4]
                 }
             }
