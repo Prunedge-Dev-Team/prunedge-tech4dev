@@ -419,7 +419,9 @@ nav ul.sm-links li:not(:last-of-type){
 footer{
     padding: 50px 70px 20px;
     display: grid;
-    grid-template-columns: 1fr 0.5fr 1fr 1fr 1.5fr;
+    /* justify-content: space-between; */
+    grid-template-columns: 0.5fr 0.3fr 0.5fr;
+    /* grid-template-columns: 1fr 0.5fr 1fr 1fr 1.5fr; */
     background-color: #083A55;
     color: white;
     margin-top: 35px;
@@ -433,6 +435,7 @@ footer div .header{
 footer ul{
     list-style: none;
     padding: 0;
+    /* border: 2px solid white; */
 }
 
 footer li{
@@ -458,7 +461,8 @@ footer li a{
 }
 
 .blog li{
-    width: 200px;
+    /* width: 200px; */
+    width: 300px;
 }
 
 .newsletter li{
