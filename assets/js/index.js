@@ -253,11 +253,11 @@ window.addEventListener('DOMContentLoaded', () => {
             loaded: false
         },
         {
-            src: './assets/images/home/sliderimage/index-3b.jpg',
+            src: './assets/images/home/sliderimage/index-3b.png',
             loaded: false
         },
         {
-            src: './assets/images/home/sliderimage/index-2b.jpg',
+            src: './assets/images/home/sliderimage/index-2b.png',
             loaded: false
         },
         // {
