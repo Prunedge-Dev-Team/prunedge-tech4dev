@@ -245,6 +245,27 @@ main.partner,main.digital-village{
     outline: none;
     transition: 300ms;
 }
+.volunteer-link{
+    height: 44px;
+    width: 115px;
+    background-color: #FF576B;
+    border-radius: 3px;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: 'Avenir Next Medium';
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    transition: 300ms;
+    text-decoration: none;
+}
+
+.volunteer-link:hover {
+    background-color: #083a55;
+}
 
 .submit.is-loading,.submit:disabled{
     background-color: rgba(255, 87, 107, 0.8)
