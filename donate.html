@@ -1,268 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tech4Dev | Donate</title>
-    <link rel="stylesheet" href="./assets/css/nav.css">
-    <link rel="stylesheet" href="./assets/css/donate.css">
-    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Tech4Dev | Donate</title>
+        <link rel="stylesheet" href="./assets/css/nav.css" />
+        <link rel="stylesheet" href="./assets/css/donate.css" />
+        <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon" />
 
-    <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "8n2ae6cydw");
-    </script>
-</head>
-<body>
-    <header>
-        @@include('./includes/nav.html',{"active": "none"})
-        <div class="sub-nav-wrapper">
-            <div class="sub-nav">
-                <button class="close-nav">
-                    <img src="./assets/images/arrow-to-right.svg">
-                </button>
-                <a href="./index.html" class="logo">
-                    <img src="./assets/images/logo-white.svg" alt="">
-                </a>
-                <ul class="pg-links">
-                    <li class="subnav-pg-link">
-                        <a href="./index.html">
-                            Home
-                        </a>
-                    </li>
-                    <li class="subnav-pg-link">
-                        <a href="./about/">
-                            About Us
-                        </a>
-                    </li>
-                    <li class="subnav-programs-wrapper subnav-pg-link">
-                        <!-- Add something here -->
-                        <button class="show-subnav-programs">
-                            Our Programs
-                            <img src="./assets/images/caret-down.svg">
-                        </button>
-                        <ul class="subnav-programs">
-                            <li class="subnav-program">
-                                <a href="./programs/nwt.html">
-                                    Nigerian Women Techsters
-                                </a>
-                            </li>
-                            <li class="subnav-program">
-                                <a href="./programs/women-techsters.html">
-                                    Women Techsters
-                                </a>
-                            </li>
-                            <li class="subnav-program">
-                                <a href="./programs/bdei.html">
-                                    BDEI
-                                </a>
-                            </li>
-                            <li class="subnav-program">
-                                <a href="./programs/nakise.html">
-                                    Nakise
-                                </a>
-                            </li>
-                            <li class="subnav-program">
-                                <a href="./programs/codepreneur.html">
-                                    Codepreneur
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="subnav-pg-link">
-                        <a href="./get-involved/volunteer.html">
-                            Get Involved
-                        </a>
-                    </li>
-                    <li class="subnav-resources-wrapper subnav-pg-link">
-                        <!-- Add something here -->
-                        <button class="show-subnav-resources">
-                            Resources
-                            <img src="./assets/images/caret-down.svg">
-                        </button>
-                        <ul class="subnav-resources">
-                            <li class="subnav-resource">
-                                <a href="./resources/nwt.html">
-                                    Media
-                                </a>
-                            </li>
-                            <li class="subnav-resource">
-                                <a href="./blog/index.html">
-                                    Blog
-                                </a>
-                            </li>
-                            <li class="subnav-resource">
-                                <a href="./newsletter/index.html">
-                                    Newsletter
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="subnav-pg-link">
-                        <a href="./contact.html">
-                            Contact Us
-                        </a>
-                    </li>
-                    <li class="subnav-pg-link">
-                        <a href="./donate.html">
-                            Donate
-                        </a>
-                    </li>
-                </ul>
-                <ul class="sm-links">
-                    <li>
-                        <a href="https://www.youtube.com/channel/UCRET5QdzEkzhWHqGqj2QdSA/videos?view_as=subscriber" target="_blank">
-                            <img src="./assets/images/yt-white.svg">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/tech4dev/" target="_blank">
-                            <img src="./assets/images/ig-white.svg">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/tech4devhq" target="_blank">
-                            <img src="./assets/images/tw-white.svg">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/company/tech4dev/" target="_blank">
-                            <img src="./assets/images/ln-white.svg">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://web.facebook.com/Tech4DevHQ/" target="_blank">
-                            <img src="./assets/images/fb-white.svg">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="header-text">
-            <p class="header">
-                DONATE
-            </p>
-            <p class="subtext">
-                Your gift empowers youths in Africa to use technology to
-                innovate and solve problems in their communities
-            </p>
-        </div>
-        <div class="grid-wrapper">
-            <form class="donate-form">
-                <p class="donate-form__header donate-form__header--big">
-                    I would like to give
-                </p>
-                <div class="form-group">
-                    <input type="number" placeholder="1,000,000.00" class="donate-form__input--donate-amount" name="amount" required min="1">
-                    <img src="./assets/images/naira.svg" alt="" class="naira-img">
-                </div>
-                <div class="form-group">
-                    <p class="donate-form__header">
-                        to
-                    </p>
-                    <div class="select form-group">
-                        <div class="input-div">
-                            <input type="text" name="program" id="program" placeholder="Program" disabled>
-                            <button type="button" class="select__options-toggle-btn">
-                                <img src="./assets/images/arrow-down-grey.svg">
+        <script type="text/javascript">
+            (function (c, l, a, r, i, t, y) {
+                c[a] =
+                    c[a] ||
+                    function () {
+                        (c[a].q = c[a].q || []).push(arguments);
+                    };
+                t = l.createElement(r);
+                t.async = 1;
+                t.src = "https://www.clarity.ms/tag/" + i;
+                y = l.getElementsByTagName(r)[0];
+                y.parentNode.insertBefore(t, y);
+            })(window, document, "clarity", "script", "8n2ae6cydw");
+        </script>
+    </head>
+    <body>
+        <header>
+            @@include('./includes/nav.html',{"active": "none"})
+            <div class="sub-nav-wrapper">
+                <div class="sub-nav">
+                    <button class="close-nav">
+                        <img src="./assets/images/arrow-to-right.svg" />
+                    </button>
+                    <a href="./index.html" class="logo">
+                        <img src="./assets/images/logo-white.svg" alt="" />
+                    </a>
+                    <ul class="pg-links">
+                        <li class="subnav-pg-link">
+                            <a href="./index.html"> Home </a>
+                        </li>
+                        <li class="subnav-pg-link">
+                            <a href="./about/"> About Us </a>
+                        </li>
+                        <li class="subnav-programs-wrapper subnav-pg-link">
+                            <!-- Add something here -->
+                            <button class="show-subnav-programs">
+                                Our Programs
+                                <img src="./assets/images/caret-down.svg" />
                             </button>
+                            <ul class="subnav-programs">
+                                <li class="subnav-program">
+                                    <a href="./programs/nwt.html"> Nigerian Women Techsters </a>
+                                </li>
+                                <li class="subnav-program">
+                                    <a href="./programs/women-techsters.html"> Women Techsters </a>
+                                </li>
+                                <li class="subnav-program">
+                                    <a href="./programs/bdei.html"> BDEI </a>
+                                </li>
+                                <li class="subnav-program">
+                                    <a href="./programs/nakise.html"> Nakise </a>
+                                </li>
+                                <li class="subnav-program">
+                                    <a href="./programs/codepreneur.html"> Codepreneur </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="subnav-pg-link">
+                            <a href="./get-involved/volunteer.html"> Get Involved </a>
+                        </li>
+                        <li class="subnav-resources-wrapper subnav-pg-link">
+                            <!-- Add something here -->
+                            <button class="show-subnav-resources">
+                                Resources
+                                <img src="./assets/images/caret-down.svg" />
+                            </button>
+                            <ul class="subnav-resources">
+                                <li class="subnav-resource">
+                                    <a href="./resources/nwt.html"> Media </a>
+                                </li>
+                                <li class="subnav-resource">
+                                    <a href="./blog/index.html"> Blog </a>
+                                </li>
+                                <li class="subnav-resource">
+                                    <a href="./newsletter/index.html"> Newsletter </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="subnav-pg-link">
+                            <a href="./contact.html"> Contact Us </a>
+                        </li>
+                        <li class="subnav-pg-link">
+                            <a href="./donate.html"> Donate </a>
+                        </li>
+                    </ul>
+                    <ul class="sm-links">
+                        <li>
+                            <a
+                                href="https://www.youtube.com/channel/UCRET5QdzEkzhWHqGqj2QdSA/videos?view_as=subscriber"
+                                target="_blank"
+                            >
+                                <img src="./assets/images/yt-white.svg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/tech4dev/" target="_blank">
+                                <img src="./assets/images/ig-white.svg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/tech4devhq" target="_blank">
+                                <img src="./assets/images/tw-white.svg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/tech4dev/" target="_blank">
+                                <img src="./assets/images/ln-white.svg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://web.facebook.com/Tech4DevHQ/" target="_blank">
+                                <img src="./assets/images/fb-white.svg" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="header-text">
+                <p class="header">DONATE</p>
+                <p class="subtext">
+                    Your gift empowers youths in Africa to use technology to innovate and solve problems in their
+                    communities
+                </p>
+            </div>
+            <div class="grid-wrapper">
+                <form class="donate-form">
+                    <p class="donate-form__header donate-form__header--big">I would like to give</p>
+                    <div class="form-group">
+                        <input
+                            type="number"
+                            placeholder="1,000,000.00"
+                            class="donate-form__input--donate-amount"
+                            name="amount"
+                            required
+                            min="1"
+                        />
+                        <img src="./assets/images/naira.svg" alt="" class="naira-img" />
+                    </div>
+                    <div class="form-group">
+                        <p class="donate-form__header">to</p>
+                        <div class="select form-group">
+                            <div class="input-div">
+                                <input type="text" name="program" id="program" placeholder="Program" disabled />
+                                <button type="button" class="select__options-toggle-btn">
+                                    <img src="./assets/images/arrow-down-grey.svg" />
+                                </button>
+                            </div>
+                            <ul class="select-options programs" data-target="program">
+                                <li class="select-option">
+                                    <button type="button">Gloepid</button>
+                                </li>
+                                <li class="select-option">
+                                    <button type="button">Nakise</button>
+                                </li>
+                                <li class="select-option">
+                                    <button type="button">Nigerian Women Techsters (NWT)</button>
+                                </li>
+                                <li class="select-option">
+                                    <button type="button">BDEI</button>
+                                </li>
+                                <li class="select-option">
+                                    <button type="button">Women Techsters</button>
+                                </li>
+                            </ul>
                         </div>
-                        <ul class="select-options programs" data-target="program">
-                            <li class="select-option">
-                                <button type="button">Gloepid</button>
-                            </li>
-                            <li class="select-option">
-                                <button type="button">Nakise</button>
-                            </li>
-                            <li class="select-option">
-                                <button type="button">Nigerian Women Techsters (NWT)</button>
-                            </li>
-                            <li class="select-option">
-                                <button type="button">BDEI</button>
-                            </li>
-                            <li class="select-option">
-                                <button type="button">Women Techsters</button>
-                            </li>
-                        </ul>
+                    </div>
+                    <div class="form-group input-group">
+                        <p class="donate-form__header">as</p>
+                        <input type="text" placeholder="Name*" name="name" required />
+                        <input type="email" placeholder="Email*" name="email" required />
+                        <input type="text" placeholder="Phone*" name="phone" required />
+                    </div>
+                    <button class="submit" type="submit">
+                        <span class="submit-text">Donate Now</span>
+                        <span class="loading"></span>
+                        <span class="success-text">Submitted!</span>
+                        <span class="error-text">Something went wrong. Please try again</span>
+                    </button>
+                </form>
+                <div class="donate-details">
+                    <div class="donate-section">
+                        <p class="donate-header">BANKING DETAILS</p>
+                        <p class="donate-text"><span>Bank Name: </span>Access Bank Plc</p>
+                        <p class="donate-text">
+                            <span>Account Name: </span>
+                            <span>Technology for Social Change and Development Initiative</span>
+                        </p>
+                        <p class="donate-text"><span>Account Number: </span>0731368233</p>
+                    </div>
+                    <div class="donate-section">
+                        <p class="donate-header">ROUTING NUMBER</p>
+                        <p class="donate-text">002334455756</p>
+                    </div>
+                    <div class="donate-section">
+                        <p class="donate-header">PAYPAL DETAILS</p>
+                        <p class="donate-text">
+                            <span class="blue">info@tech4dev.com</span>
+                        </p>
+                    </div>
+                    <div class="donate-section questions">
+                        If you have any question, kindly contact us at <br />
+                        <a class="blue" target="_blank" href="http://wa.me/+2348139580002">(+234) 813-958-0002</a> or
+                        <a class="blue" target="_blank" href="mailto:enquiries@tech4dev.com">enquiries@tech4dev.com</a>
                     </div>
                 </div>
-                <div class="form-group input-group">
-                    <p class="donate-form__header">as</p>
-                    <input type="text" placeholder="Name*" name="name" required>
-                    <input type="email" placeholder="Email*" name="email" required>
-                    <input type="text" placeholder="Phone*" name="phone" required>
-                </div>
-                <button class="submit" type="submit">
-                    <span class="submit-text">Donate Now</span>
-                    <span class="loading"></span>
-                    <span class="success-text">Submitted!</span>
-                    <span class="error-text">Something went wrong. Please try again</span>
-                </button>
-            </form>
-            <div class="donate-details">
-                <div class="donate-section">
-                    <p class="donate-header">
-                        BANKING DETAILS
+            </div>
+            <div id="paystackEmbedContainer"></div>
+            <div class="success-modal-container">
+                <div class="success-modal">
+                    <div class="success-modal__close-button">
+                        <img src="./assets/images/close.svg" class="success-modal__close-button-img" alt="" />
+                    </div>
+                    <img src="./assets/images/success-icon.svg" alt="" />
+                    <h3 class="success-modal__header">Donation Successful</h3>
+                    <p class="success-modal__subtext">
+                        Thank you for donating to help train girls and women to get equipped with technological skills
                     </p>
-                    <p class="donate-text">
-                        <span>Bank Name: </span>Access Bank Plc
-                    </p>
-                    <p class="donate-text">
-                        <span>Account Name: </span> <span>Technology for Social Change and Development Initiative</span>
-                    </p>
-                    <p class="donate-text">
-                        <span>Account Number: </span>0731368233
-                    </p>
-                </div>
-                <div class="donate-section">
-                    <p class="donate-header">
-                        ROUTING NUMBER
-                    </p>
-                    <p class="donate-text">
-                        002334455756
-                    </p>
-                </div>
-                <div class="donate-section">
-                    <p class="donate-header">
-                        PAYPAL DETAILS
-                    </p>
-                    <p class="donate-text">
-                        <span class="blue">info@tech4dev.com</span>
-                    </p>
-                </div>
-                <div class="donate-section questions">
-                    If you have any question, kindly contact us at <br> <a class="blue" target="_blank" href="http://wa.me/+2348139580002">(+234) 813-958-0002</a> or <a class="blue" target="_blank" href="mailto:enquiries@tech4dev.com">enquiries@tech4dev.com</a>
+                    <a href="./index.html" class="success-modal__link"> Homepage </a>
                 </div>
             </div>
-        </div>
-        <div id="paystackEmbedContainer"></div>
-        <div class="success-modal-container">
-            <div class="success-modal">
-                <div class="success-modal__close-button">
-                    <img src="./assets/images/close.svg" class="success-modal__close-button-img" alt="">
-                </div>
-                <img src="./assets/images/success-icon.svg" alt="">
-                <h3 class="success-modal__header">
-                    Donation Successful
-                </h3>
-                <p class="success-modal__subtext">
-                    Thank you for donating to help train girls and women to get equipped with technological skills
-                </p>
-                <a href="./index.html" class="success-modal__link">
-                    Homepage
-                </a>
-            </div>
-        </div>
-    </main>
-    @@include('./includes/footer.html')
-    <script src="https://js.paystack.co/v1/inline.js"></script>
-    <script src="./assets/js/nav.js"></script>
-    <script src="./assets/js/donate.js"></script>
-</body>
+        </main>
+        @@include('./includes/footer.html')
+        <script src="https://js.paystack.co/v1/inline.js"></script>
+        <script src="./assets/js/nav.js"></script>
+        <script src="./assets/js/donate.js"></script>
+    </body>
 </html>
