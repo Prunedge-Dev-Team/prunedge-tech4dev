@@ -231,7 +231,8 @@ main{
     font-size: 18px;
     line-height: 36px;
     width: 800px;
-    color: #3B3B3B
+    color: #3B3B3B;
+    padding-bottom: 16px;
 }
 
 .team{
